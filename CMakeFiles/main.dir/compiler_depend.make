@@ -19,6 +19,8 @@ CMakeFiles/main.dir/main.cpp.o: main.cpp \
   /home/jillwatson/miniconda3/envs/cpp_bioinfo/lib/gcc/x86_64-conda-linux-gnu/14.1.0/include/c++/bits/cpp_type_traits.h \
   /home/jillwatson/miniconda3/envs/cpp_bioinfo/lib/gcc/x86_64-conda-linux-gnu/14.1.0/include/c++/bits/cxxabi_forced.h \
   /home/jillwatson/miniconda3/envs/cpp_bioinfo/lib/gcc/x86_64-conda-linux-gnu/14.1.0/include/c++/bits/cxxabi_init_exception.h \
+  /home/jillwatson/miniconda3/envs/cpp_bioinfo/lib/gcc/x86_64-conda-linux-gnu/14.1.0/include/c++/bits/enable_special_members.h \
+  /home/jillwatson/miniconda3/envs/cpp_bioinfo/lib/gcc/x86_64-conda-linux-gnu/14.1.0/include/c++/bits/erase_if.h \
   /home/jillwatson/miniconda3/envs/cpp_bioinfo/lib/gcc/x86_64-conda-linux-gnu/14.1.0/include/c++/bits/exception.h \
   /home/jillwatson/miniconda3/envs/cpp_bioinfo/lib/gcc/x86_64-conda-linux-gnu/14.1.0/include/c++/bits/exception_defines.h \
   /home/jillwatson/miniconda3/envs/cpp_bioinfo/lib/gcc/x86_64-conda-linux-gnu/14.1.0/include/c++/bits/exception_ptr.h \
@@ -26,6 +28,8 @@ CMakeFiles/main.dir/main.cpp.o: main.cpp \
   /home/jillwatson/miniconda3/envs/cpp_bioinfo/lib/gcc/x86_64-conda-linux-gnu/14.1.0/include/c++/bits/functexcept.h \
   /home/jillwatson/miniconda3/envs/cpp_bioinfo/lib/gcc/x86_64-conda-linux-gnu/14.1.0/include/c++/bits/functional_hash.h \
   /home/jillwatson/miniconda3/envs/cpp_bioinfo/lib/gcc/x86_64-conda-linux-gnu/14.1.0/include/c++/bits/hash_bytes.h \
+  /home/jillwatson/miniconda3/envs/cpp_bioinfo/lib/gcc/x86_64-conda-linux-gnu/14.1.0/include/c++/bits/hashtable.h \
+  /home/jillwatson/miniconda3/envs/cpp_bioinfo/lib/gcc/x86_64-conda-linux-gnu/14.1.0/include/c++/bits/hashtable_policy.h \
   /home/jillwatson/miniconda3/envs/cpp_bioinfo/lib/gcc/x86_64-conda-linux-gnu/14.1.0/include/c++/bits/invoke.h \
   /home/jillwatson/miniconda3/envs/cpp_bioinfo/lib/gcc/x86_64-conda-linux-gnu/14.1.0/include/c++/bits/ios_base.h \
   /home/jillwatson/miniconda3/envs/cpp_bioinfo/lib/gcc/x86_64-conda-linux-gnu/14.1.0/include/c++/bits/istream.tcc \
@@ -39,6 +43,7 @@ CMakeFiles/main.dir/main.cpp.o: main.cpp \
   /home/jillwatson/miniconda3/envs/cpp_bioinfo/lib/gcc/x86_64-conda-linux-gnu/14.1.0/include/c++/bits/move.h \
   /home/jillwatson/miniconda3/envs/cpp_bioinfo/lib/gcc/x86_64-conda-linux-gnu/14.1.0/include/c++/bits/nested_exception.h \
   /home/jillwatson/miniconda3/envs/cpp_bioinfo/lib/gcc/x86_64-conda-linux-gnu/14.1.0/include/c++/bits/new_allocator.h \
+  /home/jillwatson/miniconda3/envs/cpp_bioinfo/lib/gcc/x86_64-conda-linux-gnu/14.1.0/include/c++/bits/node_handle.h \
   /home/jillwatson/miniconda3/envs/cpp_bioinfo/lib/gcc/x86_64-conda-linux-gnu/14.1.0/include/c++/bits/ostream.tcc \
   /home/jillwatson/miniconda3/envs/cpp_bioinfo/lib/gcc/x86_64-conda-linux-gnu/14.1.0/include/c++/bits/ostream_insert.h \
   /home/jillwatson/miniconda3/envs/cpp_bioinfo/lib/gcc/x86_64-conda-linux-gnu/14.1.0/include/c++/bits/postypes.h \
@@ -67,6 +72,7 @@ CMakeFiles/main.dir/main.cpp.o: main.cpp \
   /home/jillwatson/miniconda3/envs/cpp_bioinfo/lib/gcc/x86_64-conda-linux-gnu/14.1.0/include/c++/bits/string_view.tcc \
   /home/jillwatson/miniconda3/envs/cpp_bioinfo/lib/gcc/x86_64-conda-linux-gnu/14.1.0/include/c++/bits/stringfwd.h \
   /home/jillwatson/miniconda3/envs/cpp_bioinfo/lib/gcc/x86_64-conda-linux-gnu/14.1.0/include/c++/bits/uniform_int_dist.h \
+  /home/jillwatson/miniconda3/envs/cpp_bioinfo/lib/gcc/x86_64-conda-linux-gnu/14.1.0/include/c++/bits/unordered_map.h \
   /home/jillwatson/miniconda3/envs/cpp_bioinfo/lib/gcc/x86_64-conda-linux-gnu/14.1.0/include/c++/bits/uses_allocator.h \
   /home/jillwatson/miniconda3/envs/cpp_bioinfo/lib/gcc/x86_64-conda-linux-gnu/14.1.0/include/c++/bits/uses_allocator_args.h \
   /home/jillwatson/miniconda3/envs/cpp_bioinfo/lib/gcc/x86_64-conda-linux-gnu/14.1.0/include/c++/bits/utility.h \
@@ -86,6 +92,7 @@ CMakeFiles/main.dir/main.cpp.o: main.cpp \
   /home/jillwatson/miniconda3/envs/cpp_bioinfo/lib/gcc/x86_64-conda-linux-gnu/14.1.0/include/c++/debug/assertions.h \
   /home/jillwatson/miniconda3/envs/cpp_bioinfo/lib/gcc/x86_64-conda-linux-gnu/14.1.0/include/c++/debug/debug.h \
   /home/jillwatson/miniconda3/envs/cpp_bioinfo/lib/gcc/x86_64-conda-linux-gnu/14.1.0/include/c++/exception \
+  /home/jillwatson/miniconda3/envs/cpp_bioinfo/lib/gcc/x86_64-conda-linux-gnu/14.1.0/include/c++/ext/aligned_buffer.h \
   /home/jillwatson/miniconda3/envs/cpp_bioinfo/lib/gcc/x86_64-conda-linux-gnu/14.1.0/include/c++/ext/alloc_traits.h \
   /home/jillwatson/miniconda3/envs/cpp_bioinfo/lib/gcc/x86_64-conda-linux-gnu/14.1.0/include/c++/ext/atomicity.h \
   /home/jillwatson/miniconda3/envs/cpp_bioinfo/lib/gcc/x86_64-conda-linux-gnu/14.1.0/include/c++/ext/numeric_traits.h \
@@ -123,6 +130,7 @@ CMakeFiles/main.dir/main.cpp.o: main.cpp \
   /home/jillwatson/miniconda3/envs/cpp_bioinfo/lib/gcc/x86_64-conda-linux-gnu/14.1.0/include/c++/tuple \
   /home/jillwatson/miniconda3/envs/cpp_bioinfo/lib/gcc/x86_64-conda-linux-gnu/14.1.0/include/c++/type_traits \
   /home/jillwatson/miniconda3/envs/cpp_bioinfo/lib/gcc/x86_64-conda-linux-gnu/14.1.0/include/c++/typeinfo \
+  /home/jillwatson/miniconda3/envs/cpp_bioinfo/lib/gcc/x86_64-conda-linux-gnu/14.1.0/include/c++/unordered_map \
   /home/jillwatson/miniconda3/envs/cpp_bioinfo/lib/gcc/x86_64-conda-linux-gnu/14.1.0/include/c++/vector \
   /home/jillwatson/miniconda3/envs/cpp_bioinfo/lib/gcc/x86_64-conda-linux-gnu/14.1.0/include/c++/x86_64-conda-linux-gnu/bits/atomic_word.h \
   /home/jillwatson/miniconda3/envs/cpp_bioinfo/lib/gcc/x86_64-conda-linux-gnu/14.1.0/include/c++/x86_64-conda-linux-gnu/bits/basic_file.h \
@@ -233,8 +241,6 @@ CMakeFiles/main.dir/main.cpp.o: main.cpp \
 
 /home/jillwatson/miniconda3/envs/cpp_bioinfo/x86_64-conda-linux-gnu/sysroot/usr/include/bits/waitflags.h:
 
-/home/jillwatson/miniconda3/envs/cpp_bioinfo/x86_64-conda-linux-gnu/sysroot/usr/include/bits/stdlib-float.h:
-
 /home/jillwatson/miniconda3/envs/cpp_bioinfo/x86_64-conda-linux-gnu/sysroot/usr/include/bits/stdio_lim.h:
 
 /home/jillwatson/miniconda3/envs/cpp_bioinfo/x86_64-conda-linux-gnu/sysroot/usr/include/bits/sigset.h:
@@ -295,15 +301,15 @@ CMakeFiles/main.dir/main.cpp.o: main.cpp \
 
 /home/jillwatson/miniconda3/envs/cpp_bioinfo/lib/gcc/x86_64-conda-linux-gnu/14.1.0/include/c++/x86_64-conda-linux-gnu/bits/c++locale.h:
 
-/home/jillwatson/miniconda3/envs/cpp_bioinfo/lib/gcc/x86_64-conda-linux-gnu/14.1.0/include/c++/bits/stl_pair.h:
+/home/jillwatson/miniconda3/envs/cpp_bioinfo/lib/gcc/x86_64-conda-linux-gnu/14.1.0/include/c++/x86_64-conda-linux-gnu/bits/c++config.h:
 
-/home/jillwatson/miniconda3/envs/cpp_bioinfo/x86_64-conda-linux-gnu/sysroot/usr/include/asm-generic/errno.h:
+/home/jillwatson/miniconda3/envs/cpp_bioinfo/lib/gcc/x86_64-conda-linux-gnu/14.1.0/include/c++/x86_64-conda-linux-gnu/bits/c++allocator.h:
 
-/home/jillwatson/miniconda3/envs/cpp_bioinfo/lib/gcc/x86_64-conda-linux-gnu/14.1.0/include/c++/bits/stl_iterator_base_types.h:
-
-/home/jillwatson/miniconda3/envs/cpp_bioinfo/lib/gcc/x86_64-conda-linux-gnu/14.1.0/include/c++/bits/stl_iterator.h:
+/home/jillwatson/miniconda3/envs/cpp_bioinfo/lib/gcc/x86_64-conda-linux-gnu/14.1.0/include/c++/typeinfo:
 
 /home/jillwatson/miniconda3/envs/cpp_bioinfo/lib/gcc/x86_64-conda-linux-gnu/14.1.0/include/c++/bits/stl_construct.h:
+
+/home/jillwatson/miniconda3/envs/cpp_bioinfo/lib/gcc/x86_64-conda-linux-gnu/14.1.0/include/c++/bits/enable_special_members.h:
 
 /home/jillwatson/miniconda3/envs/cpp_bioinfo/lib/gcc/x86_64-conda-linux-gnu/14.1.0/include/c++/ios:
 
@@ -325,6 +331,8 @@ CMakeFiles/main.dir/main.cpp.o: main.cpp \
 
 /home/jillwatson/miniconda3/envs/cpp_bioinfo/lib/gcc/x86_64-conda-linux-gnu/14.1.0/include/c++/bits/requires_hosted.h:
 
+/home/jillwatson/miniconda3/envs/cpp_bioinfo/lib/gcc/x86_64-conda-linux-gnu/14.1.0/include/c++/unordered_map:
+
 /home/jillwatson/miniconda3/envs/cpp_bioinfo/lib/gcc/x86_64-conda-linux-gnu/14.1.0/include/c++/bits/ostream_insert.h:
 
 /home/jillwatson/miniconda3/envs/cpp_bioinfo/lib/gcc/x86_64-conda-linux-gnu/14.1.0/include/syslimits.h:
@@ -338,6 +346,10 @@ CMakeFiles/main.dir/main.cpp.o: main.cpp \
 /home/jillwatson/miniconda3/envs/cpp_bioinfo/x86_64-conda-linux-gnu/sysroot/usr/include/bits/wchar.h:
 
 /home/jillwatson/miniconda3/envs/cpp_bioinfo/lib/gcc/x86_64-conda-linux-gnu/14.1.0/include/c++/algorithm:
+
+/home/jillwatson/miniconda3/envs/cpp_bioinfo/lib/gcc/x86_64-conda-linux-gnu/14.1.0/include/c++/type_traits:
+
+/home/jillwatson/miniconda3/envs/cpp_bioinfo/lib/gcc/x86_64-conda-linux-gnu/14.1.0/include/c++/bits/uses_allocator.h:
 
 /home/jillwatson/miniconda3/envs/cpp_bioinfo/lib/gcc/x86_64-conda-linux-gnu/14.1.0/include/c++/exception:
 
@@ -359,8 +371,6 @@ CMakeFiles/main.dir/main.cpp.o: main.cpp \
 
 /home/jillwatson/miniconda3/envs/cpp_bioinfo/lib/gcc/x86_64-conda-linux-gnu/14.1.0/include/c++/cctype:
 
-/home/jillwatson/miniconda3/envs/cpp_bioinfo/lib/gcc/x86_64-conda-linux-gnu/14.1.0/include/c++/bits/new_allocator.h:
-
 /home/jillwatson/miniconda3/envs/cpp_bioinfo/lib/gcc/x86_64-conda-linux-gnu/14.1.0/include/c++/bits/locale_facets.tcc:
 
 /home/jillwatson/miniconda3/envs/cpp_bioinfo/lib/gcc/x86_64-conda-linux-gnu/14.1.0/include/c++/bits/codecvt.h:
@@ -371,23 +381,27 @@ CMakeFiles/main.dir/main.cpp.o: main.cpp \
 
 /home/jillwatson/miniconda3/envs/cpp_bioinfo/lib/gcc/x86_64-conda-linux-gnu/14.1.0/include/c++/tr1/modified_bessel_func.tcc:
 
-/home/jillwatson/miniconda3/envs/cpp_bioinfo/lib/gcc/x86_64-conda-linux-gnu/14.1.0/include/c++/bits/stl_tempbuf.h:
+/home/jillwatson/miniconda3/envs/cpp_bioinfo/lib/gcc/x86_64-conda-linux-gnu/14.1.0/include/c++/bits/stl_iterator.h:
 
-/home/jillwatson/miniconda3/envs/cpp_bioinfo/lib/gcc/x86_64-conda-linux-gnu/14.1.0/include/c++/bits/char_traits.h:
+/home/jillwatson/miniconda3/envs/cpp_bioinfo/x86_64-conda-linux-gnu/sysroot/usr/include/bits/waitstatus.h:
+
+/home/jillwatson/miniconda3/envs/cpp_bioinfo/lib/gcc/x86_64-conda-linux-gnu/14.1.0/include/c++/bits/ios_base.h:
 
 /home/jillwatson/miniconda3/envs/cpp_bioinfo/x86_64-conda-linux-gnu/sysroot/usr/include/bits/timex.h:
 
 /home/jillwatson/miniconda3/envs/cpp_bioinfo/lib/gcc/x86_64-conda-linux-gnu/14.1.0/include/c++/bits/basic_string.h:
-
-/home/jillwatson/miniconda3/envs/cpp_bioinfo/lib/gcc/x86_64-conda-linux-gnu/14.1.0/include/c++/bits/refwrap.h:
-
-/home/jillwatson/miniconda3/envs/cpp_bioinfo/lib/gcc/x86_64-conda-linux-gnu/14.1.0/include/c++/bits/memoryfwd.h:
 
 /home/jillwatson/miniconda3/envs/cpp_bioinfo/lib/gcc/x86_64-conda-linux-gnu/14.1.0/include/c++/bits/istream.tcc:
 
 /home/jillwatson/miniconda3/envs/cpp_bioinfo/lib/gcc/x86_64-conda-linux-gnu/14.1.0/include/c++/bits/stl_heap.h:
 
 /home/jillwatson/miniconda3/envs/cpp_bioinfo/lib/gcc/x86_64-conda-linux-gnu/14.1.0/include/c++/tr1/riemann_zeta.tcc:
+
+/home/jillwatson/miniconda3/envs/cpp_bioinfo/lib/gcc/x86_64-conda-linux-gnu/14.1.0/include/c++/bits/refwrap.h:
+
+/home/jillwatson/miniconda3/envs/cpp_bioinfo/lib/gcc/x86_64-conda-linux-gnu/14.1.0/include/c++/bits/char_traits.h:
+
+/home/jillwatson/miniconda3/envs/cpp_bioinfo/lib/gcc/x86_64-conda-linux-gnu/14.1.0/include/c++/bits/stl_tempbuf.h:
 
 /home/jillwatson/miniconda3/envs/cpp_bioinfo/x86_64-conda-linux-gnu/sysroot/usr/include/bits/byteswap-16.h:
 
@@ -415,6 +429,14 @@ CMakeFiles/main.dir/main.cpp.o: main.cpp \
 
 /home/jillwatson/miniconda3/envs/cpp_bioinfo/lib/gcc/x86_64-conda-linux-gnu/14.1.0/include/c++/bits/charconv.h:
 
+/home/jillwatson/miniconda3/envs/cpp_bioinfo/lib/gcc/x86_64-conda-linux-gnu/14.1.0/include/c++/x86_64-conda-linux-gnu/bits/atomic_word.h:
+
+/home/jillwatson/miniconda3/envs/cpp_bioinfo/lib/gcc/x86_64-conda-linux-gnu/14.1.0/include/c++/bits/exception.h:
+
+/home/jillwatson/miniconda3/envs/cpp_bioinfo/lib/gcc/x86_64-conda-linux-gnu/14.1.0/include/c++/bits/memoryfwd.h:
+
+/home/jillwatson/miniconda3/envs/cpp_bioinfo/lib/gcc/x86_64-conda-linux-gnu/14.1.0/include/c++/ext/aligned_buffer.h:
+
 /home/jillwatson/miniconda3/envs/cpp_bioinfo/lib/gcc/x86_64-conda-linux-gnu/14.1.0/include/c++/bits/postypes.h:
 
 /home/jillwatson/miniconda3/envs/cpp_bioinfo/lib/gcc/x86_64-conda-linux-gnu/14.1.0/include/c++/tr1/poly_hermite.tcc:
@@ -427,6 +449,10 @@ CMakeFiles/main.dir/main.cpp.o: main.cpp \
 
 /home/jillwatson/miniconda3/envs/cpp_bioinfo/lib/gcc/x86_64-conda-linux-gnu/14.1.0/include/c++/bits/alloc_traits.h:
 
+/home/jillwatson/miniconda3/envs/cpp_bioinfo/lib/gcc/x86_64-conda-linux-gnu/14.1.0/include/c++/bits/new_allocator.h:
+
+/home/jillwatson/miniconda3/envs/cpp_bioinfo/lib/gcc/x86_64-conda-linux-gnu/14.1.0/include/c++/bits/erase_if.h:
+
 main.cpp:
 
 /home/jillwatson/miniconda3/envs/cpp_bioinfo/lib/gcc/x86_64-conda-linux-gnu/14.1.0/include/c++/bits/basic_ios.tcc:
@@ -438,10 +464,6 @@ main.cpp:
 /home/jillwatson/miniconda3/envs/cpp_bioinfo/lib/gcc/x86_64-conda-linux-gnu/14.1.0/include/c++/bits/cxxabi_forced.h:
 
 /home/jillwatson/miniconda3/envs/cpp_bioinfo/lib/gcc/x86_64-conda-linux-gnu/14.1.0/include/c++/bits/cpp_type_traits.h:
-
-/home/jillwatson/miniconda3/envs/cpp_bioinfo/x86_64-conda-linux-gnu/sysroot/usr/include/bits/wordsize.h:
-
-/home/jillwatson/miniconda3/envs/cpp_bioinfo/lib/gcc/x86_64-conda-linux-gnu/14.1.0/include/c++/bits/stl_iterator_base_funcs.h:
 
 /home/jillwatson/miniconda3/envs/cpp_bioinfo/lib/gcc/x86_64-conda-linux-gnu/14.1.0/include/c++/bits/stl_algobase.h:
 
@@ -457,11 +479,23 @@ main.cpp:
 
 /home/jillwatson/miniconda3/envs/cpp_bioinfo/lib/gcc/x86_64-conda-linux-gnu/14.1.0/include/c++/tr1/ell_integral.tcc:
 
+/home/jillwatson/miniconda3/envs/cpp_bioinfo/lib/gcc/x86_64-conda-linux-gnu/14.1.0/include/c++/bits/hashtable.h:
+
 /home/jillwatson/miniconda3/envs/cpp_bioinfo/lib/gcc/x86_64-conda-linux-gnu/14.1.0/include/c++/bits/exception_defines.h:
 
-/home/jillwatson/miniconda3/envs/cpp_bioinfo/x86_64-conda-linux-gnu/sysroot/usr/include/bits/waitstatus.h:
+/home/jillwatson/miniconda3/envs/cpp_bioinfo/x86_64-conda-linux-gnu/sysroot/usr/include/bits/stdlib-float.h:
 
-/home/jillwatson/miniconda3/envs/cpp_bioinfo/lib/gcc/x86_64-conda-linux-gnu/14.1.0/include/c++/bits/ios_base.h:
+/home/jillwatson/miniconda3/envs/cpp_bioinfo/lib/gcc/x86_64-conda-linux-gnu/14.1.0/include/c++/bits/hashtable_policy.h:
+
+/home/jillwatson/miniconda3/envs/cpp_bioinfo/x86_64-conda-linux-gnu/sysroot/usr/include/bits/wordsize.h:
+
+/home/jillwatson/miniconda3/envs/cpp_bioinfo/lib/gcc/x86_64-conda-linux-gnu/14.1.0/include/c++/bits/stl_iterator_base_funcs.h:
+
+/home/jillwatson/miniconda3/envs/cpp_bioinfo/x86_64-conda-linux-gnu/sysroot/usr/include/asm-generic/errno.h:
+
+/home/jillwatson/miniconda3/envs/cpp_bioinfo/lib/gcc/x86_64-conda-linux-gnu/14.1.0/include/c++/bits/stl_iterator_base_types.h:
+
+/home/jillwatson/miniconda3/envs/cpp_bioinfo/lib/gcc/x86_64-conda-linux-gnu/14.1.0/include/c++/bits/stl_pair.h:
 
 /home/jillwatson/miniconda3/envs/cpp_bioinfo/lib/gcc/x86_64-conda-linux-gnu/14.1.0/include/c++/bits/stl_uninitialized.h:
 
@@ -485,6 +519,18 @@ main.cpp:
 
 /home/jillwatson/miniconda3/envs/cpp_bioinfo/lib/gcc/x86_64-conda-linux-gnu/14.1.0/include/c++/bits/uniform_int_dist.h:
 
+/home/jillwatson/miniconda3/envs/cpp_bioinfo/lib/gcc/x86_64-conda-linux-gnu/14.1.0/include/c++/x86_64-conda-linux-gnu/bits/basic_file.h:
+
+/home/jillwatson/miniconda3/envs/cpp_bioinfo/lib/gcc/x86_64-conda-linux-gnu/14.1.0/include/c++/bits/unordered_map.h:
+
+/home/jillwatson/miniconda3/envs/cpp_bioinfo/x86_64-conda-linux-gnu/sysroot/usr/include/bits/huge_val.h:
+
+/home/jillwatson/miniconda3/envs/cpp_bioinfo/lib/gcc/x86_64-conda-linux-gnu/14.1.0/include/c++/bits/locale_classes.h:
+
+/home/jillwatson/miniconda3/envs/cpp_bioinfo/lib/gcc/x86_64-conda-linux-gnu/14.1.0/include/c++/stdexcept:
+
+/home/jillwatson/miniconda3/envs/cpp_bioinfo/lib/gcc/x86_64-conda-linux-gnu/14.1.0/include/c++/tr1/legendre_function.tcc:
+
 /home/jillwatson/miniconda3/envs/cpp_bioinfo/lib/gcc/x86_64-conda-linux-gnu/14.1.0/include/c++/bits/utility.h:
 
 /home/jillwatson/miniconda3/envs/cpp_bioinfo/x86_64-conda-linux-gnu/sysroot/usr/include/bits/time.h:
@@ -505,6 +551,8 @@ main.cpp:
 
 /home/jillwatson/miniconda3/envs/cpp_bioinfo/lib/gcc/x86_64-conda-linux-gnu/14.1.0/include/c++/climits:
 
+/home/jillwatson/miniconda3/envs/cpp_bioinfo/lib/gcc/x86_64-conda-linux-gnu/14.1.0/include/c++/bits/node_handle.h:
+
 /home/jillwatson/miniconda3/envs/cpp_bioinfo/lib/gcc/x86_64-conda-linux-gnu/14.1.0/include/c++/cstdlib:
 
 /home/jillwatson/miniconda3/envs/cpp_bioinfo/lib/gcc/x86_64-conda-linux-gnu/14.1.0/include/c++/clocale:
@@ -517,13 +565,11 @@ main.cpp:
 
 /home/jillwatson/miniconda3/envs/cpp_bioinfo/lib/gcc/x86_64-conda-linux-gnu/14.1.0/include/c++/cstdio:
 
-/home/jillwatson/miniconda3/envs/cpp_bioinfo/lib/gcc/x86_64-conda-linux-gnu/14.1.0/include/c++/typeinfo:
-
 /home/jillwatson/miniconda3/envs/cpp_bioinfo/lib/gcc/x86_64-conda-linux-gnu/14.1.0/include/c++/cwchar:
 
-/home/jillwatson/miniconda3/envs/cpp_bioinfo/lib/gcc/x86_64-conda-linux-gnu/14.1.0/include/c++/system_error:
-
 /home/jillwatson/miniconda3/envs/cpp_bioinfo/lib/gcc/x86_64-conda-linux-gnu/14.1.0/include/c++/vector:
+
+/home/jillwatson/miniconda3/envs/cpp_bioinfo/lib/gcc/x86_64-conda-linux-gnu/14.1.0/include/c++/system_error:
 
 /home/jillwatson/miniconda3/envs/cpp_bioinfo/lib/gcc/x86_64-conda-linux-gnu/14.1.0/include/c++/fstream:
 
@@ -585,26 +631,4 @@ main.cpp:
 
 /home/jillwatson/miniconda3/envs/cpp_bioinfo/lib/gcc/x86_64-conda-linux-gnu/14.1.0/include/c++/tr1/hypergeometric.tcc:
 
-/home/jillwatson/miniconda3/envs/cpp_bioinfo/x86_64-conda-linux-gnu/sysroot/usr/include/bits/huge_val.h:
-
-/home/jillwatson/miniconda3/envs/cpp_bioinfo/lib/gcc/x86_64-conda-linux-gnu/14.1.0/include/c++/bits/locale_classes.h:
-
-/home/jillwatson/miniconda3/envs/cpp_bioinfo/lib/gcc/x86_64-conda-linux-gnu/14.1.0/include/c++/stdexcept:
-
-/home/jillwatson/miniconda3/envs/cpp_bioinfo/lib/gcc/x86_64-conda-linux-gnu/14.1.0/include/c++/tr1/legendre_function.tcc:
-
 /home/jillwatson/miniconda3/envs/cpp_bioinfo/lib/gcc/x86_64-conda-linux-gnu/14.1.0/include/c++/tuple:
-
-/home/jillwatson/miniconda3/envs/cpp_bioinfo/lib/gcc/x86_64-conda-linux-gnu/14.1.0/include/c++/bits/uses_allocator.h:
-
-/home/jillwatson/miniconda3/envs/cpp_bioinfo/lib/gcc/x86_64-conda-linux-gnu/14.1.0/include/c++/type_traits:
-
-/home/jillwatson/miniconda3/envs/cpp_bioinfo/lib/gcc/x86_64-conda-linux-gnu/14.1.0/include/c++/bits/exception.h:
-
-/home/jillwatson/miniconda3/envs/cpp_bioinfo/lib/gcc/x86_64-conda-linux-gnu/14.1.0/include/c++/x86_64-conda-linux-gnu/bits/atomic_word.h:
-
-/home/jillwatson/miniconda3/envs/cpp_bioinfo/lib/gcc/x86_64-conda-linux-gnu/14.1.0/include/c++/x86_64-conda-linux-gnu/bits/basic_file.h:
-
-/home/jillwatson/miniconda3/envs/cpp_bioinfo/lib/gcc/x86_64-conda-linux-gnu/14.1.0/include/c++/x86_64-conda-linux-gnu/bits/c++allocator.h:
-
-/home/jillwatson/miniconda3/envs/cpp_bioinfo/lib/gcc/x86_64-conda-linux-gnu/14.1.0/include/c++/x86_64-conda-linux-gnu/bits/c++config.h:

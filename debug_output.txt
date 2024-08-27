@@ -1,0 +1,4011 @@
+   Checking first 10 nucleotides of each sequence: 
+Sequence 1: CCTAACCCTA... (total length: 10290)
+Sequence 2: CAGGGGAGAG... (total length: 11970)
+Sequence 3: GTTATTCACA... (total length: 8120)
+Sequence 4: ATTCCCCACC... (total length: 19600)
+Sequence 5: CAAAGCTGGG... (total length: 12810)
+Sequence 6: GGAGTGCAGT... (total length: 2100)
+Sequence 7: CCATGTTAGC... (total length: 11970)
+Sequence 8: CCCTGTGCTC... (total length: 19880)
+
+Sequence: 1 length: 10290
+Sequence: 2 length: 11970
+Sequence: 3 length: 8120
+Sequence: 4 length: 19600
+Sequence: 5 length: 12810
+Sequence: 6 length: 2100
+Sequence: 7 length: 11970
+Sequence: 8 length: 19880
+Initial string: AAAAAAAdistance: 2147483647
+Starting branch and bound algo with K = 7
+partial kmer: A with lb: 0 (Current best: 2147483647)
+Exploring current nucleotide A at position 0
+partial kmer: AA with lb: 0 (Current best: 2147483647)
+Exploring current nucleotide A at position 1
+partial kmer: AAA with lb: 0 (Current best: 2147483647)
+Exploring current nucleotide A at position 2
+partial kmer: AAAA with lb: 0 (Current best: 2147483647)
+Exploring current nucleotide A at position 3
+partial kmer: AAAAA with lb: 0 (Current best: 2147483647)
+Exploring current nucleotide A at position 4
+partial kmer: AAAAAA with lb: 1 (Current best: 2147483647)
+Exploring current nucleotide A at position 5
+partial kmer: AAAAAAA with lb: 3 (Current best: 2147483647)
+Exploring current nucleotide A at position 6
+partial kmer: AAAAAAA with lb: 3 (Current best: 2147483647)
+evaluating kmer: AAAAAAA with distance: 2147483647
+New best k-mer found: AAAAAAA with distance: 3
+Exploring current nucleotide C at position 6
+partial kmer: AAAAAAC with lb: 3 (Current best: 3)
+evaluating kmer: AAAAAAC with distance: 3
+Exploring current nucleotide G at position 6
+partial kmer: AAAAAAG with lb: 2 (Current best: 3)
+evaluating kmer: AAAAAAG with distance: 3
+New best k-mer found: AAAAAAG with distance: 2
+Exploring current nucleotide T at position 6
+partial kmer: AAAAAAT with lb: 2 (Current best: 2)
+evaluating kmer: AAAAAAT with distance: 2
+Exploring current nucleotide C at position 5
+partial kmer: AAAAACT with lb: 4 (Current best: 2)
+Pruning branch with kmer: AAAAAC
+Exploring current nucleotide G at position 5
+partial kmer: AAAAAGT with lb: 4 (Current best: 2)
+Pruning branch with kmer: AAAAAG
+Exploring current nucleotide T at position 5
+partial kmer: AAAAATT with lb: 1 (Current best: 2)
+Exploring current nucleotide A at position 6
+partial kmer: AAAAATA with lb: 2 (Current best: 2)
+evaluating kmer: AAAAATA with distance: 2
+Exploring current nucleotide C at position 6
+partial kmer: AAAAATC with lb: 5 (Current best: 2)
+Pruning branch with kmer: AAAAATC
+Exploring current nucleotide G at position 6
+partial kmer: AAAAATG with lb: 2 (Current best: 2)
+evaluating kmer: AAAAATG with distance: 2
+Exploring current nucleotide T at position 6
+partial kmer: AAAAATT with lb: 1 (Current best: 2)
+evaluating kmer: AAAAATT with distance: 2
+New best k-mer found: AAAAATT with distance: 1
+Exploring current nucleotide C at position 4
+partial kmer: AAAACT with lb: 3 (Current best: 1)
+Pruning branch with kmer: AAAAC
+Exploring current nucleotide G at position 4
+partial kmer: AAAAGT with lb: 1 (Current best: 1)
+Exploring current nucleotide A at position 5
+partial kmer: AAAAGAT with lb: 5 (Current best: 1)
+Pruning branch with kmer: AAAAGA
+Exploring current nucleotide C at position 5
+partial kmer: AAAAGCT with lb: 7 (Current best: 1)
+Pruning branch with kmer: AAAAGC
+Exploring current nucleotide G at position 5
+partial kmer: AAAAGGT with lb: 7 (Current best: 1)
+Pruning branch with kmer: AAAAGG
+Exploring current nucleotide T at position 5
+partial kmer: AAAAGTT with lb: 3 (Current best: 1)
+Pruning branch with kmer: AAAAGT
+Exploring current nucleotide T at position 4
+partial kmer: AAAATT with lb: 1 (Current best: 1)
+Exploring current nucleotide A at position 5
+partial kmer: AAAATAT with lb: 4 (Current best: 1)
+Pruning branch with kmer: AAAATA
+Exploring current nucleotide C at position 5
+partial kmer: AAAATCT with lb: 4 (Current best: 1)
+Pruning branch with kmer: AAAATC
+Exploring current nucleotide G at position 5
+partial kmer: AAAATGT with lb: 5 (Current best: 1)
+Pruning branch with kmer: AAAATG
+Exploring current nucleotide T at position 5
+partial kmer: AAAATTT with lb: 5 (Current best: 1)
+Pruning branch with kmer: AAAATT
+Exploring current nucleotide C at position 3
+partial kmer: AAACT with lb: 0 (Current best: 1)
+Exploring current nucleotide A at position 4
+partial kmer: AAACAT with lb: 3 (Current best: 1)
+Pruning branch with kmer: AAACA
+Exploring current nucleotide C at position 4
+partial kmer: AAACCT with lb: 1 (Current best: 1)
+Exploring current nucleotide A at position 5
+partial kmer: AAACCAT with lb: 4 (Current best: 1)
+Pruning branch with kmer: AAACCA
+Exploring current nucleotide C at position 5
+partial kmer: AAACCCT with lb: 3 (Current best: 1)
+Pruning branch with kmer: AAACCC
+Exploring current nucleotide G at position 5
+partial kmer: AAACCGT with lb: 7 (Current best: 1)
+Pruning branch with kmer: AAACCG
+Exploring current nucleotide T at position 5
+partial kmer: AAACCTT with lb: 4 (Current best: 1)
+Pruning branch with kmer: AAACCT
+Exploring current nucleotide G at position 4
+partial kmer: AAACGT with lb: 3 (Current best: 1)
+Pruning branch with kmer: AAACG
+Exploring current nucleotide T at position 4
+partial kmer: AAACTT with lb: 4 (Current best: 1)
+Pruning branch with kmer: AAACT
+Exploring current nucleotide G at position 3
+partial kmer: AAAGT with lb: 0 (Current best: 1)
+Exploring current nucleotide A at position 4
+partial kmer: AAAGAT with lb: 1 (Current best: 1)
+Exploring current nucleotide A at position 5
+partial kmer: AAAGAAT with lb: 6 (Current best: 1)
+Pruning branch with kmer: AAAGAA
+Exploring current nucleotide C at position 5
+partial kmer: AAAGACT with lb: 7 (Current best: 1)
+Pruning branch with kmer: AAAGAC
+Exploring current nucleotide G at position 5
+partial kmer: AAAGAGT with lb: 6 (Current best: 1)
+Pruning branch with kmer: AAAGAG
+Exploring current nucleotide T at position 5
+partial kmer: AAAGATT with lb: 5 (Current best: 1)
+Pruning branch with kmer: AAAGAT
+Exploring current nucleotide C at position 4
+partial kmer: AAAGCT with lb: 2 (Current best: 1)
+Pruning branch with kmer: AAAGC
+Exploring current nucleotide G at position 4
+partial kmer: AAAGGT with lb: 1 (Current best: 1)
+Exploring current nucleotide A at position 5
+partial kmer: AAAGGAT with lb: 5 (Current best: 1)
+Pruning branch with kmer: AAAGGA
+Exploring current nucleotide C at position 5
+partial kmer: AAAGGCT with lb: 2 (Current best: 1)
+Pruning branch with kmer: AAAGGC
+Exploring current nucleotide G at position 5
+partial kmer: AAAGGGT with lb: 4 (Current best: 1)
+Pruning branch with kmer: AAAGGG
+Exploring current nucleotide T at position 5
+partial kmer: AAAGGTT with lb: 6 (Current best: 1)
+Pruning branch with kmer: AAAGGT
+Exploring current nucleotide T at position 4
+partial kmer: AAAGTT with lb: 1 (Current best: 1)
+Exploring current nucleotide A at position 5
+partial kmer: AAAGTAT with lb: 6 (Current best: 1)
+Pruning branch with kmer: AAAGTA
+Exploring current nucleotide C at position 5
+partial kmer: AAAGTCT with lb: 7 (Current best: 1)
+Pruning branch with kmer: AAAGTC
+Exploring current nucleotide G at position 5
+partial kmer: AAAGTGT with lb: 6 (Current best: 1)
+Pruning branch with kmer: AAAGTG
+Exploring current nucleotide T at position 5
+partial kmer: AAAGTTT with lb: 3 (Current best: 1)
+Pruning branch with kmer: AAAGTT
+Exploring current nucleotide T at position 3
+partial kmer: AAATT with lb: 0 (Current best: 1)
+Exploring current nucleotide A at position 4
+partial kmer: AAATAT with lb: 3 (Current best: 1)
+Pruning branch with kmer: AAATA
+Exploring current nucleotide C at position 4
+partial kmer: AAATCT with lb: 3 (Current best: 1)
+Pruning branch with kmer: AAATC
+Exploring current nucleotide G at position 4
+partial kmer: AAATGT with lb: 2 (Current best: 1)
+Pruning branch with kmer: AAATG
+Exploring current nucleotide T at position 4
+partial kmer: AAATTT with lb: 3 (Current best: 1)
+Pruning branch with kmer: AAATT
+Exploring current nucleotide C at position 2
+partial kmer: AACT with lb: 0 (Current best: 1)
+Exploring current nucleotide A at position 3
+partial kmer: AACAT with lb: 0 (Current best: 1)
+Exploring current nucleotide A at position 4
+partial kmer: AACAAT with lb: 4 (Current best: 1)
+Pruning branch with kmer: AACAA
+Exploring current nucleotide C at position 4
+partial kmer: AACACT with lb: 2 (Current best: 1)
+Pruning branch with kmer: AACAC
+Exploring current nucleotide G at position 4
+partial kmer: AACAGT with lb: 1 (Current best: 1)
+Exploring current nucleotide A at position 5
+partial kmer: AACAGAT with lb: 4 (Current best: 1)
+Pruning branch with kmer: AACAGA
+Exploring current nucleotide C at position 5
+partial kmer: AACAGCT with lb: 5 (Current best: 1)
+Pruning branch with kmer: AACAGC
+Exploring current nucleotide G at position 5
+partial kmer: AACAGGT with lb: 4 (Current best: 1)
+Pruning branch with kmer: AACAGG
+Exploring current nucleotide T at position 5
+partial kmer: AACAGTT with lb: 6 (Current best: 1)
+Pruning branch with kmer: AACAGT
+Exploring current nucleotide T at position 4
+partial kmer: AACATT with lb: 4 (Current best: 1)
+Pruning branch with kmer: AACAT
+Exploring current nucleotide C at position 3
+partial kmer: AACCT with lb: 0 (Current best: 1)
+Exploring current nucleotide A at position 4
+partial kmer: AACCAT with lb: 4 (Current best: 1)
+Pruning branch with kmer: AACCA
+Exploring current nucleotide C at position 4
+partial kmer: AACCCT with lb: 2 (Current best: 1)
+Pruning branch with kmer: AACCC
+Exploring current nucleotide G at position 4
+partial kmer: AACCGT with lb: 5 (Current best: 1)
+Pruning branch with kmer: AACCG
+Exploring current nucleotide T at position 4
+partial kmer: AACCTT with lb: 2 (Current best: 1)
+Pruning branch with kmer: AACCT
+Exploring current nucleotide G at position 3
+partial kmer: AACGT with lb: 1 (Current best: 1)
+Exploring current nucleotide A at position 4
+partial kmer: AACGAT with lb: 6 (Current best: 1)
+Pruning branch with kmer: AACGA
+Exploring current nucleotide C at position 4
+partial kmer: AACGCT with lb: 5 (Current best: 1)
+Pruning branch with kmer: AACGC
+Exploring current nucleotide G at position 4
+partial kmer: AACGGT with lb: 6 (Current best: 1)
+Pruning branch with kmer: AACGG
+Exploring current nucleotide T at position 4
+partial kmer: AACGTT with lb: 1 (Current best: 1)
+Exploring current nucleotide A at position 5
+partial kmer: AACGTAT with lb: 10 (Current best: 1)
+Pruning branch with kmer: AACGTA
+Exploring current nucleotide C at position 5
+partial kmer: AACGTCT with lb: 7 (Current best: 1)
+Pruning branch with kmer: AACGTC
+Exploring current nucleotide G at position 5
+partial kmer: AACGTGT with lb: 6 (Current best: 1)
+Pruning branch with kmer: AACGTG
+Exploring current nucleotide T at position 5
+partial kmer: AACGTTT with lb: 6 (Current best: 1)
+Pruning branch with kmer: AACGTT
+Exploring current nucleotide T at position 3
+partial kmer: AACTT with lb: 1 (Current best: 1)
+Exploring current nucleotide A at position 4
+partial kmer: AACTAT with lb: 4 (Current best: 1)
+Pruning branch with kmer: AACTA
+Exploring current nucleotide C at position 4
+partial kmer: AACTCT with lb: 2 (Current best: 1)
+Pruning branch with kmer: AACTC
+Exploring current nucleotide G at position 4
+partial kmer: AACTGT with lb: 3 (Current best: 1)
+Pruning branch with kmer: AACTG
+Exploring current nucleotide T at position 4
+partial kmer: AACTTT with lb: 2 (Current best: 1)
+Pruning branch with kmer: AACTT
+Exploring current nucleotide G at position 2
+partial kmer: AAGT with lb: 0 (Current best: 1)
+Exploring current nucleotide A at position 3
+partial kmer: AAGAT with lb: 1 (Current best: 1)
+Exploring current nucleotide A at position 4
+partial kmer: AAGAAT with lb: 2 (Current best: 1)
+Pruning branch with kmer: AAGAA
+Exploring current nucleotide C at position 4
+partial kmer: AAGACT with lb: 3 (Current best: 1)
+Pruning branch with kmer: AAGAC
+Exploring current nucleotide G at position 4
+partial kmer: AAGAGT with lb: 2 (Current best: 1)
+Pruning branch with kmer: AAGAG
+Exploring current nucleotide T at position 4
+partial kmer: AAGATT with lb: 4 (Current best: 1)
+Pruning branch with kmer: AAGAT
+Exploring current nucleotide C at position 3
+partial kmer: AAGCT with lb: 0 (Current best: 1)
+Exploring current nucleotide A at position 4
+partial kmer: AAGCAT with lb: 3 (Current best: 1)
+Pruning branch with kmer: AAGCA
+Exploring current nucleotide C at position 4
+partial kmer: AAGCCT with lb: 1 (Current best: 1)
+Exploring current nucleotide A at position 5
+partial kmer: AAGCCAT with lb: 4 (Current best: 1)
+Pruning branch with kmer: AAGCCA
+Exploring current nucleotide C at position 5
+partial kmer: AAGCCCT with lb: 1 (Current best: 1)
+Exploring current nucleotide A at position 6
+partial kmer: AAGCCCA with lb: 6 (Current best: 1)
+Pruning branch with kmer: AAGCCCA
+Exploring current nucleotide C at position 6
+partial kmer: AAGCCCC with lb: 2 (Current best: 1)
+Pruning branch with kmer: AAGCCCC
+Exploring current nucleotide G at position 6
+partial kmer: AAGCCCG with lb: 5 (Current best: 1)
+Pruning branch with kmer: AAGCCCG
+Exploring current nucleotide T at position 6
+partial kmer: AAGCCCT with lb: 1 (Current best: 1)
+evaluating kmer: AAGCCCT with distance: 1
+Exploring current nucleotide G at position 5
+partial kmer: AAGCCGT with lb: 4 (Current best: 1)
+Pruning branch with kmer: AAGCCG
+Exploring current nucleotide T at position 5
+partial kmer: AAGCCTT with lb: 6 (Current best: 1)
+Pruning branch with kmer: AAGCCT
+Exploring current nucleotide G at position 4
+partial kmer: AAGCGT with lb: 4 (Current best: 1)
+Pruning branch with kmer: AAGCG
+Exploring current nucleotide T at position 4
+partial kmer: AAGCTT with lb: 4 (Current best: 1)
+Pruning branch with kmer: AAGCT
+Exploring current nucleotide G at position 3
+partial kmer: AAGGT with lb: 0 (Current best: 1)
+Exploring current nucleotide A at position 4
+partial kmer: AAGGAT with lb: 2 (Current best: 1)
+Pruning branch with kmer: AAGGA
+Exploring current nucleotide C at position 4
+partial kmer: AAGGCT with lb: 1 (Current best: 1)
+Exploring current nucleotide A at position 5
+partial kmer: AAGGCAT with lb: 5 (Current best: 1)
+Pruning branch with kmer: AAGGCA
+Exploring current nucleotide C at position 5
+partial kmer: AAGGCCT with lb: 3 (Current best: 1)
+Pruning branch with kmer: AAGGCC
+Exploring current nucleotide G at position 5
+partial kmer: AAGGCGT with lb: 7 (Current best: 1)
+Pruning branch with kmer: AAGGCG
+Exploring current nucleotide T at position 5
+partial kmer: AAGGCTT with lb: 5 (Current best: 1)
+Pruning branch with kmer: AAGGCT
+Exploring current nucleotide G at position 4
+partial kmer: AAGGGT with lb: 2 (Current best: 1)
+Pruning branch with kmer: AAGGG
+Exploring current nucleotide T at position 4
+partial kmer: AAGGTT with lb: 2 (Current best: 1)
+Pruning branch with kmer: AAGGT
+Exploring current nucleotide T at position 3
+partial kmer: AAGTT with lb: 1 (Current best: 1)
+Exploring current nucleotide A at position 4
+partial kmer: AAGTAT with lb: 4 (Current best: 1)
+Pruning branch with kmer: AAGTA
+Exploring current nucleotide C at position 4
+partial kmer: AAGTCT with lb: 1 (Current best: 1)
+Exploring current nucleotide A at position 5
+partial kmer: AAGTCAT with lb: 6 (Current best: 1)
+Pruning branch with kmer: AAGTCA
+Exploring current nucleotide C at position 5
+partial kmer: AAGTCCT with lb: 4 (Current best: 1)
+Pruning branch with kmer: AAGTCC
+Exploring current nucleotide G at position 5
+partial kmer: AAGTCGT with lb: 6 (Current best: 1)
+Pruning branch with kmer: AAGTCG
+Exploring current nucleotide T at position 5
+partial kmer: AAGTCTT with lb: 7 (Current best: 1)
+Pruning branch with kmer: AAGTCT
+Exploring current nucleotide G at position 4
+partial kmer: AAGTGT with lb: 2 (Current best: 1)
+Pruning branch with kmer: AAGTG
+Exploring current nucleotide T at position 4
+partial kmer: AAGTTT with lb: 2 (Current best: 1)
+Pruning branch with kmer: AAGTT
+Exploring current nucleotide T at position 2
+partial kmer: AATT with lb: 0 (Current best: 1)
+Exploring current nucleotide A at position 3
+partial kmer: AATAT with lb: 1 (Current best: 1)
+Exploring current nucleotide A at position 4
+partial kmer: AATAAT with lb: 3 (Current best: 1)
+Pruning branch with kmer: AATAA
+Exploring current nucleotide C at position 4
+partial kmer: AATACT with lb: 5 (Current best: 1)
+Pruning branch with kmer: AATAC
+Exploring current nucleotide G at position 4
+partial kmer: AATAGT with lb: 5 (Current best: 1)
+Pruning branch with kmer: AATAG
+Exploring current nucleotide T at position 4
+partial kmer: AATATT with lb: 3 (Current best: 1)
+Pruning branch with kmer: AATAT
+Exploring current nucleotide C at position 3
+partial kmer: AATCT with lb: 1 (Current best: 1)
+Exploring current nucleotide A at position 4
+partial kmer: AATCAT with lb: 4 (Current best: 1)
+Pruning branch with kmer: AATCA
+Exploring current nucleotide C at position 4
+partial kmer: AATCCT with lb: 6 (Current best: 1)
+Pruning branch with kmer: AATCC
+Exploring current nucleotide G at position 4
+partial kmer: AATCGT with lb: 8 (Current best: 1)
+Pruning branch with kmer: AATCG
+Exploring current nucleotide T at position 4
+partial kmer: AATCTT with lb: 2 (Current best: 1)
+Pruning branch with kmer: AATCT
+Exploring current nucleotide G at position 3
+partial kmer: AATGT with lb: 1 (Current best: 1)
+Exploring current nucleotide A at position 4
+partial kmer: AATGAT with lb: 4 (Current best: 1)
+Pruning branch with kmer: AATGA
+Exploring current nucleotide C at position 4
+partial kmer: AATGCT with lb: 2 (Current best: 1)
+Pruning branch with kmer: AATGC
+Exploring current nucleotide G at position 4
+partial kmer: AATGGT with lb: 2 (Current best: 1)
+Pruning branch with kmer: AATGG
+Exploring current nucleotide T at position 4
+partial kmer: AATGTT with lb: 5 (Current best: 1)
+Pruning branch with kmer: AATGT
+Exploring current nucleotide T at position 3
+partial kmer: AATTT with lb: 1 (Current best: 1)
+Exploring current nucleotide A at position 4
+partial kmer: AATTAT with lb: 4 (Current best: 1)
+Pruning branch with kmer: AATTA
+Exploring current nucleotide C at position 4
+partial kmer: AATTCT with lb: 2 (Current best: 1)
+Pruning branch with kmer: AATTC
+Exploring current nucleotide G at position 4
+partial kmer: AATTGT with lb: 3 (Current best: 1)
+Pruning branch with kmer: AATTG
+Exploring current nucleotide T at position 4
+partial kmer: AATTTT with lb: 3 (Current best: 1)
+Pruning branch with kmer: AATTT
+Exploring current nucleotide C at position 1
+partial kmer: ACT with lb: 0 (Current best: 1)
+Exploring current nucleotide A at position 2
+partial kmer: ACAT with lb: 0 (Current best: 1)
+Exploring current nucleotide A at position 3
+partial kmer: ACAAT with lb: 0 (Current best: 1)
+Exploring current nucleotide A at position 4
+partial kmer: ACAAAT with lb: 4 (Current best: 1)
+Pruning branch with kmer: ACAAA
+Exploring current nucleotide C at position 4
+partial kmer: ACAACT with lb: 5 (Current best: 1)
+Pruning branch with kmer: ACAAC
+Exploring current nucleotide G at position 4
+partial kmer: ACAAGT with lb: 2 (Current best: 1)
+Pruning branch with kmer: ACAAG
+Exploring current nucleotide T at position 4
+partial kmer: ACAATT with lb: 2 (Current best: 1)
+Pruning branch with kmer: ACAAT
+Exploring current nucleotide C at position 3
+partial kmer: ACACT with lb: 0 (Current best: 1)
+Exploring current nucleotide A at position 4
+partial kmer: ACACAT with lb: 1 (Current best: 1)
+Exploring current nucleotide A at position 5
+partial kmer: ACACAAT with lb: 3 (Current best: 1)
+Pruning branch with kmer: ACACAA
+Exploring current nucleotide C at position 5
+partial kmer: ACACACT with lb: 4 (Current best: 1)
+Pruning branch with kmer: ACACAC
+Exploring current nucleotide G at position 5
+partial kmer: ACACAGT with lb: 4 (Current best: 1)
+Pruning branch with kmer: ACACAG
+Exploring current nucleotide T at position 5
+partial kmer: ACACATT with lb: 4 (Current best: 1)
+Pruning branch with kmer: ACACAT
+Exploring current nucleotide C at position 4
+partial kmer: ACACCT with lb: 0 (Current best: 1)
+Exploring current nucleotide A at position 5
+partial kmer: ACACCAT with lb: 4 (Current best: 1)
+Pruning branch with kmer: ACACCA
+Exploring current nucleotide C at position 5
+partial kmer: ACACCCT with lb: 2 (Current best: 1)
+Pruning branch with kmer: ACACCC
+Exploring current nucleotide G at position 5
+partial kmer: ACACCGT with lb: 8 (Current best: 1)
+Pruning branch with kmer: ACACCG
+Exploring current nucleotide T at position 5
+partial kmer: ACACCTT with lb: 3 (Current best: 1)
+Pruning branch with kmer: ACACCT
+Exploring current nucleotide G at position 4
+partial kmer: ACACGT with lb: 5 (Current best: 1)
+Pruning branch with kmer: ACACG
+Exploring current nucleotide T at position 4
+partial kmer: ACACTT with lb: 4 (Current best: 1)
+Pruning branch with kmer: ACACT
+Exploring current nucleotide G at position 3
+partial kmer: ACAGT with lb: 0 (Current best: 1)
+Exploring current nucleotide A at position 4
+partial kmer: ACAGAT with lb: 2 (Current best: 1)
+Pruning branch with kmer: ACAGA
+Exploring current nucleotide C at position 4
+partial kmer: ACAGCT with lb: 0 (Current best: 1)
+Exploring current nucleotide A at position 5
+partial kmer: ACAGCAT with lb: 2 (Current best: 1)
+Pruning branch with kmer: ACAGCA
+Exploring current nucleotide C at position 5
+partial kmer: ACAGCCT with lb: 1 (Current best: 1)
+Exploring current nucleotide A at position 6
+partial kmer: ACAGCCA with lb: 1 (Current best: 1)
+evaluating kmer: ACAGCCA with distance: 1
+Exploring current nucleotide C at position 6
+partial kmer: ACAGCCC with lb: 4 (Current best: 1)
+Pruning branch with kmer: ACAGCCC
+Exploring current nucleotide G at position 6
+partial kmer: ACAGCCG with lb: 3 (Current best: 1)
+Pruning branch with kmer: ACAGCCG
+Exploring current nucleotide T at position 6
+partial kmer: ACAGCCT with lb: 1 (Current best: 1)
+evaluating kmer: ACAGCCT with distance: 1
+Exploring current nucleotide G at position 5
+partial kmer: ACAGCGT with lb: 5 (Current best: 1)
+Pruning branch with kmer: ACAGCG
+Exploring current nucleotide T at position 5
+partial kmer: ACAGCTT with lb: 3 (Current best: 1)
+Pruning branch with kmer: ACAGCT
+Exploring current nucleotide G at position 4
+partial kmer: ACAGGT with lb: 0 (Current best: 1)
+Exploring current nucleotide A at position 5
+partial kmer: ACAGGAT with lb: 4 (Current best: 1)
+Pruning branch with kmer: ACAGGA
+Exploring current nucleotide C at position 5
+partial kmer: ACAGGCT with lb: 2 (Current best: 1)
+Pruning branch with kmer: ACAGGC
+Exploring current nucleotide G at position 5
+partial kmer: ACAGGGT with lb: 1 (Current best: 1)
+Exploring current nucleotide A at position 6
+partial kmer: ACAGGGA with lb: 2 (Current best: 1)
+Pruning branch with kmer: ACAGGGA
+Exploring current nucleotide C at position 6
+partial kmer: ACAGGGC with lb: 3 (Current best: 1)
+Pruning branch with kmer: ACAGGGC
+Exploring current nucleotide G at position 6
+partial kmer: ACAGGGG with lb: 0 (Current best: 1)
+evaluating kmer: ACAGGGG with distance: 1
+New best k-mer found: ACAGGGG with distance: 0
+Exploring current nucleotide T at position 6
+partial kmer: ACAGGGT with lb: 1 (Current best: 0)
+Pruning branch with kmer: ACAGGGT
+Exploring current nucleotide T at position 5
+partial kmer: ACAGGTT with lb: 4 (Current best: 0)
+Pruning branch with kmer: ACAGGT
+Exploring current nucleotide T at position 4
+partial kmer: ACAGTT with lb: 2 (Current best: 0)
+Pruning branch with kmer: ACAGT
+Exploring current nucleotide T at position 3
+partial kmer: ACATT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 4
+partial kmer: ACATAT with lb: 6 (Current best: 0)
+Pruning branch with kmer: ACATA
+Exploring current nucleotide C at position 4
+partial kmer: ACATCT with lb: 1 (Current best: 0)
+Pruning branch with kmer: ACATC
+Exploring current nucleotide G at position 4
+partial kmer: ACATGT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 5
+partial kmer: ACATGAT with lb: 6 (Current best: 0)
+Pruning branch with kmer: ACATGA
+Exploring current nucleotide C at position 5
+partial kmer: ACATGCT with lb: 3 (Current best: 0)
+Pruning branch with kmer: ACATGC
+Exploring current nucleotide G at position 5
+partial kmer: ACATGGT with lb: 4 (Current best: 0)
+Pruning branch with kmer: ACATGG
+Exploring current nucleotide T at position 5
+partial kmer: ACATGTT with lb: 6 (Current best: 0)
+Pruning branch with kmer: ACATGT
+Exploring current nucleotide T at position 4
+partial kmer: ACATTT with lb: 1 (Current best: 0)
+Pruning branch with kmer: ACATT
+Exploring current nucleotide C at position 2
+partial kmer: ACCT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 3
+partial kmer: ACCAT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 4
+partial kmer: ACCAAT with lb: 5 (Current best: 0)
+Pruning branch with kmer: ACCAA
+Exploring current nucleotide C at position 4
+partial kmer: ACCACT with lb: 3 (Current best: 0)
+Pruning branch with kmer: ACCAC
+Exploring current nucleotide G at position 4
+partial kmer: ACCAGT with lb: 2 (Current best: 0)
+Pruning branch with kmer: ACCAG
+Exploring current nucleotide T at position 4
+partial kmer: ACCATT with lb: 3 (Current best: 0)
+Pruning branch with kmer: ACCAT
+Exploring current nucleotide C at position 3
+partial kmer: ACCCT with lb: 1 (Current best: 0)
+Pruning branch with kmer: ACCC
+Exploring current nucleotide G at position 3
+partial kmer: ACCGT with lb: 2 (Current best: 0)
+Pruning branch with kmer: ACCG
+Exploring current nucleotide T at position 3
+partial kmer: ACCTT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 4
+partial kmer: ACCTAT with lb: 4 (Current best: 0)
+Pruning branch with kmer: ACCTA
+Exploring current nucleotide C at position 4
+partial kmer: ACCTCT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 5
+partial kmer: ACCTCAT with lb: 3 (Current best: 0)
+Pruning branch with kmer: ACCTCA
+Exploring current nucleotide C at position 5
+partial kmer: ACCTCCT with lb: 2 (Current best: 0)
+Pruning branch with kmer: ACCTCC
+Exploring current nucleotide G at position 5
+partial kmer: ACCTCGT with lb: 6 (Current best: 0)
+Pruning branch with kmer: ACCTCG
+Exploring current nucleotide T at position 5
+partial kmer: ACCTCTT with lb: 3 (Current best: 0)
+Pruning branch with kmer: ACCTCT
+Exploring current nucleotide G at position 4
+partial kmer: ACCTGT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 5
+partial kmer: ACCTGAT with lb: 7 (Current best: 0)
+Pruning branch with kmer: ACCTGA
+Exploring current nucleotide C at position 5
+partial kmer: ACCTGCT with lb: 2 (Current best: 0)
+Pruning branch with kmer: ACCTGC
+Exploring current nucleotide G at position 5
+partial kmer: ACCTGGT with lb: 5 (Current best: 0)
+Pruning branch with kmer: ACCTGG
+Exploring current nucleotide T at position 5
+partial kmer: ACCTGTT with lb: 3 (Current best: 0)
+Pruning branch with kmer: ACCTGT
+Exploring current nucleotide T at position 4
+partial kmer: ACCTTT with lb: 1 (Current best: 0)
+Pruning branch with kmer: ACCTT
+Exploring current nucleotide G at position 2
+partial kmer: ACGT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 3
+partial kmer: ACGAT with lb: 1 (Current best: 0)
+Pruning branch with kmer: ACGA
+Exploring current nucleotide C at position 3
+partial kmer: ACGCT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 4
+partial kmer: ACGCAT with lb: 4 (Current best: 0)
+Pruning branch with kmer: ACGCA
+Exploring current nucleotide C at position 4
+partial kmer: ACGCCT with lb: 4 (Current best: 0)
+Pruning branch with kmer: ACGCC
+Exploring current nucleotide G at position 4
+partial kmer: ACGCGT with lb: 6 (Current best: 0)
+Pruning branch with kmer: ACGCG
+Exploring current nucleotide T at position 4
+partial kmer: ACGCTT with lb: 2 (Current best: 0)
+Pruning branch with kmer: ACGCT
+Exploring current nucleotide G at position 3
+partial kmer: ACGGT with lb: 2 (Current best: 0)
+Pruning branch with kmer: ACGG
+Exploring current nucleotide T at position 3
+partial kmer: ACGTT with lb: 1 (Current best: 0)
+Pruning branch with kmer: ACGT
+Exploring current nucleotide T at position 2
+partial kmer: ACTT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 3
+partial kmer: ACTAT with lb: 2 (Current best: 0)
+Pruning branch with kmer: ACTA
+Exploring current nucleotide C at position 3
+partial kmer: ACTCT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 4
+partial kmer: ACTCAT with lb: 2 (Current best: 0)
+Pruning branch with kmer: ACTCA
+Exploring current nucleotide C at position 4
+partial kmer: ACTCCT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 5
+partial kmer: ACTCCAT with lb: 5 (Current best: 0)
+Pruning branch with kmer: ACTCCA
+Exploring current nucleotide C at position 5
+partial kmer: ACTCCCT with lb: 4 (Current best: 0)
+Pruning branch with kmer: ACTCCC
+Exploring current nucleotide G at position 5
+partial kmer: ACTCCGT with lb: 3 (Current best: 0)
+Pruning branch with kmer: ACTCCG
+Exploring current nucleotide T at position 5
+partial kmer: ACTCCTT with lb: 5 (Current best: 0)
+Pruning branch with kmer: ACTCCT
+Exploring current nucleotide G at position 4
+partial kmer: ACTCGT with lb: 6 (Current best: 0)
+Pruning branch with kmer: ACTCG
+Exploring current nucleotide T at position 4
+partial kmer: ACTCTT with lb: 2 (Current best: 0)
+Pruning branch with kmer: ACTCT
+Exploring current nucleotide G at position 3
+partial kmer: ACTGT with lb: 1 (Current best: 0)
+Pruning branch with kmer: ACTG
+Exploring current nucleotide T at position 3
+partial kmer: ACTTT with lb: 1 (Current best: 0)
+Pruning branch with kmer: ACTT
+Exploring current nucleotide G at position 1
+partial kmer: AGT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 2
+partial kmer: AGAT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 3
+partial kmer: AGAAT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 4
+partial kmer: AGAAAT with lb: 1 (Current best: 0)
+Pruning branch with kmer: AGAAA
+Exploring current nucleotide C at position 4
+partial kmer: AGAACT with lb: 2 (Current best: 0)
+Pruning branch with kmer: AGAAC
+Exploring current nucleotide G at position 4
+partial kmer: AGAAGT with lb: 2 (Current best: 0)
+Pruning branch with kmer: AGAAG
+Exploring current nucleotide T at position 4
+partial kmer: AGAATT with lb: 2 (Current best: 0)
+Pruning branch with kmer: AGAAT
+Exploring current nucleotide C at position 3
+partial kmer: AGACT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 4
+partial kmer: AGACAT with lb: 1 (Current best: 0)
+Pruning branch with kmer: AGACA
+Exploring current nucleotide C at position 4
+partial kmer: AGACCT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 5
+partial kmer: AGACCAT with lb: 2 (Current best: 0)
+Pruning branch with kmer: AGACCA
+Exploring current nucleotide C at position 5
+partial kmer: AGACCCT with lb: 4 (Current best: 0)
+Pruning branch with kmer: AGACCC
+Exploring current nucleotide G at position 5
+partial kmer: AGACCGT with lb: 7 (Current best: 0)
+Pruning branch with kmer: AGACCG
+Exploring current nucleotide T at position 5
+partial kmer: AGACCTT with lb: 2 (Current best: 0)
+Pruning branch with kmer: AGACCT
+Exploring current nucleotide G at position 4
+partial kmer: AGACGT with lb: 3 (Current best: 0)
+Pruning branch with kmer: AGACG
+Exploring current nucleotide T at position 4
+partial kmer: AGACTT with lb: 2 (Current best: 0)
+Pruning branch with kmer: AGACT
+Exploring current nucleotide G at position 3
+partial kmer: AGAGT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 4
+partial kmer: AGAGAT with lb: 1 (Current best: 0)
+Pruning branch with kmer: AGAGA
+Exploring current nucleotide C at position 4
+partial kmer: AGAGCT with lb: 1 (Current best: 0)
+Pruning branch with kmer: AGAGC
+Exploring current nucleotide G at position 4
+partial kmer: AGAGGT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 5
+partial kmer: AGAGGAT with lb: 4 (Current best: 0)
+Pruning branch with kmer: AGAGGA
+Exploring current nucleotide C at position 5
+partial kmer: AGAGGCT with lb: 2 (Current best: 0)
+Pruning branch with kmer: AGAGGC
+Exploring current nucleotide G at position 5
+partial kmer: AGAGGGT with lb: 3 (Current best: 0)
+Pruning branch with kmer: AGAGGG
+Exploring current nucleotide T at position 5
+partial kmer: AGAGGTT with lb: 3 (Current best: 0)
+Pruning branch with kmer: AGAGGT
+Exploring current nucleotide T at position 4
+partial kmer: AGAGTT with lb: 1 (Current best: 0)
+Pruning branch with kmer: AGAGT
+Exploring current nucleotide T at position 3
+partial kmer: AGATT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 4
+partial kmer: AGATAT with lb: 4 (Current best: 0)
+Pruning branch with kmer: AGATA
+Exploring current nucleotide C at position 4
+partial kmer: AGATCT with lb: 1 (Current best: 0)
+Pruning branch with kmer: AGATC
+Exploring current nucleotide G at position 4
+partial kmer: AGATGT with lb: 2 (Current best: 0)
+Pruning branch with kmer: AGATG
+Exploring current nucleotide T at position 4
+partial kmer: AGATTT with lb: 4 (Current best: 0)
+Pruning branch with kmer: AGATT
+Exploring current nucleotide C at position 2
+partial kmer: AGCT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 3
+partial kmer: AGCAT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 4
+partial kmer: AGCAAT with lb: 3 (Current best: 0)
+Pruning branch with kmer: AGCAA
+Exploring current nucleotide C at position 4
+partial kmer: AGCACT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 5
+partial kmer: AGCACAT with lb: 6 (Current best: 0)
+Pruning branch with kmer: AGCACA
+Exploring current nucleotide C at position 5
+partial kmer: AGCACCT with lb: 2 (Current best: 0)
+Pruning branch with kmer: AGCACC
+Exploring current nucleotide G at position 5
+partial kmer: AGCACGT with lb: 5 (Current best: 0)
+Pruning branch with kmer: AGCACG
+Exploring current nucleotide T at position 5
+partial kmer: AGCACTT with lb: 2 (Current best: 0)
+Pruning branch with kmer: AGCACT
+Exploring current nucleotide G at position 4
+partial kmer: AGCAGT with lb: 1 (Current best: 0)
+Pruning branch with kmer: AGCAG
+Exploring current nucleotide T at position 4
+partial kmer: AGCATT with lb: 1 (Current best: 0)
+Pruning branch with kmer: AGCAT
+Exploring current nucleotide C at position 3
+partial kmer: AGCCT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 4
+partial kmer: AGCCAT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 5
+partial kmer: AGCCAAT with lb: 2 (Current best: 0)
+Pruning branch with kmer: AGCCAA
+Exploring current nucleotide C at position 5
+partial kmer: AGCCACT with lb: 2 (Current best: 0)
+Pruning branch with kmer: AGCCAC
+Exploring current nucleotide G at position 5
+partial kmer: AGCCAGT with lb: 2 (Current best: 0)
+Pruning branch with kmer: AGCCAG
+Exploring current nucleotide T at position 5
+partial kmer: AGCCATT with lb: 4 (Current best: 0)
+Pruning branch with kmer: AGCCAT
+Exploring current nucleotide C at position 4
+partial kmer: AGCCCT with lb: 1 (Current best: 0)
+Pruning branch with kmer: AGCCC
+Exploring current nucleotide G at position 4
+partial kmer: AGCCGT with lb: 1 (Current best: 0)
+Pruning branch with kmer: AGCCG
+Exploring current nucleotide T at position 4
+partial kmer: AGCCTT with lb: 1 (Current best: 0)
+Pruning branch with kmer: AGCCT
+Exploring current nucleotide G at position 3
+partial kmer: AGCGT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 4
+partial kmer: AGCGAT with lb: 2 (Current best: 0)
+Pruning branch with kmer: AGCGA
+Exploring current nucleotide C at position 4
+partial kmer: AGCGCT with lb: 4 (Current best: 0)
+Pruning branch with kmer: AGCGC
+Exploring current nucleotide G at position 4
+partial kmer: AGCGGT with lb: 4 (Current best: 0)
+Pruning branch with kmer: AGCGG
+Exploring current nucleotide T at position 4
+partial kmer: AGCGTT with lb: 5 (Current best: 0)
+Pruning branch with kmer: AGCGT
+Exploring current nucleotide T at position 3
+partial kmer: AGCTT with lb: 1 (Current best: 0)
+Pruning branch with kmer: AGCT
+Exploring current nucleotide G at position 2
+partial kmer: AGGT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 3
+partial kmer: AGGAT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 4
+partial kmer: AGGAAT with lb: 2 (Current best: 0)
+Pruning branch with kmer: AGGAA
+Exploring current nucleotide C at position 4
+partial kmer: AGGACT with lb: 2 (Current best: 0)
+Pruning branch with kmer: AGGAC
+Exploring current nucleotide G at position 4
+partial kmer: AGGAGT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 5
+partial kmer: AGGAGAT with lb: 3 (Current best: 0)
+Pruning branch with kmer: AGGAGA
+Exploring current nucleotide C at position 5
+partial kmer: AGGAGCT with lb: 1 (Current best: 0)
+Pruning branch with kmer: AGGAGC
+Exploring current nucleotide G at position 5
+partial kmer: AGGAGGT with lb: 2 (Current best: 0)
+Pruning branch with kmer: AGGAGG
+Exploring current nucleotide T at position 5
+partial kmer: AGGAGTT with lb: 1 (Current best: 0)
+Pruning branch with kmer: AGGAGT
+Exploring current nucleotide T at position 4
+partial kmer: AGGATT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 5
+partial kmer: AGGATAT with lb: 5 (Current best: 0)
+Pruning branch with kmer: AGGATA
+Exploring current nucleotide C at position 5
+partial kmer: AGGATCT with lb: 6 (Current best: 0)
+Pruning branch with kmer: AGGATC
+Exploring current nucleotide G at position 5
+partial kmer: AGGATGT with lb: 4 (Current best: 0)
+Pruning branch with kmer: AGGATG
+Exploring current nucleotide T at position 5
+partial kmer: AGGATTT with lb: 5 (Current best: 0)
+Pruning branch with kmer: AGGATT
+Exploring current nucleotide C at position 3
+partial kmer: AGGCT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 4
+partial kmer: AGGCAT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 5
+partial kmer: AGGCAAT with lb: 7 (Current best: 0)
+Pruning branch with kmer: AGGCAA
+Exploring current nucleotide C at position 5
+partial kmer: AGGCACT with lb: 3 (Current best: 0)
+Pruning branch with kmer: AGGCAC
+Exploring current nucleotide G at position 5
+partial kmer: AGGCAGT with lb: 4 (Current best: 0)
+Pruning branch with kmer: AGGCAG
+Exploring current nucleotide T at position 5
+partial kmer: AGGCATT with lb: 3 (Current best: 0)
+Pruning branch with kmer: AGGCAT
+Exploring current nucleotide C at position 4
+partial kmer: AGGCCT with lb: 1 (Current best: 0)
+Pruning branch with kmer: AGGCC
+Exploring current nucleotide G at position 4
+partial kmer: AGGCGT with lb: 2 (Current best: 0)
+Pruning branch with kmer: AGGCG
+Exploring current nucleotide T at position 4
+partial kmer: AGGCTT with lb: 2 (Current best: 0)
+Pruning branch with kmer: AGGCT
+Exploring current nucleotide G at position 3
+partial kmer: AGGGT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 4
+partial kmer: AGGGAT with lb: 2 (Current best: 0)
+Pruning branch with kmer: AGGGA
+Exploring current nucleotide C at position 4
+partial kmer: AGGGCT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 5
+partial kmer: AGGGCAT with lb: 4 (Current best: 0)
+Pruning branch with kmer: AGGGCA
+Exploring current nucleotide C at position 5
+partial kmer: AGGGCCT with lb: 4 (Current best: 0)
+Pruning branch with kmer: AGGGCC
+Exploring current nucleotide G at position 5
+partial kmer: AGGGCGT with lb: 4 (Current best: 0)
+Pruning branch with kmer: AGGGCG
+Exploring current nucleotide T at position 5
+partial kmer: AGGGCTT with lb: 3 (Current best: 0)
+Pruning branch with kmer: AGGGCT
+Exploring current nucleotide G at position 4
+partial kmer: AGGGGT with lb: 2 (Current best: 0)
+Pruning branch with kmer: AGGGG
+Exploring current nucleotide T at position 4
+partial kmer: AGGGTT with lb: 2 (Current best: 0)
+Pruning branch with kmer: AGGGT
+Exploring current nucleotide T at position 3
+partial kmer: AGGTT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 4
+partial kmer: AGGTAT with lb: 5 (Current best: 0)
+Pruning branch with kmer: AGGTA
+Exploring current nucleotide C at position 4
+partial kmer: AGGTCT with lb: 1 (Current best: 0)
+Pruning branch with kmer: AGGTC
+Exploring current nucleotide G at position 4
+partial kmer: AGGTGT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 5
+partial kmer: AGGTGAT with lb: 3 (Current best: 0)
+Pruning branch with kmer: AGGTGA
+Exploring current nucleotide C at position 5
+partial kmer: AGGTGCT with lb: 3 (Current best: 0)
+Pruning branch with kmer: AGGTGC
+Exploring current nucleotide G at position 5
+partial kmer: AGGTGGT with lb: 3 (Current best: 0)
+Pruning branch with kmer: AGGTGG
+Exploring current nucleotide T at position 5
+partial kmer: AGGTGTT with lb: 5 (Current best: 0)
+Pruning branch with kmer: AGGTGT
+Exploring current nucleotide T at position 4
+partial kmer: AGGTTT with lb: 4 (Current best: 0)
+Pruning branch with kmer: AGGTT
+Exploring current nucleotide T at position 2
+partial kmer: AGTT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 3
+partial kmer: AGTAT with lb: 2 (Current best: 0)
+Pruning branch with kmer: AGTA
+Exploring current nucleotide C at position 3
+partial kmer: AGTCT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 4
+partial kmer: AGTCAT with lb: 1 (Current best: 0)
+Pruning branch with kmer: AGTCA
+Exploring current nucleotide C at position 4
+partial kmer: AGTCCT with lb: 3 (Current best: 0)
+Pruning branch with kmer: AGTCC
+Exploring current nucleotide G at position 4
+partial kmer: AGTCGT with lb: 3 (Current best: 0)
+Pruning branch with kmer: AGTCG
+Exploring current nucleotide T at position 4
+partial kmer: AGTCTT with lb: 2 (Current best: 0)
+Pruning branch with kmer: AGTCT
+Exploring current nucleotide G at position 3
+partial kmer: AGTGT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 4
+partial kmer: AGTGAT with lb: 2 (Current best: 0)
+Pruning branch with kmer: AGTGA
+Exploring current nucleotide C at position 4
+partial kmer: AGTGCT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 5
+partial kmer: AGTGCAT with lb: 5 (Current best: 0)
+Pruning branch with kmer: AGTGCA
+Exploring current nucleotide C at position 5
+partial kmer: AGTGCCT with lb: 4 (Current best: 0)
+Pruning branch with kmer: AGTGCC
+Exploring current nucleotide G at position 5
+partial kmer: AGTGCGT with lb: 8 (Current best: 0)
+Pruning branch with kmer: AGTGCG
+Exploring current nucleotide T at position 5
+partial kmer: AGTGCTT with lb: 2 (Current best: 0)
+Pruning branch with kmer: AGTGCT
+Exploring current nucleotide G at position 4
+partial kmer: AGTGGT with lb: 2 (Current best: 0)
+Pruning branch with kmer: AGTGG
+Exploring current nucleotide T at position 4
+partial kmer: AGTGTT with lb: 2 (Current best: 0)
+Pruning branch with kmer: AGTGT
+Exploring current nucleotide T at position 3
+partial kmer: AGTTT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 4
+partial kmer: AGTTAT with lb: 5 (Current best: 0)
+Pruning branch with kmer: AGTTA
+Exploring current nucleotide C at position 4
+partial kmer: AGTTCT with lb: 1 (Current best: 0)
+Pruning branch with kmer: AGTTC
+Exploring current nucleotide G at position 4
+partial kmer: AGTTGT with lb: 3 (Current best: 0)
+Pruning branch with kmer: AGTTG
+Exploring current nucleotide T at position 4
+partial kmer: AGTTTT with lb: 1 (Current best: 0)
+Pruning branch with kmer: AGTTT
+Exploring current nucleotide T at position 1
+partial kmer: ATT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 2
+partial kmer: ATAT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 3
+partial kmer: ATAAT with lb: 1 (Current best: 0)
+Pruning branch with kmer: ATAA
+Exploring current nucleotide C at position 3
+partial kmer: ATACT with lb: 2 (Current best: 0)
+Pruning branch with kmer: ATAC
+Exploring current nucleotide G at position 3
+partial kmer: ATAGT with lb: 1 (Current best: 0)
+Pruning branch with kmer: ATAG
+Exploring current nucleotide T at position 3
+partial kmer: ATATT with lb: 3 (Current best: 0)
+Pruning branch with kmer: ATAT
+Exploring current nucleotide C at position 2
+partial kmer: ATCT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 3
+partial kmer: ATCAT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 4
+partial kmer: ATCAAT with lb: 3 (Current best: 0)
+Pruning branch with kmer: ATCAA
+Exploring current nucleotide C at position 4
+partial kmer: ATCACT with lb: 3 (Current best: 0)
+Pruning branch with kmer: ATCAC
+Exploring current nucleotide G at position 4
+partial kmer: ATCAGT with lb: 2 (Current best: 0)
+Pruning branch with kmer: ATCAG
+Exploring current nucleotide T at position 4
+partial kmer: ATCATT with lb: 2 (Current best: 0)
+Pruning branch with kmer: ATCAT
+Exploring current nucleotide C at position 3
+partial kmer: ATCCT with lb: 1 (Current best: 0)
+Pruning branch with kmer: ATCC
+Exploring current nucleotide G at position 3
+partial kmer: ATCGT with lb: 1 (Current best: 0)
+Pruning branch with kmer: ATCG
+Exploring current nucleotide T at position 3
+partial kmer: ATCTT with lb: 2 (Current best: 0)
+Pruning branch with kmer: ATCT
+Exploring current nucleotide G at position 2
+partial kmer: ATGT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 3
+partial kmer: ATGAT with lb: 1 (Current best: 0)
+Pruning branch with kmer: ATGA
+Exploring current nucleotide C at position 3
+partial kmer: ATGCT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 4
+partial kmer: ATGCAT with lb: 2 (Current best: 0)
+Pruning branch with kmer: ATGCA
+Exploring current nucleotide C at position 4
+partial kmer: ATGCCT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 5
+partial kmer: ATGCCAT with lb: 6 (Current best: 0)
+Pruning branch with kmer: ATGCCA
+Exploring current nucleotide C at position 5
+partial kmer: ATGCCCT with lb: 5 (Current best: 0)
+Pruning branch with kmer: ATGCCC
+Exploring current nucleotide G at position 5
+partial kmer: ATGCCGT with lb: 7 (Current best: 0)
+Pruning branch with kmer: ATGCCG
+Exploring current nucleotide T at position 5
+partial kmer: ATGCCTT with lb: 6 (Current best: 0)
+Pruning branch with kmer: ATGCCT
+Exploring current nucleotide G at position 4
+partial kmer: ATGCGT with lb: 4 (Current best: 0)
+Pruning branch with kmer: ATGCG
+Exploring current nucleotide T at position 4
+partial kmer: ATGCTT with lb: 2 (Current best: 0)
+Pruning branch with kmer: ATGCT
+Exploring current nucleotide G at position 3
+partial kmer: ATGGT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 4
+partial kmer: ATGGAT with lb: 1 (Current best: 0)
+Pruning branch with kmer: ATGGA
+Exploring current nucleotide C at position 4
+partial kmer: ATGGCT with lb: 2 (Current best: 0)
+Pruning branch with kmer: ATGGC
+Exploring current nucleotide G at position 4
+partial kmer: ATGGGT with lb: 2 (Current best: 0)
+Pruning branch with kmer: ATGGG
+Exploring current nucleotide T at position 4
+partial kmer: ATGGTT with lb: 3 (Current best: 0)
+Pruning branch with kmer: ATGGT
+Exploring current nucleotide T at position 3
+partial kmer: ATGTT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 4
+partial kmer: ATGTAT with lb: 4 (Current best: 0)
+Pruning branch with kmer: ATGTA
+Exploring current nucleotide C at position 4
+partial kmer: ATGTCT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 5
+partial kmer: ATGTCAT with lb: 4 (Current best: 0)
+Pruning branch with kmer: ATGTCA
+Exploring current nucleotide C at position 5
+partial kmer: ATGTCCT with lb: 6 (Current best: 0)
+Pruning branch with kmer: ATGTCC
+Exploring current nucleotide G at position 5
+partial kmer: ATGTCGT with lb: 8 (Current best: 0)
+Pruning branch with kmer: ATGTCG
+Exploring current nucleotide T at position 5
+partial kmer: ATGTCTT with lb: 5 (Current best: 0)
+Pruning branch with kmer: ATGTCT
+Exploring current nucleotide G at position 4
+partial kmer: ATGTGT with lb: 2 (Current best: 0)
+Pruning branch with kmer: ATGTG
+Exploring current nucleotide T at position 4
+partial kmer: ATGTTT with lb: 2 (Current best: 0)
+Pruning branch with kmer: ATGTT
+Exploring current nucleotide T at position 2
+partial kmer: ATTT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 3
+partial kmer: ATTAT with lb: 2 (Current best: 0)
+Pruning branch with kmer: ATTA
+Exploring current nucleotide C at position 3
+partial kmer: ATTCT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 4
+partial kmer: ATTCAT with lb: 4 (Current best: 0)
+Pruning branch with kmer: ATTCA
+Exploring current nucleotide C at position 4
+partial kmer: ATTCCT with lb: 3 (Current best: 0)
+Pruning branch with kmer: ATTCC
+Exploring current nucleotide G at position 4
+partial kmer: ATTCGT with lb: 6 (Current best: 0)
+Pruning branch with kmer: ATTCG
+Exploring current nucleotide T at position 4
+partial kmer: ATTCTT with lb: 2 (Current best: 0)
+Pruning branch with kmer: ATTCT
+Exploring current nucleotide G at position 3
+partial kmer: ATTGT with lb: 1 (Current best: 0)
+Pruning branch with kmer: ATTG
+Exploring current nucleotide T at position 3
+partial kmer: ATTTT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 4
+partial kmer: ATTTAT with lb: 4 (Current best: 0)
+Pruning branch with kmer: ATTTA
+Exploring current nucleotide C at position 4
+partial kmer: ATTTCT with lb: 2 (Current best: 0)
+Pruning branch with kmer: ATTTC
+Exploring current nucleotide G at position 4
+partial kmer: ATTTGT with lb: 2 (Current best: 0)
+Pruning branch with kmer: ATTTG
+Exploring current nucleotide T at position 4
+partial kmer: ATTTTT with lb: 2 (Current best: 0)
+Pruning branch with kmer: ATTTT
+Exploring current nucleotide C at position 0
+partial kmer: CT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 1
+partial kmer: CAT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 2
+partial kmer: CAAT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 3
+partial kmer: CAAAT with lb: 1 (Current best: 0)
+Pruning branch with kmer: CAAA
+Exploring current nucleotide C at position 3
+partial kmer: CAACT with lb: 1 (Current best: 0)
+Pruning branch with kmer: CAAC
+Exploring current nucleotide G at position 3
+partial kmer: CAAGT with lb: 1 (Current best: 0)
+Pruning branch with kmer: CAAG
+Exploring current nucleotide T at position 3
+partial kmer: CAATT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 4
+partial kmer: CAATAT with lb: 5 (Current best: 0)
+Pruning branch with kmer: CAATA
+Exploring current nucleotide C at position 4
+partial kmer: CAATCT with lb: 2 (Current best: 0)
+Pruning branch with kmer: CAATC
+Exploring current nucleotide G at position 4
+partial kmer: CAATGT with lb: 2 (Current best: 0)
+Pruning branch with kmer: CAATG
+Exploring current nucleotide T at position 4
+partial kmer: CAATTT with lb: 3 (Current best: 0)
+Pruning branch with kmer: CAATT
+Exploring current nucleotide C at position 2
+partial kmer: CACT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 3
+partial kmer: CACAT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 4
+partial kmer: CACAAT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 5
+partial kmer: CACAAAT with lb: 5 (Current best: 0)
+Pruning branch with kmer: CACAAA
+Exploring current nucleotide C at position 5
+partial kmer: CACAACT with lb: 7 (Current best: 0)
+Pruning branch with kmer: CACAAC
+Exploring current nucleotide G at position 5
+partial kmer: CACAAGT with lb: 7 (Current best: 0)
+Pruning branch with kmer: CACAAG
+Exploring current nucleotide T at position 5
+partial kmer: CACAATT with lb: 4 (Current best: 0)
+Pruning branch with kmer: CACAAT
+Exploring current nucleotide C at position 4
+partial kmer: CACACT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 5
+partial kmer: CACACAT with lb: 1 (Current best: 0)
+Pruning branch with kmer: CACACA
+Exploring current nucleotide C at position 5
+partial kmer: CACACCT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 6
+partial kmer: CACACCA with lb: 3 (Current best: 0)
+Pruning branch with kmer: CACACCA
+Exploring current nucleotide C at position 6
+partial kmer: CACACCC with lb: 0 (Current best: 0)
+evaluating kmer: CACACCC with distance: 0
+Exploring current nucleotide G at position 6
+partial kmer: CACACCG with lb: 6 (Current best: 0)
+Pruning branch with kmer: CACACCG
+Exploring current nucleotide T at position 6
+partial kmer: CACACCT with lb: 0 (Current best: 0)
+evaluating kmer: CACACCT with distance: 0
+Exploring current nucleotide G at position 5
+partial kmer: CACACGT with lb: 5 (Current best: 0)
+Pruning branch with kmer: CACACG
+Exploring current nucleotide T at position 5
+partial kmer: CACACTT with lb: 7 (Current best: 0)
+Pruning branch with kmer: CACACT
+Exploring current nucleotide G at position 4
+partial kmer: CACAGT with lb: 2 (Current best: 0)
+Pruning branch with kmer: CACAG
+Exploring current nucleotide T at position 4
+partial kmer: CACATT with lb: 2 (Current best: 0)
+Pruning branch with kmer: CACAT
+Exploring current nucleotide C at position 3
+partial kmer: CACCT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 4
+partial kmer: CACCAT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 5
+partial kmer: CACCAAT with lb: 9 (Current best: 0)
+Pruning branch with kmer: CACCAA
+Exploring current nucleotide C at position 5
+partial kmer: CACCACT with lb: 3 (Current best: 0)
+Pruning branch with kmer: CACCAC
+Exploring current nucleotide G at position 5
+partial kmer: CACCAGT with lb: 2 (Current best: 0)
+Pruning branch with kmer: CACCAG
+Exploring current nucleotide T at position 5
+partial kmer: CACCATT with lb: 4 (Current best: 0)
+Pruning branch with kmer: CACCAT
+Exploring current nucleotide C at position 4
+partial kmer: CACCCT with lb: 1 (Current best: 0)
+Pruning branch with kmer: CACCC
+Exploring current nucleotide G at position 4
+partial kmer: CACCGT with lb: 3 (Current best: 0)
+Pruning branch with kmer: CACCG
+Exploring current nucleotide T at position 4
+partial kmer: CACCTT with lb: 1 (Current best: 0)
+Pruning branch with kmer: CACCT
+Exploring current nucleotide G at position 3
+partial kmer: CACGT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 4
+partial kmer: CACGAT with lb: 2 (Current best: 0)
+Pruning branch with kmer: CACGA
+Exploring current nucleotide C at position 4
+partial kmer: CACGCT with lb: 1 (Current best: 0)
+Pruning branch with kmer: CACGC
+Exploring current nucleotide G at position 4
+partial kmer: CACGGT with lb: 2 (Current best: 0)
+Pruning branch with kmer: CACGG
+Exploring current nucleotide T at position 4
+partial kmer: CACGTT with lb: 4 (Current best: 0)
+Pruning branch with kmer: CACGT
+Exploring current nucleotide T at position 3
+partial kmer: CACTT with lb: 1 (Current best: 0)
+Pruning branch with kmer: CACT
+Exploring current nucleotide G at position 2
+partial kmer: CAGT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 3
+partial kmer: CAGAT with lb: 1 (Current best: 0)
+Pruning branch with kmer: CAGA
+Exploring current nucleotide C at position 3
+partial kmer: CAGCT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 4
+partial kmer: CAGCAT with lb: 1 (Current best: 0)
+Pruning branch with kmer: CAGCA
+Exploring current nucleotide C at position 4
+partial kmer: CAGCCT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 5
+partial kmer: CAGCCAT with lb: 4 (Current best: 0)
+Pruning branch with kmer: CAGCCA
+Exploring current nucleotide C at position 5
+partial kmer: CAGCCCT with lb: 2 (Current best: 0)
+Pruning branch with kmer: CAGCCC
+Exploring current nucleotide G at position 5
+partial kmer: CAGCCGT with lb: 7 (Current best: 0)
+Pruning branch with kmer: CAGCCG
+Exploring current nucleotide T at position 5
+partial kmer: CAGCCTT with lb: 2 (Current best: 0)
+Pruning branch with kmer: CAGCCT
+Exploring current nucleotide G at position 4
+partial kmer: CAGCGT with lb: 2 (Current best: 0)
+Pruning branch with kmer: CAGCG
+Exploring current nucleotide T at position 4
+partial kmer: CAGCTT with lb: 1 (Current best: 0)
+Pruning branch with kmer: CAGCT
+Exploring current nucleotide G at position 3
+partial kmer: CAGGT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 4
+partial kmer: CAGGAT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 5
+partial kmer: CAGGAAT with lb: 4 (Current best: 0)
+Pruning branch with kmer: CAGGAA
+Exploring current nucleotide C at position 5
+partial kmer: CAGGACT with lb: 4 (Current best: 0)
+Pruning branch with kmer: CAGGAC
+Exploring current nucleotide G at position 5
+partial kmer: CAGGAGT with lb: 1 (Current best: 0)
+Pruning branch with kmer: CAGGAG
+Exploring current nucleotide T at position 5
+partial kmer: CAGGATT with lb: 5 (Current best: 0)
+Pruning branch with kmer: CAGGAT
+Exploring current nucleotide C at position 4
+partial kmer: CAGGCT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 5
+partial kmer: CAGGCAT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 6
+partial kmer: CAGGCAA with lb: 2 (Current best: 0)
+Pruning branch with kmer: CAGGCAA
+Exploring current nucleotide C at position 6
+partial kmer: CAGGCAC with lb: 2 (Current best: 0)
+Pruning branch with kmer: CAGGCAC
+Exploring current nucleotide G at position 6
+partial kmer: CAGGCAG with lb: 2 (Current best: 0)
+Pruning branch with kmer: CAGGCAG
+Exploring current nucleotide T at position 6
+partial kmer: CAGGCAT with lb: 0 (Current best: 0)
+evaluating kmer: CAGGCAT with distance: 0
+Exploring current nucleotide C at position 5
+partial kmer: CAGGCCT with lb: 2 (Current best: 0)
+Pruning branch with kmer: CAGGCC
+Exploring current nucleotide G at position 5
+partial kmer: CAGGCGT with lb: 5 (Current best: 0)
+Pruning branch with kmer: CAGGCG
+Exploring current nucleotide T at position 5
+partial kmer: CAGGCTT with lb: 2 (Current best: 0)
+Pruning branch with kmer: CAGGCT
+Exploring current nucleotide G at position 4
+partial kmer: CAGGGT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 5
+partial kmer: CAGGGAT with lb: 4 (Current best: 0)
+Pruning branch with kmer: CAGGGA
+Exploring current nucleotide C at position 5
+partial kmer: CAGGGCT with lb: 2 (Current best: 0)
+Pruning branch with kmer: CAGGGC
+Exploring current nucleotide G at position 5
+partial kmer: CAGGGGT with lb: 4 (Current best: 0)
+Pruning branch with kmer: CAGGGG
+Exploring current nucleotide T at position 5
+partial kmer: CAGGGTT with lb: 3 (Current best: 0)
+Pruning branch with kmer: CAGGGT
+Exploring current nucleotide T at position 4
+partial kmer: CAGGTT with lb: 1 (Current best: 0)
+Pruning branch with kmer: CAGGT
+Exploring current nucleotide T at position 3
+partial kmer: CAGTT with lb: 1 (Current best: 0)
+Pruning branch with kmer: CAGT
+Exploring current nucleotide T at position 2
+partial kmer: CATT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 3
+partial kmer: CATAT with lb: 2 (Current best: 0)
+Pruning branch with kmer: CATA
+Exploring current nucleotide C at position 3
+partial kmer: CATCT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 4
+partial kmer: CATCAT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 5
+partial kmer: CATCAAT with lb: 6 (Current best: 0)
+Pruning branch with kmer: CATCAA
+Exploring current nucleotide C at position 5
+partial kmer: CATCACT with lb: 5 (Current best: 0)
+Pruning branch with kmer: CATCAC
+Exploring current nucleotide G at position 5
+partial kmer: CATCAGT with lb: 3 (Current best: 0)
+Pruning branch with kmer: CATCAG
+Exploring current nucleotide T at position 5
+partial kmer: CATCATT with lb: 5 (Current best: 0)
+Pruning branch with kmer: CATCAT
+Exploring current nucleotide C at position 4
+partial kmer: CATCCT with lb: 1 (Current best: 0)
+Pruning branch with kmer: CATCC
+Exploring current nucleotide G at position 4
+partial kmer: CATCGT with lb: 2 (Current best: 0)
+Pruning branch with kmer: CATCG
+Exploring current nucleotide T at position 4
+partial kmer: CATCTT with lb: 2 (Current best: 0)
+Pruning branch with kmer: CATCT
+Exploring current nucleotide G at position 3
+partial kmer: CATGT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 4
+partial kmer: CATGAT with lb: 1 (Current best: 0)
+Pruning branch with kmer: CATGA
+Exploring current nucleotide C at position 4
+partial kmer: CATGCT with lb: 1 (Current best: 0)
+Pruning branch with kmer: CATGC
+Exploring current nucleotide G at position 4
+partial kmer: CATGGT with lb: 1 (Current best: 0)
+Pruning branch with kmer: CATGG
+Exploring current nucleotide T at position 4
+partial kmer: CATGTT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 5
+partial kmer: CATGTAT with lb: 4 (Current best: 0)
+Pruning branch with kmer: CATGTA
+Exploring current nucleotide C at position 5
+partial kmer: CATGTCT with lb: 3 (Current best: 0)
+Pruning branch with kmer: CATGTC
+Exploring current nucleotide G at position 5
+partial kmer: CATGTGT with lb: 6 (Current best: 0)
+Pruning branch with kmer: CATGTG
+Exploring current nucleotide T at position 5
+partial kmer: CATGTTT with lb: 4 (Current best: 0)
+Pruning branch with kmer: CATGTT
+Exploring current nucleotide T at position 3
+partial kmer: CATTT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 4
+partial kmer: CATTAT with lb: 4 (Current best: 0)
+Pruning branch with kmer: CATTA
+Exploring current nucleotide C at position 4
+partial kmer: CATTCT with lb: 2 (Current best: 0)
+Pruning branch with kmer: CATTC
+Exploring current nucleotide G at position 4
+partial kmer: CATTGT with lb: 1 (Current best: 0)
+Pruning branch with kmer: CATTG
+Exploring current nucleotide T at position 4
+partial kmer: CATTTT with lb: 1 (Current best: 0)
+Pruning branch with kmer: CATTT
+Exploring current nucleotide C at position 1
+partial kmer: CCT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 2
+partial kmer: CCAT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 3
+partial kmer: CCAAT with lb: 1 (Current best: 0)
+Pruning branch with kmer: CCAA
+Exploring current nucleotide C at position 3
+partial kmer: CCACT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 4
+partial kmer: CCACAT with lb: 1 (Current best: 0)
+Pruning branch with kmer: CCACA
+Exploring current nucleotide C at position 4
+partial kmer: CCACCT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 5
+partial kmer: CCACCAT with lb: 1 (Current best: 0)
+Pruning branch with kmer: CCACCA
+Exploring current nucleotide C at position 5
+partial kmer: CCACCCT with lb: 1 (Current best: 0)
+Pruning branch with kmer: CCACCC
+Exploring current nucleotide G at position 5
+partial kmer: CCACCGT with lb: 6 (Current best: 0)
+Pruning branch with kmer: CCACCG
+Exploring current nucleotide T at position 5
+partial kmer: CCACCTT with lb: 2 (Current best: 0)
+Pruning branch with kmer: CCACCT
+Exploring current nucleotide G at position 4
+partial kmer: CCACGT with lb: 2 (Current best: 0)
+Pruning branch with kmer: CCACG
+Exploring current nucleotide T at position 4
+partial kmer: CCACTT with lb: 2 (Current best: 0)
+Pruning branch with kmer: CCACT
+Exploring current nucleotide G at position 3
+partial kmer: CCAGT with lb: 1 (Current best: 0)
+Pruning branch with kmer: CCAG
+Exploring current nucleotide T at position 3
+partial kmer: CCATT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 4
+partial kmer: CCATAT with lb: 4 (Current best: 0)
+Pruning branch with kmer: CCATA
+Exploring current nucleotide C at position 4
+partial kmer: CCATCT with lb: 1 (Current best: 0)
+Pruning branch with kmer: CCATC
+Exploring current nucleotide G at position 4
+partial kmer: CCATGT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 5
+partial kmer: CCATGAT with lb: 5 (Current best: 0)
+Pruning branch with kmer: CCATGA
+Exploring current nucleotide C at position 5
+partial kmer: CCATGCT with lb: 3 (Current best: 0)
+Pruning branch with kmer: CCATGC
+Exploring current nucleotide G at position 5
+partial kmer: CCATGGT with lb: 3 (Current best: 0)
+Pruning branch with kmer: CCATGG
+Exploring current nucleotide T at position 5
+partial kmer: CCATGTT with lb: 1 (Current best: 0)
+Pruning branch with kmer: CCATGT
+Exploring current nucleotide T at position 4
+partial kmer: CCATTT with lb: 2 (Current best: 0)
+Pruning branch with kmer: CCATT
+Exploring current nucleotide C at position 2
+partial kmer: CCCT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 3
+partial kmer: CCCAT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 4
+partial kmer: CCCAAT with lb: 2 (Current best: 0)
+Pruning branch with kmer: CCCAA
+Exploring current nucleotide C at position 4
+partial kmer: CCCACT with lb: 1 (Current best: 0)
+Pruning branch with kmer: CCCAC
+Exploring current nucleotide G at position 4
+partial kmer: CCCAGT with lb: 1 (Current best: 0)
+Pruning branch with kmer: CCCAG
+Exploring current nucleotide T at position 4
+partial kmer: CCCATT with lb: 2 (Current best: 0)
+Pruning branch with kmer: CCCAT
+Exploring current nucleotide C at position 3
+partial kmer: CCCCT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 4
+partial kmer: CCCCAT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 5
+partial kmer: CCCCAAT with lb: 5 (Current best: 0)
+Pruning branch with kmer: CCCCAA
+Exploring current nucleotide C at position 5
+partial kmer: CCCCACT with lb: 4 (Current best: 0)
+Pruning branch with kmer: CCCCAC
+Exploring current nucleotide G at position 5
+partial kmer: CCCCAGT with lb: 3 (Current best: 0)
+Pruning branch with kmer: CCCCAG
+Exploring current nucleotide T at position 5
+partial kmer: CCCCATT with lb: 3 (Current best: 0)
+Pruning branch with kmer: CCCCAT
+Exploring current nucleotide C at position 4
+partial kmer: CCCCCT with lb: 1 (Current best: 0)
+Pruning branch with kmer: CCCCC
+Exploring current nucleotide G at position 4
+partial kmer: CCCCGT with lb: 1 (Current best: 0)
+Pruning branch with kmer: CCCCG
+Exploring current nucleotide T at position 4
+partial kmer: CCCCTT with lb: 2 (Current best: 0)
+Pruning branch with kmer: CCCCT
+Exploring current nucleotide G at position 3
+partial kmer: CCCGT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 4
+partial kmer: CCCGAT with lb: 7 (Current best: 0)
+Pruning branch with kmer: CCCGA
+Exploring current nucleotide C at position 4
+partial kmer: CCCGCT with lb: 1 (Current best: 0)
+Pruning branch with kmer: CCCGC
+Exploring current nucleotide G at position 4
+partial kmer: CCCGGT with lb: 1 (Current best: 0)
+Pruning branch with kmer: CCCGG
+Exploring current nucleotide T at position 4
+partial kmer: CCCGTT with lb: 2 (Current best: 0)
+Pruning branch with kmer: CCCGT
+Exploring current nucleotide T at position 3
+partial kmer: CCCTT with lb: 1 (Current best: 0)
+Pruning branch with kmer: CCCT
+Exploring current nucleotide G at position 2
+partial kmer: CCGT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 3
+partial kmer: CCGAT with lb: 1 (Current best: 0)
+Pruning branch with kmer: CCGA
+Exploring current nucleotide C at position 3
+partial kmer: CCGCT with lb: 1 (Current best: 0)
+Pruning branch with kmer: CCGC
+Exploring current nucleotide G at position 3
+partial kmer: CCGGT with lb: 1 (Current best: 0)
+Pruning branch with kmer: CCGG
+Exploring current nucleotide T at position 3
+partial kmer: CCGTT with lb: 1 (Current best: 0)
+Pruning branch with kmer: CCGT
+Exploring current nucleotide T at position 2
+partial kmer: CCTT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 3
+partial kmer: CCTAT with lb: 2 (Current best: 0)
+Pruning branch with kmer: CCTA
+Exploring current nucleotide C at position 3
+partial kmer: CCTCT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 4
+partial kmer: CCTCAT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 5
+partial kmer: CCTCAAT with lb: 9 (Current best: 0)
+Pruning branch with kmer: CCTCAA
+Exploring current nucleotide C at position 5
+partial kmer: CCTCACT with lb: 3 (Current best: 0)
+Pruning branch with kmer: CCTCAC
+Exploring current nucleotide G at position 5
+partial kmer: CCTCAGT with lb: 3 (Current best: 0)
+Pruning branch with kmer: CCTCAG
+Exploring current nucleotide T at position 5
+partial kmer: CCTCATT with lb: 5 (Current best: 0)
+Pruning branch with kmer: CCTCAT
+Exploring current nucleotide C at position 4
+partial kmer: CCTCCT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 5
+partial kmer: CCTCCAT with lb: 5 (Current best: 0)
+Pruning branch with kmer: CCTCCA
+Exploring current nucleotide C at position 5
+partial kmer: CCTCCCT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 6
+partial kmer: CCTCCCA with lb: 0 (Current best: 0)
+evaluating kmer: CCTCCCA with distance: 0
+Exploring current nucleotide C at position 6
+partial kmer: CCTCCCC with lb: 2 (Current best: 0)
+Pruning branch with kmer: CCTCCCC
+Exploring current nucleotide G at position 6
+partial kmer: CCTCCCG with lb: 0 (Current best: 0)
+evaluating kmer: CCTCCCG with distance: 0
+Exploring current nucleotide T at position 6
+partial kmer: CCTCCCT with lb: 0 (Current best: 0)
+evaluating kmer: CCTCCCT with distance: 0
+Exploring current nucleotide G at position 5
+partial kmer: CCTCCGT with lb: 5 (Current best: 0)
+Pruning branch with kmer: CCTCCG
+Exploring current nucleotide T at position 5
+partial kmer: CCTCCTT with lb: 3 (Current best: 0)
+Pruning branch with kmer: CCTCCT
+Exploring current nucleotide G at position 4
+partial kmer: CCTCGT with lb: 3 (Current best: 0)
+Pruning branch with kmer: CCTCG
+Exploring current nucleotide T at position 4
+partial kmer: CCTCTT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 5
+partial kmer: CCTCTAT with lb: 9 (Current best: 0)
+Pruning branch with kmer: CCTCTA
+Exploring current nucleotide C at position 5
+partial kmer: CCTCTCT with lb: 2 (Current best: 0)
+Pruning branch with kmer: CCTCTC
+Exploring current nucleotide G at position 5
+partial kmer: CCTCTGT with lb: 3 (Current best: 0)
+Pruning branch with kmer: CCTCTG
+Exploring current nucleotide T at position 5
+partial kmer: CCTCTTT with lb: 5 (Current best: 0)
+Pruning branch with kmer: CCTCTT
+Exploring current nucleotide G at position 3
+partial kmer: CCTGT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 4
+partial kmer: CCTGAT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 5
+partial kmer: CCTGAAT with lb: 5 (Current best: 0)
+Pruning branch with kmer: CCTGAA
+Exploring current nucleotide C at position 5
+partial kmer: CCTGACT with lb: 5 (Current best: 0)
+Pruning branch with kmer: CCTGAC
+Exploring current nucleotide G at position 5
+partial kmer: CCTGAGT with lb: 2 (Current best: 0)
+Pruning branch with kmer: CCTGAG
+Exploring current nucleotide T at position 5
+partial kmer: CCTGATT with lb: 4 (Current best: 0)
+Pruning branch with kmer: CCTGAT
+Exploring current nucleotide C at position 4
+partial kmer: CCTGCT with lb: 1 (Current best: 0)
+Pruning branch with kmer: CCTGC
+Exploring current nucleotide G at position 4
+partial kmer: CCTGGT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 5
+partial kmer: CCTGGAT with lb: 2 (Current best: 0)
+Pruning branch with kmer: CCTGGA
+Exploring current nucleotide C at position 5
+partial kmer: CCTGGCT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 6
+partial kmer: CCTGGCA with lb: 2 (Current best: 0)
+Pruning branch with kmer: CCTGGCA
+Exploring current nucleotide C at position 6
+partial kmer: CCTGGCC with lb: 1 (Current best: 0)
+Pruning branch with kmer: CCTGGCC
+Exploring current nucleotide G at position 6
+partial kmer: CCTGGCG with lb: 3 (Current best: 0)
+Pruning branch with kmer: CCTGGCG
+Exploring current nucleotide T at position 6
+partial kmer: CCTGGCT with lb: 0 (Current best: 0)
+evaluating kmer: CCTGGCT with distance: 0
+Exploring current nucleotide G at position 5
+partial kmer: CCTGGGT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 6
+partial kmer: CCTGGGA with lb: 2 (Current best: 0)
+Pruning branch with kmer: CCTGGGA
+Exploring current nucleotide C at position 6
+partial kmer: CCTGGGC with lb: 0 (Current best: 0)
+evaluating kmer: CCTGGGC with distance: 0
+Exploring current nucleotide G at position 6
+partial kmer: CCTGGGG with lb: 2 (Current best: 0)
+Pruning branch with kmer: CCTGGGG
+Exploring current nucleotide T at position 6
+partial kmer: CCTGGGT with lb: 0 (Current best: 0)
+evaluating kmer: CCTGGGT with distance: 0
+Exploring current nucleotide T at position 5
+partial kmer: CCTGGTT with lb: 2 (Current best: 0)
+Pruning branch with kmer: CCTGGT
+Exploring current nucleotide T at position 4
+partial kmer: CCTGTT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 5
+partial kmer: CCTGTAT with lb: 7 (Current best: 0)
+Pruning branch with kmer: CCTGTA
+Exploring current nucleotide C at position 5
+partial kmer: CCTGTCT with lb: 3 (Current best: 0)
+Pruning branch with kmer: CCTGTC
+Exploring current nucleotide G at position 5
+partial kmer: CCTGTGT with lb: 2 (Current best: 0)
+Pruning branch with kmer: CCTGTG
+Exploring current nucleotide T at position 5
+partial kmer: CCTGTTT with lb: 3 (Current best: 0)
+Pruning branch with kmer: CCTGTT
+Exploring current nucleotide T at position 3
+partial kmer: CCTTT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 4
+partial kmer: CCTTAT with lb: 5 (Current best: 0)
+Pruning branch with kmer: CCTTA
+Exploring current nucleotide C at position 4
+partial kmer: CCTTCT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 5
+partial kmer: CCTTCAT with lb: 4 (Current best: 0)
+Pruning branch with kmer: CCTTCA
+Exploring current nucleotide C at position 5
+partial kmer: CCTTCCT with lb: 1 (Current best: 0)
+Pruning branch with kmer: CCTTCC
+Exploring current nucleotide G at position 5
+partial kmer: CCTTCGT with lb: 8 (Current best: 0)
+Pruning branch with kmer: CCTTCG
+Exploring current nucleotide T at position 5
+partial kmer: CCTTCTT with lb: 4 (Current best: 0)
+Pruning branch with kmer: CCTTCT
+Exploring current nucleotide G at position 4
+partial kmer: CCTTGT with lb: 1 (Current best: 0)
+Pruning branch with kmer: CCTTG
+Exploring current nucleotide T at position 4
+partial kmer: CCTTTT with lb: 1 (Current best: 0)
+Pruning branch with kmer: CCTTT
+Exploring current nucleotide G at position 1
+partial kmer: CGT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 2
+partial kmer: CGAT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 3
+partial kmer: CGAAT with lb: 2 (Current best: 0)
+Pruning branch with kmer: CGAA
+Exploring current nucleotide C at position 3
+partial kmer: CGACT with lb: 1 (Current best: 0)
+Pruning branch with kmer: CGAC
+Exploring current nucleotide G at position 3
+partial kmer: CGAGT with lb: 1 (Current best: 0)
+Pruning branch with kmer: CGAG
+Exploring current nucleotide T at position 3
+partial kmer: CGATT with lb: 2 (Current best: 0)
+Pruning branch with kmer: CGAT
+Exploring current nucleotide C at position 2
+partial kmer: CGCT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 3
+partial kmer: CGCAT with lb: 2 (Current best: 0)
+Pruning branch with kmer: CGCA
+Exploring current nucleotide C at position 3
+partial kmer: CGCCT with lb: 1 (Current best: 0)
+Pruning branch with kmer: CGCC
+Exploring current nucleotide G at position 3
+partial kmer: CGCGT with lb: 2 (Current best: 0)
+Pruning branch with kmer: CGCG
+Exploring current nucleotide T at position 3
+partial kmer: CGCTT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 4
+partial kmer: CGCTAT with lb: 7 (Current best: 0)
+Pruning branch with kmer: CGCTA
+Exploring current nucleotide C at position 4
+partial kmer: CGCTCT with lb: 3 (Current best: 0)
+Pruning branch with kmer: CGCTC
+Exploring current nucleotide G at position 4
+partial kmer: CGCTGT with lb: 2 (Current best: 0)
+Pruning branch with kmer: CGCTG
+Exploring current nucleotide T at position 4
+partial kmer: CGCTTT with lb: 6 (Current best: 0)
+Pruning branch with kmer: CGCTT
+Exploring current nucleotide G at position 2
+partial kmer: CGGT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 3
+partial kmer: CGGAT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 4
+partial kmer: CGGAAT with lb: 7 (Current best: 0)
+Pruning branch with kmer: CGGAA
+Exploring current nucleotide C at position 4
+partial kmer: CGGACT with lb: 6 (Current best: 0)
+Pruning branch with kmer: CGGAC
+Exploring current nucleotide G at position 4
+partial kmer: CGGAGT with lb: 1 (Current best: 0)
+Pruning branch with kmer: CGGAG
+Exploring current nucleotide T at position 4
+partial kmer: CGGATT with lb: 4 (Current best: 0)
+Pruning branch with kmer: CGGAT
+Exploring current nucleotide C at position 3
+partial kmer: CGGCT with lb: 1 (Current best: 0)
+Pruning branch with kmer: CGGC
+Exploring current nucleotide G at position 3
+partial kmer: CGGGT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 4
+partial kmer: CGGGAT with lb: 3 (Current best: 0)
+Pruning branch with kmer: CGGGA
+Exploring current nucleotide C at position 4
+partial kmer: CGGGCT with lb: 2 (Current best: 0)
+Pruning branch with kmer: CGGGC
+Exploring current nucleotide G at position 4
+partial kmer: CGGGGT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 5
+partial kmer: CGGGGAT with lb: 5 (Current best: 0)
+Pruning branch with kmer: CGGGGA
+Exploring current nucleotide C at position 5
+partial kmer: CGGGGCT with lb: 3 (Current best: 0)
+Pruning branch with kmer: CGGGGC
+Exploring current nucleotide G at position 5
+partial kmer: CGGGGGT with lb: 5 (Current best: 0)
+Pruning branch with kmer: CGGGGG
+Exploring current nucleotide T at position 5
+partial kmer: CGGGGTT with lb: 3 (Current best: 0)
+Pruning branch with kmer: CGGGGT
+Exploring current nucleotide T at position 4
+partial kmer: CGGGTT with lb: 2 (Current best: 0)
+Pruning branch with kmer: CGGGT
+Exploring current nucleotide T at position 3
+partial kmer: CGGTT with lb: 1 (Current best: 0)
+Pruning branch with kmer: CGGT
+Exploring current nucleotide T at position 2
+partial kmer: CGTT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 3
+partial kmer: CGTAT with lb: 4 (Current best: 0)
+Pruning branch with kmer: CGTA
+Exploring current nucleotide C at position 3
+partial kmer: CGTCT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 4
+partial kmer: CGTCAT with lb: 5 (Current best: 0)
+Pruning branch with kmer: CGTCA
+Exploring current nucleotide C at position 4
+partial kmer: CGTCCT with lb: 3 (Current best: 0)
+Pruning branch with kmer: CGTCC
+Exploring current nucleotide G at position 4
+partial kmer: CGTCGT with lb: 4 (Current best: 0)
+Pruning branch with kmer: CGTCG
+Exploring current nucleotide T at position 4
+partial kmer: CGTCTT with lb: 5 (Current best: 0)
+Pruning branch with kmer: CGTCT
+Exploring current nucleotide G at position 3
+partial kmer: CGTGT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 4
+partial kmer: CGTGAT with lb: 5 (Current best: 0)
+Pruning branch with kmer: CGTGA
+Exploring current nucleotide C at position 4
+partial kmer: CGTGCT with lb: 3 (Current best: 0)
+Pruning branch with kmer: CGTGC
+Exploring current nucleotide G at position 4
+partial kmer: CGTGGT with lb: 2 (Current best: 0)
+Pruning branch with kmer: CGTGG
+Exploring current nucleotide T at position 4
+partial kmer: CGTGTT with lb: 4 (Current best: 0)
+Pruning branch with kmer: CGTGT
+Exploring current nucleotide T at position 3
+partial kmer: CGTTT with lb: 1 (Current best: 0)
+Pruning branch with kmer: CGTT
+Exploring current nucleotide T at position 1
+partial kmer: CTT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 2
+partial kmer: CTAT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 3
+partial kmer: CTAAT with lb: 1 (Current best: 0)
+Pruning branch with kmer: CTAA
+Exploring current nucleotide C at position 3
+partial kmer: CTACT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 4
+partial kmer: CTACAT with lb: 3 (Current best: 0)
+Pruning branch with kmer: CTACA
+Exploring current nucleotide C at position 4
+partial kmer: CTACCT with lb: 2 (Current best: 0)
+Pruning branch with kmer: CTACC
+Exploring current nucleotide G at position 4
+partial kmer: CTACGT with lb: 4 (Current best: 0)
+Pruning branch with kmer: CTACG
+Exploring current nucleotide T at position 4
+partial kmer: CTACTT with lb: 2 (Current best: 0)
+Pruning branch with kmer: CTACT
+Exploring current nucleotide G at position 3
+partial kmer: CTAGT with lb: 1 (Current best: 0)
+Pruning branch with kmer: CTAG
+Exploring current nucleotide T at position 3
+partial kmer: CTATT with lb: 1 (Current best: 0)
+Pruning branch with kmer: CTAT
+Exploring current nucleotide C at position 2
+partial kmer: CTCT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 3
+partial kmer: CTCAT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 4
+partial kmer: CTCAAT with lb: 4 (Current best: 0)
+Pruning branch with kmer: CTCAA
+Exploring current nucleotide C at position 4
+partial kmer: CTCACT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 5
+partial kmer: CTCACAT with lb: 4 (Current best: 0)
+Pruning branch with kmer: CTCACA
+Exploring current nucleotide C at position 5
+partial kmer: CTCACCT with lb: 2 (Current best: 0)
+Pruning branch with kmer: CTCACC
+Exploring current nucleotide G at position 5
+partial kmer: CTCACGT with lb: 5 (Current best: 0)
+Pruning branch with kmer: CTCACG
+Exploring current nucleotide T at position 5
+partial kmer: CTCACTT with lb: 6 (Current best: 0)
+Pruning branch with kmer: CTCACT
+Exploring current nucleotide G at position 4
+partial kmer: CTCAGT with lb: 2 (Current best: 0)
+Pruning branch with kmer: CTCAG
+Exploring current nucleotide T at position 4
+partial kmer: CTCATT with lb: 4 (Current best: 0)
+Pruning branch with kmer: CTCAT
+Exploring current nucleotide C at position 3
+partial kmer: CTCCT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 4
+partial kmer: CTCCAT with lb: 1 (Current best: 0)
+Pruning branch with kmer: CTCCA
+Exploring current nucleotide C at position 4
+partial kmer: CTCCCT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 5
+partial kmer: CTCCCAT with lb: 2 (Current best: 0)
+Pruning branch with kmer: CTCCCA
+Exploring current nucleotide C at position 5
+partial kmer: CTCCCCT with lb: 1 (Current best: 0)
+Pruning branch with kmer: CTCCCC
+Exploring current nucleotide G at position 5
+partial kmer: CTCCCGT with lb: 5 (Current best: 0)
+Pruning branch with kmer: CTCCCG
+Exploring current nucleotide T at position 5
+partial kmer: CTCCCTT with lb: 3 (Current best: 0)
+Pruning branch with kmer: CTCCCT
+Exploring current nucleotide G at position 4
+partial kmer: CTCCGT with lb: 2 (Current best: 0)
+Pruning branch with kmer: CTCCG
+Exploring current nucleotide T at position 4
+partial kmer: CTCCTT with lb: 1 (Current best: 0)
+Pruning branch with kmer: CTCCT
+Exploring current nucleotide G at position 3
+partial kmer: CTCGT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 4
+partial kmer: CTCGAT with lb: 3 (Current best: 0)
+Pruning branch with kmer: CTCGA
+Exploring current nucleotide C at position 4
+partial kmer: CTCGCT with lb: 2 (Current best: 0)
+Pruning branch with kmer: CTCGC
+Exploring current nucleotide G at position 4
+partial kmer: CTCGGT with lb: 2 (Current best: 0)
+Pruning branch with kmer: CTCGG
+Exploring current nucleotide T at position 4
+partial kmer: CTCGTT with lb: 4 (Current best: 0)
+Pruning branch with kmer: CTCGT
+Exploring current nucleotide T at position 3
+partial kmer: CTCTT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 4
+partial kmer: CTCTAT with lb: 5 (Current best: 0)
+Pruning branch with kmer: CTCTA
+Exploring current nucleotide C at position 4
+partial kmer: CTCTCT with lb: 2 (Current best: 0)
+Pruning branch with kmer: CTCTC
+Exploring current nucleotide G at position 4
+partial kmer: CTCTGT with lb: 1 (Current best: 0)
+Pruning branch with kmer: CTCTG
+Exploring current nucleotide T at position 4
+partial kmer: CTCTTT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 5
+partial kmer: CTCTTAT with lb: 8 (Current best: 0)
+Pruning branch with kmer: CTCTTA
+Exploring current nucleotide C at position 5
+partial kmer: CTCTTCT with lb: 4 (Current best: 0)
+Pruning branch with kmer: CTCTTC
+Exploring current nucleotide G at position 5
+partial kmer: CTCTTGT with lb: 3 (Current best: 0)
+Pruning branch with kmer: CTCTTG
+Exploring current nucleotide T at position 5
+partial kmer: CTCTTTT with lb: 6 (Current best: 0)
+Pruning branch with kmer: CTCTTT
+Exploring current nucleotide G at position 2
+partial kmer: CTGT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 3
+partial kmer: CTGAT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 4
+partial kmer: CTGAAT with lb: 4 (Current best: 0)
+Pruning branch with kmer: CTGAA
+Exploring current nucleotide C at position 4
+partial kmer: CTGACT with lb: 1 (Current best: 0)
+Pruning branch with kmer: CTGAC
+Exploring current nucleotide G at position 4
+partial kmer: CTGAGT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 5
+partial kmer: CTGAGAT with lb: 3 (Current best: 0)
+Pruning branch with kmer: CTGAGA
+Exploring current nucleotide C at position 5
+partial kmer: CTGAGCT with lb: 4 (Current best: 0)
+Pruning branch with kmer: CTGAGC
+Exploring current nucleotide G at position 5
+partial kmer: CTGAGGT with lb: 1 (Current best: 0)
+Pruning branch with kmer: CTGAGG
+Exploring current nucleotide T at position 5
+partial kmer: CTGAGTT with lb: 6 (Current best: 0)
+Pruning branch with kmer: CTGAGT
+Exploring current nucleotide T at position 4
+partial kmer: CTGATT with lb: 2 (Current best: 0)
+Pruning branch with kmer: CTGAT
+Exploring current nucleotide C at position 3
+partial kmer: CTGCT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 4
+partial kmer: CTGCAT with lb: 3 (Current best: 0)
+Pruning branch with kmer: CTGCA
+Exploring current nucleotide C at position 4
+partial kmer: CTGCCT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 5
+partial kmer: CTGCCAT with lb: 3 (Current best: 0)
+Pruning branch with kmer: CTGCCA
+Exploring current nucleotide C at position 5
+partial kmer: CTGCCCT with lb: 2 (Current best: 0)
+Pruning branch with kmer: CTGCCC
+Exploring current nucleotide G at position 5
+partial kmer: CTGCCGT with lb: 4 (Current best: 0)
+Pruning branch with kmer: CTGCCG
+Exploring current nucleotide T at position 5
+partial kmer: CTGCCTT with lb: 1 (Current best: 0)
+Pruning branch with kmer: CTGCCT
+Exploring current nucleotide G at position 4
+partial kmer: CTGCGT with lb: 2 (Current best: 0)
+Pruning branch with kmer: CTGCG
+Exploring current nucleotide T at position 4
+partial kmer: CTGCTT with lb: 1 (Current best: 0)
+Pruning branch with kmer: CTGCT
+Exploring current nucleotide G at position 3
+partial kmer: CTGGT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 4
+partial kmer: CTGGAT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 5
+partial kmer: CTGGAAT with lb: 1 (Current best: 0)
+Pruning branch with kmer: CTGGAA
+Exploring current nucleotide C at position 5
+partial kmer: CTGGACT with lb: 3 (Current best: 0)
+Pruning branch with kmer: CTGGAC
+Exploring current nucleotide G at position 5
+partial kmer: CTGGAGT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 6
+partial kmer: CTGGAGA with lb: 1 (Current best: 0)
+Pruning branch with kmer: CTGGAGA
+Exploring current nucleotide C at position 6
+partial kmer: CTGGAGC with lb: 0 (Current best: 0)
+evaluating kmer: CTGGAGC with distance: 0
+Exploring current nucleotide G at position 6
+partial kmer: CTGGAGG with lb: 1 (Current best: 0)
+Pruning branch with kmer: CTGGAGG
+Exploring current nucleotide T at position 6
+partial kmer: CTGGAGT with lb: 0 (Current best: 0)
+evaluating kmer: CTGGAGT with distance: 0
+Exploring current nucleotide T at position 5
+partial kmer: CTGGATT with lb: 5 (Current best: 0)
+Pruning branch with kmer: CTGGAT
+Exploring current nucleotide C at position 4
+partial kmer: CTGGCT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 5
+partial kmer: CTGGCAT with lb: 5 (Current best: 0)
+Pruning branch with kmer: CTGGCA
+Exploring current nucleotide C at position 5
+partial kmer: CTGGCCT with lb: 2 (Current best: 0)
+Pruning branch with kmer: CTGGCC
+Exploring current nucleotide G at position 5
+partial kmer: CTGGCGT with lb: 4 (Current best: 0)
+Pruning branch with kmer: CTGGCG
+Exploring current nucleotide T at position 5
+partial kmer: CTGGCTT with lb: 2 (Current best: 0)
+Pruning branch with kmer: CTGGCT
+Exploring current nucleotide G at position 4
+partial kmer: CTGGGT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 5
+partial kmer: CTGGGAT with lb: 2 (Current best: 0)
+Pruning branch with kmer: CTGGGA
+Exploring current nucleotide C at position 5
+partial kmer: CTGGGCT with lb: 2 (Current best: 0)
+Pruning branch with kmer: CTGGGC
+Exploring current nucleotide G at position 5
+partial kmer: CTGGGGT with lb: 1 (Current best: 0)
+Pruning branch with kmer: CTGGGG
+Exploring current nucleotide T at position 5
+partial kmer: CTGGGTT with lb: 3 (Current best: 0)
+Pruning branch with kmer: CTGGGT
+Exploring current nucleotide T at position 4
+partial kmer: CTGGTT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 5
+partial kmer: CTGGTAT with lb: 3 (Current best: 0)
+Pruning branch with kmer: CTGGTA
+Exploring current nucleotide C at position 5
+partial kmer: CTGGTCT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 6
+partial kmer: CTGGTCA with lb: 5 (Current best: 0)
+Pruning branch with kmer: CTGGTCA
+Exploring current nucleotide C at position 6
+partial kmer: CTGGTCC with lb: 2 (Current best: 0)
+Pruning branch with kmer: CTGGTCC
+Exploring current nucleotide G at position 6
+partial kmer: CTGGTCG with lb: 7 (Current best: 0)
+Pruning branch with kmer: CTGGTCG
+Exploring current nucleotide T at position 6
+partial kmer: CTGGTCT with lb: 0 (Current best: 0)
+evaluating kmer: CTGGTCT with distance: 0
+Exploring current nucleotide G at position 5
+partial kmer: CTGGTGT with lb: 1 (Current best: 0)
+Pruning branch with kmer: CTGGTG
+Exploring current nucleotide T at position 5
+partial kmer: CTGGTTT with lb: 5 (Current best: 0)
+Pruning branch with kmer: CTGGTT
+Exploring current nucleotide T at position 3
+partial kmer: CTGTT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 4
+partial kmer: CTGTAT with lb: 4 (Current best: 0)
+Pruning branch with kmer: CTGTA
+Exploring current nucleotide C at position 4
+partial kmer: CTGTCT with lb: 1 (Current best: 0)
+Pruning branch with kmer: CTGTC
+Exploring current nucleotide G at position 4
+partial kmer: CTGTGT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 5
+partial kmer: CTGTGAT with lb: 3 (Current best: 0)
+Pruning branch with kmer: CTGTGA
+Exploring current nucleotide C at position 5
+partial kmer: CTGTGCT with lb: 2 (Current best: 0)
+Pruning branch with kmer: CTGTGC
+Exploring current nucleotide G at position 5
+partial kmer: CTGTGGT with lb: 1 (Current best: 0)
+Pruning branch with kmer: CTGTGG
+Exploring current nucleotide T at position 5
+partial kmer: CTGTGTT with lb: 2 (Current best: 0)
+Pruning branch with kmer: CTGTGT
+Exploring current nucleotide T at position 4
+partial kmer: CTGTTT with lb: 2 (Current best: 0)
+Pruning branch with kmer: CTGTT
+Exploring current nucleotide T at position 2
+partial kmer: CTTT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 3
+partial kmer: CTTAT with lb: 1 (Current best: 0)
+Pruning branch with kmer: CTTA
+Exploring current nucleotide C at position 3
+partial kmer: CTTCT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 4
+partial kmer: CTTCAT with lb: 3 (Current best: 0)
+Pruning branch with kmer: CTTCA
+Exploring current nucleotide C at position 4
+partial kmer: CTTCCT with lb: 1 (Current best: 0)
+Pruning branch with kmer: CTTCC
+Exploring current nucleotide G at position 4
+partial kmer: CTTCGT with lb: 6 (Current best: 0)
+Pruning branch with kmer: CTTCG
+Exploring current nucleotide T at position 4
+partial kmer: CTTCTT with lb: 2 (Current best: 0)
+Pruning branch with kmer: CTTCT
+Exploring current nucleotide G at position 3
+partial kmer: CTTGT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 4
+partial kmer: CTTGAT with lb: 4 (Current best: 0)
+Pruning branch with kmer: CTTGA
+Exploring current nucleotide C at position 4
+partial kmer: CTTGCT with lb: 1 (Current best: 0)
+Pruning branch with kmer: CTTGC
+Exploring current nucleotide G at position 4
+partial kmer: CTTGGT with lb: 2 (Current best: 0)
+Pruning branch with kmer: CTTGG
+Exploring current nucleotide T at position 4
+partial kmer: CTTGTT with lb: 2 (Current best: 0)
+Pruning branch with kmer: CTTGT
+Exploring current nucleotide T at position 3
+partial kmer: CTTTT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 4
+partial kmer: CTTTAT with lb: 1 (Current best: 0)
+Pruning branch with kmer: CTTTA
+Exploring current nucleotide C at position 4
+partial kmer: CTTTCT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 5
+partial kmer: CTTTCAT with lb: 7 (Current best: 0)
+Pruning branch with kmer: CTTTCA
+Exploring current nucleotide C at position 5
+partial kmer: CTTTCCT with lb: 2 (Current best: 0)
+Pruning branch with kmer: CTTTCC
+Exploring current nucleotide G at position 5
+partial kmer: CTTTCGT with lb: 6 (Current best: 0)
+Pruning branch with kmer: CTTTCG
+Exploring current nucleotide T at position 5
+partial kmer: CTTTCTT with lb: 4 (Current best: 0)
+Pruning branch with kmer: CTTTCT
+Exploring current nucleotide G at position 4
+partial kmer: CTTTGT with lb: 2 (Current best: 0)
+Pruning branch with kmer: CTTTG
+Exploring current nucleotide T at position 4
+partial kmer: CTTTTT with lb: 1 (Current best: 0)
+Pruning branch with kmer: CTTTT
+Exploring current nucleotide G at position 0
+partial kmer: GT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 1
+partial kmer: GAT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 2
+partial kmer: GAAT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 3
+partial kmer: GAAAT with lb: 1 (Current best: 0)
+Pruning branch with kmer: GAAA
+Exploring current nucleotide C at position 3
+partial kmer: GAACT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 4
+partial kmer: GAACAT with lb: 1 (Current best: 0)
+Pruning branch with kmer: GAACA
+Exploring current nucleotide C at position 4
+partial kmer: GAACCT with lb: 1 (Current best: 0)
+Pruning branch with kmer: GAACC
+Exploring current nucleotide G at position 4
+partial kmer: GAACGT with lb: 5 (Current best: 0)
+Pruning branch with kmer: GAACG
+Exploring current nucleotide T at position 4
+partial kmer: GAACTT with lb: 4 (Current best: 0)
+Pruning branch with kmer: GAACT
+Exploring current nucleotide G at position 3
+partial kmer: GAAGT with lb: 1 (Current best: 0)
+Pruning branch with kmer: GAAG
+Exploring current nucleotide T at position 3
+partial kmer: GAATT with lb: 1 (Current best: 0)
+Pruning branch with kmer: GAAT
+Exploring current nucleotide C at position 2
+partial kmer: GACT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 3
+partial kmer: GACAT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 4
+partial kmer: GACAAT with lb: 3 (Current best: 0)
+Pruning branch with kmer: GACAA
+Exploring current nucleotide C at position 4
+partial kmer: GACACT with lb: 2 (Current best: 0)
+Pruning branch with kmer: GACAC
+Exploring current nucleotide G at position 4
+partial kmer: GACAGT with lb: 1 (Current best: 0)
+Pruning branch with kmer: GACAG
+Exploring current nucleotide T at position 4
+partial kmer: GACATT with lb: 1 (Current best: 0)
+Pruning branch with kmer: GACAT
+Exploring current nucleotide C at position 3
+partial kmer: GACCT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 4
+partial kmer: GACCAT with lb: 1 (Current best: 0)
+Pruning branch with kmer: GACCA
+Exploring current nucleotide C at position 4
+partial kmer: GACCCT with lb: 1 (Current best: 0)
+Pruning branch with kmer: GACCC
+Exploring current nucleotide G at position 4
+partial kmer: GACCGT with lb: 5 (Current best: 0)
+Pruning branch with kmer: GACCG
+Exploring current nucleotide T at position 4
+partial kmer: GACCTT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 5
+partial kmer: GACCTAT with lb: 5 (Current best: 0)
+Pruning branch with kmer: GACCTA
+Exploring current nucleotide C at position 5
+partial kmer: GACCTCT with lb: 3 (Current best: 0)
+Pruning branch with kmer: GACCTC
+Exploring current nucleotide G at position 5
+partial kmer: GACCTGT with lb: 4 (Current best: 0)
+Pruning branch with kmer: GACCTG
+Exploring current nucleotide T at position 5
+partial kmer: GACCTTT with lb: 2 (Current best: 0)
+Pruning branch with kmer: GACCTT
+Exploring current nucleotide G at position 3
+partial kmer: GACGT with lb: 2 (Current best: 0)
+Pruning branch with kmer: GACG
+Exploring current nucleotide T at position 3
+partial kmer: GACTT with lb: 1 (Current best: 0)
+Pruning branch with kmer: GACT
+Exploring current nucleotide G at position 2
+partial kmer: GAGT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 3
+partial kmer: GAGAT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 4
+partial kmer: GAGAAT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 5
+partial kmer: GAGAAAT with lb: 4 (Current best: 0)
+Pruning branch with kmer: GAGAAA
+Exploring current nucleotide C at position 5
+partial kmer: GAGAACT with lb: 3 (Current best: 0)
+Pruning branch with kmer: GAGAAC
+Exploring current nucleotide G at position 5
+partial kmer: GAGAAGT with lb: 3 (Current best: 0)
+Pruning branch with kmer: GAGAAG
+Exploring current nucleotide T at position 5
+partial kmer: GAGAATT with lb: 3 (Current best: 0)
+Pruning branch with kmer: GAGAAT
+Exploring current nucleotide C at position 4
+partial kmer: GAGACT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 5
+partial kmer: GAGACAT with lb: 5 (Current best: 0)
+Pruning branch with kmer: GAGACA
+Exploring current nucleotide C at position 5
+partial kmer: GAGACCT with lb: 3 (Current best: 0)
+Pruning branch with kmer: GAGACC
+Exploring current nucleotide G at position 5
+partial kmer: GAGACGT with lb: 5 (Current best: 0)
+Pruning branch with kmer: GAGACG
+Exploring current nucleotide T at position 5
+partial kmer: GAGACTT with lb: 2 (Current best: 0)
+Pruning branch with kmer: GAGACT
+Exploring current nucleotide G at position 4
+partial kmer: GAGAGT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 5
+partial kmer: GAGAGAT with lb: 7 (Current best: 0)
+Pruning branch with kmer: GAGAGA
+Exploring current nucleotide C at position 5
+partial kmer: GAGAGCT with lb: 3 (Current best: 0)
+Pruning branch with kmer: GAGAGC
+Exploring current nucleotide G at position 5
+partial kmer: GAGAGGT with lb: 3 (Current best: 0)
+Pruning branch with kmer: GAGAGG
+Exploring current nucleotide T at position 5
+partial kmer: GAGAGTT with lb: 5 (Current best: 0)
+Pruning branch with kmer: GAGAGT
+Exploring current nucleotide T at position 4
+partial kmer: GAGATT with lb: 2 (Current best: 0)
+Pruning branch with kmer: GAGAT
+Exploring current nucleotide C at position 3
+partial kmer: GAGCT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 4
+partial kmer: GAGCAT with lb: 1 (Current best: 0)
+Pruning branch with kmer: GAGCA
+Exploring current nucleotide C at position 4
+partial kmer: GAGCCT with lb: 1 (Current best: 0)
+Pruning branch with kmer: GAGCC
+Exploring current nucleotide G at position 4
+partial kmer: GAGCGT with lb: 5 (Current best: 0)
+Pruning branch with kmer: GAGCG
+Exploring current nucleotide T at position 4
+partial kmer: GAGCTT with lb: 2 (Current best: 0)
+Pruning branch with kmer: GAGCT
+Exploring current nucleotide G at position 3
+partial kmer: GAGGT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 4
+partial kmer: GAGGAT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 5
+partial kmer: GAGGAAT with lb: 6 (Current best: 0)
+Pruning branch with kmer: GAGGAA
+Exploring current nucleotide C at position 5
+partial kmer: GAGGACT with lb: 5 (Current best: 0)
+Pruning branch with kmer: GAGGAC
+Exploring current nucleotide G at position 5
+partial kmer: GAGGAGT with lb: 2 (Current best: 0)
+Pruning branch with kmer: GAGGAG
+Exploring current nucleotide T at position 5
+partial kmer: GAGGATT with lb: 4 (Current best: 0)
+Pruning branch with kmer: GAGGAT
+Exploring current nucleotide C at position 4
+partial kmer: GAGGCT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 5
+partial kmer: GAGGCAT with lb: 4 (Current best: 0)
+Pruning branch with kmer: GAGGCA
+Exploring current nucleotide C at position 5
+partial kmer: GAGGCCT with lb: 2 (Current best: 0)
+Pruning branch with kmer: GAGGCC
+Exploring current nucleotide G at position 5
+partial kmer: GAGGCGT with lb: 4 (Current best: 0)
+Pruning branch with kmer: GAGGCG
+Exploring current nucleotide T at position 5
+partial kmer: GAGGCTT with lb: 4 (Current best: 0)
+Pruning branch with kmer: GAGGCT
+Exploring current nucleotide G at position 4
+partial kmer: GAGGGT with lb: 1 (Current best: 0)
+Pruning branch with kmer: GAGGG
+Exploring current nucleotide T at position 4
+partial kmer: GAGGTT with lb: 1 (Current best: 0)
+Pruning branch with kmer: GAGGT
+Exploring current nucleotide T at position 3
+partial kmer: GAGTT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 4
+partial kmer: GAGTAT with lb: 3 (Current best: 0)
+Pruning branch with kmer: GAGTA
+Exploring current nucleotide C at position 4
+partial kmer: GAGTCT with lb: 1 (Current best: 0)
+Pruning branch with kmer: GAGTC
+Exploring current nucleotide G at position 4
+partial kmer: GAGTGT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 5
+partial kmer: GAGTGAT with lb: 6 (Current best: 0)
+Pruning branch with kmer: GAGTGA
+Exploring current nucleotide C at position 5
+partial kmer: GAGTGCT with lb: 4 (Current best: 0)
+Pruning branch with kmer: GAGTGC
+Exploring current nucleotide G at position 5
+partial kmer: GAGTGGT with lb: 5 (Current best: 0)
+Pruning branch with kmer: GAGTGG
+Exploring current nucleotide T at position 5
+partial kmer: GAGTGTT with lb: 6 (Current best: 0)
+Pruning branch with kmer: GAGTGT
+Exploring current nucleotide T at position 4
+partial kmer: GAGTTT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 5
+partial kmer: GAGTTAT with lb: 8 (Current best: 0)
+Pruning branch with kmer: GAGTTA
+Exploring current nucleotide C at position 5
+partial kmer: GAGTTCT with lb: 5 (Current best: 0)
+Pruning branch with kmer: GAGTTC
+Exploring current nucleotide G at position 5
+partial kmer: GAGTTGT with lb: 7 (Current best: 0)
+Pruning branch with kmer: GAGTTG
+Exploring current nucleotide T at position 5
+partial kmer: GAGTTTT with lb: 4 (Current best: 0)
+Pruning branch with kmer: GAGTTT
+Exploring current nucleotide T at position 2
+partial kmer: GATT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 3
+partial kmer: GATAT with lb: 1 (Current best: 0)
+Pruning branch with kmer: GATA
+Exploring current nucleotide C at position 3
+partial kmer: GATCT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 4
+partial kmer: GATCAT with lb: 2 (Current best: 0)
+Pruning branch with kmer: GATCA
+Exploring current nucleotide C at position 4
+partial kmer: GATCCT with lb: 1 (Current best: 0)
+Pruning branch with kmer: GATCC
+Exploring current nucleotide G at position 4
+partial kmer: GATCGT with lb: 6 (Current best: 0)
+Pruning branch with kmer: GATCG
+Exploring current nucleotide T at position 4
+partial kmer: GATCTT with lb: 3 (Current best: 0)
+Pruning branch with kmer: GATCT
+Exploring current nucleotide G at position 3
+partial kmer: GATGT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 4
+partial kmer: GATGAT with lb: 2 (Current best: 0)
+Pruning branch with kmer: GATGA
+Exploring current nucleotide C at position 4
+partial kmer: GATGCT with lb: 1 (Current best: 0)
+Pruning branch with kmer: GATGC
+Exploring current nucleotide G at position 4
+partial kmer: GATGGT with lb: 1 (Current best: 0)
+Pruning branch with kmer: GATGG
+Exploring current nucleotide T at position 4
+partial kmer: GATGTT with lb: 2 (Current best: 0)
+Pruning branch with kmer: GATGT
+Exploring current nucleotide T at position 3
+partial kmer: GATTT with lb: 1 (Current best: 0)
+Pruning branch with kmer: GATT
+Exploring current nucleotide C at position 1
+partial kmer: GCT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 2
+partial kmer: GCAT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 3
+partial kmer: GCAAT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 4
+partial kmer: GCAAAT with lb: 3 (Current best: 0)
+Pruning branch with kmer: GCAAA
+Exploring current nucleotide C at position 4
+partial kmer: GCAACT with lb: 2 (Current best: 0)
+Pruning branch with kmer: GCAAC
+Exploring current nucleotide G at position 4
+partial kmer: GCAAGT with lb: 4 (Current best: 0)
+Pruning branch with kmer: GCAAG
+Exploring current nucleotide T at position 4
+partial kmer: GCAATT with lb: 2 (Current best: 0)
+Pruning branch with kmer: GCAAT
+Exploring current nucleotide C at position 3
+partial kmer: GCACT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 4
+partial kmer: GCACAT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 5
+partial kmer: GCACAAT with lb: 4 (Current best: 0)
+Pruning branch with kmer: GCACAA
+Exploring current nucleotide C at position 5
+partial kmer: GCACACT with lb: 3 (Current best: 0)
+Pruning branch with kmer: GCACAC
+Exploring current nucleotide G at position 5
+partial kmer: GCACAGT with lb: 3 (Current best: 0)
+Pruning branch with kmer: GCACAG
+Exploring current nucleotide T at position 5
+partial kmer: GCACATT with lb: 5 (Current best: 0)
+Pruning branch with kmer: GCACAT
+Exploring current nucleotide C at position 4
+partial kmer: GCACCT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 5
+partial kmer: GCACCAT with lb: 4 (Current best: 0)
+Pruning branch with kmer: GCACCA
+Exploring current nucleotide C at position 5
+partial kmer: GCACCCT with lb: 3 (Current best: 0)
+Pruning branch with kmer: GCACCC
+Exploring current nucleotide G at position 5
+partial kmer: GCACCGT with lb: 7 (Current best: 0)
+Pruning branch with kmer: GCACCG
+Exploring current nucleotide T at position 5
+partial kmer: GCACCTT with lb: 4 (Current best: 0)
+Pruning branch with kmer: GCACCT
+Exploring current nucleotide G at position 4
+partial kmer: GCACGT with lb: 2 (Current best: 0)
+Pruning branch with kmer: GCACG
+Exploring current nucleotide T at position 4
+partial kmer: GCACTT with lb: 2 (Current best: 0)
+Pruning branch with kmer: GCACT
+Exploring current nucleotide G at position 3
+partial kmer: GCAGT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 4
+partial kmer: GCAGAT with lb: 1 (Current best: 0)
+Pruning branch with kmer: GCAGA
+Exploring current nucleotide C at position 4
+partial kmer: GCAGCT with lb: 1 (Current best: 0)
+Pruning branch with kmer: GCAGC
+Exploring current nucleotide G at position 4
+partial kmer: GCAGGT with lb: 1 (Current best: 0)
+Pruning branch with kmer: GCAGG
+Exploring current nucleotide T at position 4
+partial kmer: GCAGTT with lb: 2 (Current best: 0)
+Pruning branch with kmer: GCAGT
+Exploring current nucleotide T at position 3
+partial kmer: GCATT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 4
+partial kmer: GCATAT with lb: 3 (Current best: 0)
+Pruning branch with kmer: GCATA
+Exploring current nucleotide C at position 4
+partial kmer: GCATCT with lb: 1 (Current best: 0)
+Pruning branch with kmer: GCATC
+Exploring current nucleotide G at position 4
+partial kmer: GCATGT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 5
+partial kmer: GCATGAT with lb: 4 (Current best: 0)
+Pruning branch with kmer: GCATGA
+Exploring current nucleotide C at position 5
+partial kmer: GCATGCT with lb: 6 (Current best: 0)
+Pruning branch with kmer: GCATGC
+Exploring current nucleotide G at position 5
+partial kmer: GCATGGT with lb: 4 (Current best: 0)
+Pruning branch with kmer: GCATGG
+Exploring current nucleotide T at position 5
+partial kmer: GCATGTT with lb: 4 (Current best: 0)
+Pruning branch with kmer: GCATGT
+Exploring current nucleotide T at position 4
+partial kmer: GCATTT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 5
+partial kmer: GCATTAT with lb: 8 (Current best: 0)
+Pruning branch with kmer: GCATTA
+Exploring current nucleotide C at position 5
+partial kmer: GCATTCT with lb: 4 (Current best: 0)
+Pruning branch with kmer: GCATTC
+Exploring current nucleotide G at position 5
+partial kmer: GCATTGT with lb: 3 (Current best: 0)
+Pruning branch with kmer: GCATTG
+Exploring current nucleotide T at position 5
+partial kmer: GCATTTT with lb: 5 (Current best: 0)
+Pruning branch with kmer: GCATTT
+Exploring current nucleotide C at position 2
+partial kmer: GCCT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 3
+partial kmer: GCCAT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 4
+partial kmer: GCCAAT with lb: 2 (Current best: 0)
+Pruning branch with kmer: GCCAA
+Exploring current nucleotide C at position 4
+partial kmer: GCCACT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 5
+partial kmer: GCCACAT with lb: 4 (Current best: 0)
+Pruning branch with kmer: GCCACA
+Exploring current nucleotide C at position 5
+partial kmer: GCCACCT with lb: 1 (Current best: 0)
+Pruning branch with kmer: GCCACC
+Exploring current nucleotide G at position 5
+partial kmer: GCCACGT with lb: 4 (Current best: 0)
+Pruning branch with kmer: GCCACG
+Exploring current nucleotide T at position 5
+partial kmer: GCCACTT with lb: 3 (Current best: 0)
+Pruning branch with kmer: GCCACT
+Exploring current nucleotide G at position 4
+partial kmer: GCCAGT with lb: 1 (Current best: 0)
+Pruning branch with kmer: GCCAG
+Exploring current nucleotide T at position 4
+partial kmer: GCCATT with lb: 2 (Current best: 0)
+Pruning branch with kmer: GCCAT
+Exploring current nucleotide C at position 3
+partial kmer: GCCCT with lb: 1 (Current best: 0)
+Pruning branch with kmer: GCCC
+Exploring current nucleotide G at position 3
+partial kmer: GCCGT with lb: 1 (Current best: 0)
+Pruning branch with kmer: GCCG
+Exploring current nucleotide T at position 3
+partial kmer: GCCTT with lb: 1 (Current best: 0)
+Pruning branch with kmer: GCCT
+Exploring current nucleotide G at position 2
+partial kmer: GCGT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 3
+partial kmer: GCGAT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 4
+partial kmer: GCGAAT with lb: 4 (Current best: 0)
+Pruning branch with kmer: GCGAA
+Exploring current nucleotide C at position 4
+partial kmer: GCGACT with lb: 3 (Current best: 0)
+Pruning branch with kmer: GCGAC
+Exploring current nucleotide G at position 4
+partial kmer: GCGAGT with lb: 6 (Current best: 0)
+Pruning branch with kmer: GCGAG
+Exploring current nucleotide T at position 4
+partial kmer: GCGATT with lb: 4 (Current best: 0)
+Pruning branch with kmer: GCGAT
+Exploring current nucleotide C at position 3
+partial kmer: GCGCT with lb: 1 (Current best: 0)
+Pruning branch with kmer: GCGC
+Exploring current nucleotide G at position 3
+partial kmer: GCGGT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 4
+partial kmer: GCGGAT with lb: 1 (Current best: 0)
+Pruning branch with kmer: GCGGA
+Exploring current nucleotide C at position 4
+partial kmer: GCGGCT with lb: 2 (Current best: 0)
+Pruning branch with kmer: GCGGC
+Exploring current nucleotide G at position 4
+partial kmer: GCGGGT with lb: 3 (Current best: 0)
+Pruning branch with kmer: GCGGG
+Exploring current nucleotide T at position 4
+partial kmer: GCGGTT with lb: 2 (Current best: 0)
+Pruning branch with kmer: GCGGT
+Exploring current nucleotide T at position 3
+partial kmer: GCGTT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 4
+partial kmer: GCGTAT with lb: 6 (Current best: 0)
+Pruning branch with kmer: GCGTA
+Exploring current nucleotide C at position 4
+partial kmer: GCGTCT with lb: 3 (Current best: 0)
+Pruning branch with kmer: GCGTC
+Exploring current nucleotide G at position 4
+partial kmer: GCGTGT with lb: 2 (Current best: 0)
+Pruning branch with kmer: GCGTG
+Exploring current nucleotide T at position 4
+partial kmer: GCGTTT with lb: 4 (Current best: 0)
+Pruning branch with kmer: GCGTT
+Exploring current nucleotide T at position 2
+partial kmer: GCTT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 3
+partial kmer: GCTAT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 4
+partial kmer: GCTAAT with lb: 3 (Current best: 0)
+Pruning branch with kmer: GCTAA
+Exploring current nucleotide C at position 4
+partial kmer: GCTACT with lb: 2 (Current best: 0)
+Pruning branch with kmer: GCTAC
+Exploring current nucleotide G at position 4
+partial kmer: GCTAGT with lb: 4 (Current best: 0)
+Pruning branch with kmer: GCTAG
+Exploring current nucleotide T at position 4
+partial kmer: GCTATT with lb: 3 (Current best: 0)
+Pruning branch with kmer: GCTAT
+Exploring current nucleotide C at position 3
+partial kmer: GCTCT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 4
+partial kmer: GCTCAT with lb: 2 (Current best: 0)
+Pruning branch with kmer: GCTCA
+Exploring current nucleotide C at position 4
+partial kmer: GCTCCT with lb: 1 (Current best: 0)
+Pruning branch with kmer: GCTCC
+Exploring current nucleotide G at position 4
+partial kmer: GCTCGT with lb: 4 (Current best: 0)
+Pruning branch with kmer: GCTCG
+Exploring current nucleotide T at position 4
+partial kmer: GCTCTT with lb: 2 (Current best: 0)
+Pruning branch with kmer: GCTCT
+Exploring current nucleotide G at position 3
+partial kmer: GCTGT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 4
+partial kmer: GCTGAT with lb: 1 (Current best: 0)
+Pruning branch with kmer: GCTGA
+Exploring current nucleotide C at position 4
+partial kmer: GCTGCT with lb: 1 (Current best: 0)
+Pruning branch with kmer: GCTGC
+Exploring current nucleotide G at position 4
+partial kmer: GCTGGT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 5
+partial kmer: GCTGGAT with lb: 4 (Current best: 0)
+Pruning branch with kmer: GCTGGA
+Exploring current nucleotide C at position 5
+partial kmer: GCTGGCT with lb: 2 (Current best: 0)
+Pruning branch with kmer: GCTGGC
+Exploring current nucleotide G at position 5
+partial kmer: GCTGGGT with lb: 1 (Current best: 0)
+Pruning branch with kmer: GCTGGG
+Exploring current nucleotide T at position 5
+partial kmer: GCTGGTT with lb: 3 (Current best: 0)
+Pruning branch with kmer: GCTGGT
+Exploring current nucleotide T at position 4
+partial kmer: GCTGTT with lb: 1 (Current best: 0)
+Pruning branch with kmer: GCTGT
+Exploring current nucleotide T at position 3
+partial kmer: GCTTT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 4
+partial kmer: GCTTAT with lb: 5 (Current best: 0)
+Pruning branch with kmer: GCTTA
+Exploring current nucleotide C at position 4
+partial kmer: GCTTCT with lb: 1 (Current best: 0)
+Pruning branch with kmer: GCTTC
+Exploring current nucleotide G at position 4
+partial kmer: GCTTGT with lb: 1 (Current best: 0)
+Pruning branch with kmer: GCTTG
+Exploring current nucleotide T at position 4
+partial kmer: GCTTTT with lb: 3 (Current best: 0)
+Pruning branch with kmer: GCTTT
+Exploring current nucleotide G at position 1
+partial kmer: GGT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 2
+partial kmer: GGAT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 3
+partial kmer: GGAAT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 4
+partial kmer: GGAAAT with lb: 4 (Current best: 0)
+Pruning branch with kmer: GGAAA
+Exploring current nucleotide C at position 4
+partial kmer: GGAACT with lb: 1 (Current best: 0)
+Pruning branch with kmer: GGAAC
+Exploring current nucleotide G at position 4
+partial kmer: GGAAGT with lb: 2 (Current best: 0)
+Pruning branch with kmer: GGAAG
+Exploring current nucleotide T at position 4
+partial kmer: GGAATT with lb: 3 (Current best: 0)
+Pruning branch with kmer: GGAAT
+Exploring current nucleotide C at position 3
+partial kmer: GGACT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 4
+partial kmer: GGACAT with lb: 3 (Current best: 0)
+Pruning branch with kmer: GGACA
+Exploring current nucleotide C at position 4
+partial kmer: GGACCT with lb: 1 (Current best: 0)
+Pruning branch with kmer: GGACC
+Exploring current nucleotide G at position 4
+partial kmer: GGACGT with lb: 4 (Current best: 0)
+Pruning branch with kmer: GGACG
+Exploring current nucleotide T at position 4
+partial kmer: GGACTT with lb: 2 (Current best: 0)
+Pruning branch with kmer: GGACT
+Exploring current nucleotide G at position 3
+partial kmer: GGAGT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 4
+partial kmer: GGAGAT with lb: 1 (Current best: 0)
+Pruning branch with kmer: GGAGA
+Exploring current nucleotide C at position 4
+partial kmer: GGAGCT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 5
+partial kmer: GGAGCAT with lb: 3 (Current best: 0)
+Pruning branch with kmer: GGAGCA
+Exploring current nucleotide C at position 5
+partial kmer: GGAGCCT with lb: 3 (Current best: 0)
+Pruning branch with kmer: GGAGCC
+Exploring current nucleotide G at position 5
+partial kmer: GGAGCGT with lb: 6 (Current best: 0)
+Pruning branch with kmer: GGAGCG
+Exploring current nucleotide T at position 5
+partial kmer: GGAGCTT with lb: 4 (Current best: 0)
+Pruning branch with kmer: GGAGCT
+Exploring current nucleotide G at position 4
+partial kmer: GGAGGT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 5
+partial kmer: GGAGGAT with lb: 1 (Current best: 0)
+Pruning branch with kmer: GGAGGA
+Exploring current nucleotide C at position 5
+partial kmer: GGAGGCT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 6
+partial kmer: GGAGGCA with lb: 1 (Current best: 0)
+Pruning branch with kmer: GGAGGCA
+Exploring current nucleotide C at position 6
+partial kmer: GGAGGCC with lb: 0 (Current best: 0)
+evaluating kmer: GGAGGCC with distance: 0
+Exploring current nucleotide G at position 6
+partial kmer: GGAGGCG with lb: 3 (Current best: 0)
+Pruning branch with kmer: GGAGGCG
+Exploring current nucleotide T at position 6
+partial kmer: GGAGGCT with lb: 0 (Current best: 0)
+evaluating kmer: GGAGGCT with distance: 0
+Exploring current nucleotide G at position 5
+partial kmer: GGAGGGT with lb: 2 (Current best: 0)
+Pruning branch with kmer: GGAGGG
+Exploring current nucleotide T at position 5
+partial kmer: GGAGGTT with lb: 2 (Current best: 0)
+Pruning branch with kmer: GGAGGT
+Exploring current nucleotide T at position 4
+partial kmer: GGAGTT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 5
+partial kmer: GGAGTAT with lb: 6 (Current best: 0)
+Pruning branch with kmer: GGAGTA
+Exploring current nucleotide C at position 5
+partial kmer: GGAGTCT with lb: 4 (Current best: 0)
+Pruning branch with kmer: GGAGTC
+Exploring current nucleotide G at position 5
+partial kmer: GGAGTGT with lb: 4 (Current best: 0)
+Pruning branch with kmer: GGAGTG
+Exploring current nucleotide T at position 5
+partial kmer: GGAGTTT with lb: 1 (Current best: 0)
+Pruning branch with kmer: GGAGTT
+Exploring current nucleotide T at position 3
+partial kmer: GGATT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 4
+partial kmer: GGATAT with lb: 3 (Current best: 0)
+Pruning branch with kmer: GGATA
+Exploring current nucleotide C at position 4
+partial kmer: GGATCT with lb: 3 (Current best: 0)
+Pruning branch with kmer: GGATC
+Exploring current nucleotide G at position 4
+partial kmer: GGATGT with lb: 2 (Current best: 0)
+Pruning branch with kmer: GGATG
+Exploring current nucleotide T at position 4
+partial kmer: GGATTT with lb: 1 (Current best: 0)
+Pruning branch with kmer: GGATT
+Exploring current nucleotide C at position 2
+partial kmer: GGCT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 3
+partial kmer: GGCAT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 4
+partial kmer: GGCAAT with lb: 3 (Current best: 0)
+Pruning branch with kmer: GGCAA
+Exploring current nucleotide C at position 4
+partial kmer: GGCACT with lb: 1 (Current best: 0)
+Pruning branch with kmer: GGCAC
+Exploring current nucleotide G at position 4
+partial kmer: GGCAGT with lb: 1 (Current best: 0)
+Pruning branch with kmer: GGCAG
+Exploring current nucleotide T at position 4
+partial kmer: GGCATT with lb: 1 (Current best: 0)
+Pruning branch with kmer: GGCAT
+Exploring current nucleotide C at position 3
+partial kmer: GGCCT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 4
+partial kmer: GGCCAT with lb: 2 (Current best: 0)
+Pruning branch with kmer: GGCCA
+Exploring current nucleotide C at position 4
+partial kmer: GGCCCT with lb: 2 (Current best: 0)
+Pruning branch with kmer: GGCCC
+Exploring current nucleotide G at position 4
+partial kmer: GGCCGT with lb: 3 (Current best: 0)
+Pruning branch with kmer: GGCCG
+Exploring current nucleotide T at position 4
+partial kmer: GGCCTT with lb: 1 (Current best: 0)
+Pruning branch with kmer: GGCCT
+Exploring current nucleotide G at position 3
+partial kmer: GGCGT with lb: 1 (Current best: 0)
+Pruning branch with kmer: GGCG
+Exploring current nucleotide T at position 3
+partial kmer: GGCTT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 4
+partial kmer: GGCTAT with lb: 2 (Current best: 0)
+Pruning branch with kmer: GGCTA
+Exploring current nucleotide C at position 4
+partial kmer: GGCTCT with lb: 1 (Current best: 0)
+Pruning branch with kmer: GGCTC
+Exploring current nucleotide G at position 4
+partial kmer: GGCTGT with lb: 1 (Current best: 0)
+Pruning branch with kmer: GGCTG
+Exploring current nucleotide T at position 4
+partial kmer: GGCTTT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 5
+partial kmer: GGCTTAT with lb: 7 (Current best: 0)
+Pruning branch with kmer: GGCTTA
+Exploring current nucleotide C at position 5
+partial kmer: GGCTTCT with lb: 4 (Current best: 0)
+Pruning branch with kmer: GGCTTC
+Exploring current nucleotide G at position 5
+partial kmer: GGCTTGT with lb: 3 (Current best: 0)
+Pruning branch with kmer: GGCTTG
+Exploring current nucleotide T at position 5
+partial kmer: GGCTTTT with lb: 6 (Current best: 0)
+Pruning branch with kmer: GGCTTT
+Exploring current nucleotide G at position 2
+partial kmer: GGGT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 3
+partial kmer: GGGAT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 4
+partial kmer: GGGAAT with lb: 1 (Current best: 0)
+Pruning branch with kmer: GGGAA
+Exploring current nucleotide C at position 4
+partial kmer: GGGACT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 5
+partial kmer: GGGACAT with lb: 5 (Current best: 0)
+Pruning branch with kmer: GGGACA
+Exploring current nucleotide C at position 5
+partial kmer: GGGACCT with lb: 3 (Current best: 0)
+Pruning branch with kmer: GGGACC
+Exploring current nucleotide G at position 5
+partial kmer: GGGACGT with lb: 7 (Current best: 0)
+Pruning branch with kmer: GGGACG
+Exploring current nucleotide T at position 5
+partial kmer: GGGACTT with lb: 4 (Current best: 0)
+Pruning branch with kmer: GGGACT
+Exploring current nucleotide G at position 4
+partial kmer: GGGAGT with lb: 1 (Current best: 0)
+Pruning branch with kmer: GGGAG
+Exploring current nucleotide T at position 4
+partial kmer: GGGATT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 5
+partial kmer: GGGATAT with lb: 6 (Current best: 0)
+Pruning branch with kmer: GGGATA
+Exploring current nucleotide C at position 5
+partial kmer: GGGATCT with lb: 4 (Current best: 0)
+Pruning branch with kmer: GGGATC
+Exploring current nucleotide G at position 5
+partial kmer: GGGATGT with lb: 3 (Current best: 0)
+Pruning branch with kmer: GGGATG
+Exploring current nucleotide T at position 5
+partial kmer: GGGATTT with lb: 4 (Current best: 0)
+Pruning branch with kmer: GGGATT
+Exploring current nucleotide C at position 3
+partial kmer: GGGCT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 4
+partial kmer: GGGCAT with lb: 1 (Current best: 0)
+Pruning branch with kmer: GGGCA
+Exploring current nucleotide C at position 4
+partial kmer: GGGCCT with lb: 1 (Current best: 0)
+Pruning branch with kmer: GGGCC
+Exploring current nucleotide G at position 4
+partial kmer: GGGCGT with lb: 1 (Current best: 0)
+Pruning branch with kmer: GGGCG
+Exploring current nucleotide T at position 4
+partial kmer: GGGCTT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 5
+partial kmer: GGGCTAT with lb: 4 (Current best: 0)
+Pruning branch with kmer: GGGCTA
+Exploring current nucleotide C at position 5
+partial kmer: GGGCTCT with lb: 3 (Current best: 0)
+Pruning branch with kmer: GGGCTC
+Exploring current nucleotide G at position 5
+partial kmer: GGGCTGT with lb: 1 (Current best: 0)
+Pruning branch with kmer: GGGCTG
+Exploring current nucleotide T at position 5
+partial kmer: GGGCTTT with lb: 3 (Current best: 0)
+Pruning branch with kmer: GGGCTT
+Exploring current nucleotide G at position 3
+partial kmer: GGGGT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 4
+partial kmer: GGGGAT with lb: 1 (Current best: 0)
+Pruning branch with kmer: GGGGA
+Exploring current nucleotide C at position 4
+partial kmer: GGGGCT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 5
+partial kmer: GGGGCAT with lb: 5 (Current best: 0)
+Pruning branch with kmer: GGGGCA
+Exploring current nucleotide C at position 5
+partial kmer: GGGGCCT with lb: 2 (Current best: 0)
+Pruning branch with kmer: GGGGCC
+Exploring current nucleotide G at position 5
+partial kmer: GGGGCGT with lb: 4 (Current best: 0)
+Pruning branch with kmer: GGGGCG
+Exploring current nucleotide T at position 5
+partial kmer: GGGGCTT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 6
+partial kmer: GGGGCTA with lb: 6 (Current best: 0)
+Pruning branch with kmer: GGGGCTA
+Exploring current nucleotide C at position 6
+partial kmer: GGGGCTC with lb: 2 (Current best: 0)
+Pruning branch with kmer: GGGGCTC
+Exploring current nucleotide G at position 6
+partial kmer: GGGGCTG with lb: 1 (Current best: 0)
+Pruning branch with kmer: GGGGCTG
+Exploring current nucleotide T at position 6
+partial kmer: GGGGCTT with lb: 0 (Current best: 0)
+evaluating kmer: GGGGCTT with distance: 0
+Exploring current nucleotide G at position 4
+partial kmer: GGGGGT with lb: 1 (Current best: 0)
+Pruning branch with kmer: GGGGG
+Exploring current nucleotide T at position 4
+partial kmer: GGGGTT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 5
+partial kmer: GGGGTAT with lb: 6 (Current best: 0)
+Pruning branch with kmer: GGGGTA
+Exploring current nucleotide C at position 5
+partial kmer: GGGGTCT with lb: 3 (Current best: 0)
+Pruning branch with kmer: GGGGTC
+Exploring current nucleotide G at position 5
+partial kmer: GGGGTGT with lb: 2 (Current best: 0)
+Pruning branch with kmer: GGGGTG
+Exploring current nucleotide T at position 5
+partial kmer: GGGGTTT with lb: 2 (Current best: 0)
+Pruning branch with kmer: GGGGTT
+Exploring current nucleotide T at position 3
+partial kmer: GGGTT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 4
+partial kmer: GGGTAT with lb: 3 (Current best: 0)
+Pruning branch with kmer: GGGTA
+Exploring current nucleotide C at position 4
+partial kmer: GGGTCT with lb: 1 (Current best: 0)
+Pruning branch with kmer: GGGTC
+Exploring current nucleotide G at position 4
+partial kmer: GGGTGT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 5
+partial kmer: GGGTGAT with lb: 5 (Current best: 0)
+Pruning branch with kmer: GGGTGA
+Exploring current nucleotide C at position 5
+partial kmer: GGGTGCT with lb: 4 (Current best: 0)
+Pruning branch with kmer: GGGTGC
+Exploring current nucleotide G at position 5
+partial kmer: GGGTGGT with lb: 4 (Current best: 0)
+Pruning branch with kmer: GGGTGG
+Exploring current nucleotide T at position 5
+partial kmer: GGGTGTT with lb: 6 (Current best: 0)
+Pruning branch with kmer: GGGTGT
+Exploring current nucleotide T at position 4
+partial kmer: GGGTTT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 5
+partial kmer: GGGTTAT with lb: 8 (Current best: 0)
+Pruning branch with kmer: GGGTTA
+Exploring current nucleotide C at position 5
+partial kmer: GGGTTCT with lb: 4 (Current best: 0)
+Pruning branch with kmer: GGGTTC
+Exploring current nucleotide G at position 5
+partial kmer: GGGTTGT with lb: 9 (Current best: 0)
+Pruning branch with kmer: GGGTTG
+Exploring current nucleotide T at position 5
+partial kmer: GGGTTTT with lb: 4 (Current best: 0)
+Pruning branch with kmer: GGGTTT
+Exploring current nucleotide T at position 2
+partial kmer: GGTT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 3
+partial kmer: GGTAT with lb: 1 (Current best: 0)
+Pruning branch with kmer: GGTA
+Exploring current nucleotide C at position 3
+partial kmer: GGTCT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 4
+partial kmer: GGTCAT with lb: 1 (Current best: 0)
+Pruning branch with kmer: GGTCA
+Exploring current nucleotide C at position 4
+partial kmer: GGTCCT with lb: 2 (Current best: 0)
+Pruning branch with kmer: GGTCC
+Exploring current nucleotide G at position 4
+partial kmer: GGTCGT with lb: 3 (Current best: 0)
+Pruning branch with kmer: GGTCG
+Exploring current nucleotide T at position 4
+partial kmer: GGTCTT with lb: 2 (Current best: 0)
+Pruning branch with kmer: GGTCT
+Exploring current nucleotide G at position 3
+partial kmer: GGTGT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 4
+partial kmer: GGTGAT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 5
+partial kmer: GGTGAAT with lb: 4 (Current best: 0)
+Pruning branch with kmer: GGTGAA
+Exploring current nucleotide C at position 5
+partial kmer: GGTGACT with lb: 3 (Current best: 0)
+Pruning branch with kmer: GGTGAC
+Exploring current nucleotide G at position 5
+partial kmer: GGTGAGT with lb: 6 (Current best: 0)
+Pruning branch with kmer: GGTGAG
+Exploring current nucleotide T at position 5
+partial kmer: GGTGATT with lb: 7 (Current best: 0)
+Pruning branch with kmer: GGTGAT
+Exploring current nucleotide C at position 4
+partial kmer: GGTGCT with lb: 2 (Current best: 0)
+Pruning branch with kmer: GGTGC
+Exploring current nucleotide G at position 4
+partial kmer: GGTGGT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 5
+partial kmer: GGTGGAT with lb: 4 (Current best: 0)
+Pruning branch with kmer: GGTGGA
+Exploring current nucleotide C at position 5
+partial kmer: GGTGGCT with lb: 4 (Current best: 0)
+Pruning branch with kmer: GGTGGC
+Exploring current nucleotide G at position 5
+partial kmer: GGTGGGT with lb: 3 (Current best: 0)
+Pruning branch with kmer: GGTGGG
+Exploring current nucleotide T at position 5
+partial kmer: GGTGGTT with lb: 2 (Current best: 0)
+Pruning branch with kmer: GGTGGT
+Exploring current nucleotide T at position 4
+partial kmer: GGTGTT with lb: 1 (Current best: 0)
+Pruning branch with kmer: GGTGT
+Exploring current nucleotide T at position 3
+partial kmer: GGTTT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 4
+partial kmer: GGTTAT with lb: 4 (Current best: 0)
+Pruning branch with kmer: GGTTA
+Exploring current nucleotide C at position 4
+partial kmer: GGTTCT with lb: 1 (Current best: 0)
+Pruning branch with kmer: GGTTC
+Exploring current nucleotide G at position 4
+partial kmer: GGTTGT with lb: 4 (Current best: 0)
+Pruning branch with kmer: GGTTG
+Exploring current nucleotide T at position 4
+partial kmer: GGTTTT with lb: 3 (Current best: 0)
+Pruning branch with kmer: GGTTT
+Exploring current nucleotide T at position 1
+partial kmer: GTT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 2
+partial kmer: GTAT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 3
+partial kmer: GTAAT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 4
+partial kmer: GTAAAT with lb: 4 (Current best: 0)
+Pruning branch with kmer: GTAAA
+Exploring current nucleotide C at position 4
+partial kmer: GTAACT with lb: 3 (Current best: 0)
+Pruning branch with kmer: GTAAC
+Exploring current nucleotide G at position 4
+partial kmer: GTAAGT with lb: 3 (Current best: 0)
+Pruning branch with kmer: GTAAG
+Exploring current nucleotide T at position 4
+partial kmer: GTAATT with lb: 3 (Current best: 0)
+Pruning branch with kmer: GTAAT
+Exploring current nucleotide C at position 3
+partial kmer: GTACT with lb: 1 (Current best: 0)
+Pruning branch with kmer: GTAC
+Exploring current nucleotide G at position 3
+partial kmer: GTAGT with lb: 1 (Current best: 0)
+Pruning branch with kmer: GTAG
+Exploring current nucleotide T at position 3
+partial kmer: GTATT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 4
+partial kmer: GTATAT with lb: 4 (Current best: 0)
+Pruning branch with kmer: GTATA
+Exploring current nucleotide C at position 4
+partial kmer: GTATCT with lb: 6 (Current best: 0)
+Pruning branch with kmer: GTATC
+Exploring current nucleotide G at position 4
+partial kmer: GTATGT with lb: 2 (Current best: 0)
+Pruning branch with kmer: GTATG
+Exploring current nucleotide T at position 4
+partial kmer: GTATTT with lb: 1 (Current best: 0)
+Pruning branch with kmer: GTATT
+Exploring current nucleotide C at position 2
+partial kmer: GTCT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 3
+partial kmer: GTCAT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 4
+partial kmer: GTCAAT with lb: 7 (Current best: 0)
+Pruning branch with kmer: GTCAA
+Exploring current nucleotide C at position 4
+partial kmer: GTCACT with lb: 2 (Current best: 0)
+Pruning branch with kmer: GTCAC
+Exploring current nucleotide G at position 4
+partial kmer: GTCAGT with lb: 2 (Current best: 0)
+Pruning branch with kmer: GTCAG
+Exploring current nucleotide T at position 4
+partial kmer: GTCATT with lb: 2 (Current best: 0)
+Pruning branch with kmer: GTCAT
+Exploring current nucleotide C at position 3
+partial kmer: GTCCT with lb: 1 (Current best: 0)
+Pruning branch with kmer: GTCC
+Exploring current nucleotide G at position 3
+partial kmer: GTCGT with lb: 2 (Current best: 0)
+Pruning branch with kmer: GTCG
+Exploring current nucleotide T at position 3
+partial kmer: GTCTT with lb: 1 (Current best: 0)
+Pruning branch with kmer: GTCT
+Exploring current nucleotide G at position 2
+partial kmer: GTGT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 3
+partial kmer: GTGAT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 4
+partial kmer: GTGAAT with lb: 2 (Current best: 0)
+Pruning branch with kmer: GTGAA
+Exploring current nucleotide C at position 4
+partial kmer: GTGACT with lb: 1 (Current best: 0)
+Pruning branch with kmer: GTGAC
+Exploring current nucleotide G at position 4
+partial kmer: GTGAGT with lb: 1 (Current best: 0)
+Pruning branch with kmer: GTGAG
+Exploring current nucleotide T at position 4
+partial kmer: GTGATT with lb: 2 (Current best: 0)
+Pruning branch with kmer: GTGAT
+Exploring current nucleotide C at position 3
+partial kmer: GTGCT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 4
+partial kmer: GTGCAT with lb: 1 (Current best: 0)
+Pruning branch with kmer: GTGCA
+Exploring current nucleotide C at position 4
+partial kmer: GTGCCT with lb: 1 (Current best: 0)
+Pruning branch with kmer: GTGCC
+Exploring current nucleotide G at position 4
+partial kmer: GTGCGT with lb: 3 (Current best: 0)
+Pruning branch with kmer: GTGCG
+Exploring current nucleotide T at position 4
+partial kmer: GTGCTT with lb: 1 (Current best: 0)
+Pruning branch with kmer: GTGCT
+Exploring current nucleotide G at position 3
+partial kmer: GTGGT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 4
+partial kmer: GTGGAT with lb: 3 (Current best: 0)
+Pruning branch with kmer: GTGGA
+Exploring current nucleotide C at position 4
+partial kmer: GTGGCT with lb: 1 (Current best: 0)
+Pruning branch with kmer: GTGGC
+Exploring current nucleotide G at position 4
+partial kmer: GTGGGT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 5
+partial kmer: GTGGGAT with lb: 3 (Current best: 0)
+Pruning branch with kmer: GTGGGA
+Exploring current nucleotide C at position 5
+partial kmer: GTGGGCT with lb: 4 (Current best: 0)
+Pruning branch with kmer: GTGGGC
+Exploring current nucleotide G at position 5
+partial kmer: GTGGGGT with lb: 3 (Current best: 0)
+Pruning branch with kmer: GTGGGG
+Exploring current nucleotide T at position 5
+partial kmer: GTGGGTT with lb: 6 (Current best: 0)
+Pruning branch with kmer: GTGGGT
+Exploring current nucleotide T at position 4
+partial kmer: GTGGTT with lb: 1 (Current best: 0)
+Pruning branch with kmer: GTGGT
+Exploring current nucleotide T at position 3
+partial kmer: GTGTT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 4
+partial kmer: GTGTAT with lb: 1 (Current best: 0)
+Pruning branch with kmer: GTGTA
+Exploring current nucleotide C at position 4
+partial kmer: GTGTCT with lb: 1 (Current best: 0)
+Pruning branch with kmer: GTGTC
+Exploring current nucleotide G at position 4
+partial kmer: GTGTGT with lb: 1 (Current best: 0)
+Pruning branch with kmer: GTGTG
+Exploring current nucleotide T at position 4
+partial kmer: GTGTTT with lb: 3 (Current best: 0)
+Pruning branch with kmer: GTGTT
+Exploring current nucleotide T at position 2
+partial kmer: GTTT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 3
+partial kmer: GTTAT with lb: 1 (Current best: 0)
+Pruning branch with kmer: GTTA
+Exploring current nucleotide C at position 3
+partial kmer: GTTCT with lb: 1 (Current best: 0)
+Pruning branch with kmer: GTTC
+Exploring current nucleotide G at position 3
+partial kmer: GTTGT with lb: 1 (Current best: 0)
+Pruning branch with kmer: GTTG
+Exploring current nucleotide T at position 3
+partial kmer: GTTTT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 4
+partial kmer: GTTTAT with lb: 5 (Current best: 0)
+Pruning branch with kmer: GTTTA
+Exploring current nucleotide C at position 4
+partial kmer: GTTTCT with lb: 1 (Current best: 0)
+Pruning branch with kmer: GTTTC
+Exploring current nucleotide G at position 4
+partial kmer: GTTTGT with lb: 2 (Current best: 0)
+Pruning branch with kmer: GTTTG
+Exploring current nucleotide T at position 4
+partial kmer: GTTTTT with lb: 2 (Current best: 0)
+Pruning branch with kmer: GTTTT
+Exploring current nucleotide T at position 0
+partial kmer: TT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 1
+partial kmer: TAT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 2
+partial kmer: TAAT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 3
+partial kmer: TAAAT with lb: 1 (Current best: 0)
+Pruning branch with kmer: TAAA
+Exploring current nucleotide C at position 3
+partial kmer: TAACT with lb: 1 (Current best: 0)
+Pruning branch with kmer: TAAC
+Exploring current nucleotide G at position 3
+partial kmer: TAAGT with lb: 1 (Current best: 0)
+Pruning branch with kmer: TAAG
+Exploring current nucleotide T at position 3
+partial kmer: TAATT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 4
+partial kmer: TAATAT with lb: 5 (Current best: 0)
+Pruning branch with kmer: TAATA
+Exploring current nucleotide C at position 4
+partial kmer: TAATCT with lb: 3 (Current best: 0)
+Pruning branch with kmer: TAATC
+Exploring current nucleotide G at position 4
+partial kmer: TAATGT with lb: 6 (Current best: 0)
+Pruning branch with kmer: TAATG
+Exploring current nucleotide T at position 4
+partial kmer: TAATTT with lb: 2 (Current best: 0)
+Pruning branch with kmer: TAATT
+Exploring current nucleotide C at position 2
+partial kmer: TACT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 3
+partial kmer: TACAT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 4
+partial kmer: TACAAT with lb: 3 (Current best: 0)
+Pruning branch with kmer: TACAA
+Exploring current nucleotide C at position 4
+partial kmer: TACACT with lb: 2 (Current best: 0)
+Pruning branch with kmer: TACAC
+Exploring current nucleotide G at position 4
+partial kmer: TACAGT with lb: 2 (Current best: 0)
+Pruning branch with kmer: TACAG
+Exploring current nucleotide T at position 4
+partial kmer: TACATT with lb: 2 (Current best: 0)
+Pruning branch with kmer: TACAT
+Exploring current nucleotide C at position 3
+partial kmer: TACCT with lb: 1 (Current best: 0)
+Pruning branch with kmer: TACC
+Exploring current nucleotide G at position 3
+partial kmer: TACGT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 4
+partial kmer: TACGAT with lb: 7 (Current best: 0)
+Pruning branch with kmer: TACGA
+Exploring current nucleotide C at position 4
+partial kmer: TACGCT with lb: 6 (Current best: 0)
+Pruning branch with kmer: TACGC
+Exploring current nucleotide G at position 4
+partial kmer: TACGGT with lb: 7 (Current best: 0)
+Pruning branch with kmer: TACGG
+Exploring current nucleotide T at position 4
+partial kmer: TACGTT with lb: 6 (Current best: 0)
+Pruning branch with kmer: TACGT
+Exploring current nucleotide T at position 3
+partial kmer: TACTT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 4
+partial kmer: TACTAT with lb: 5 (Current best: 0)
+Pruning branch with kmer: TACTA
+Exploring current nucleotide C at position 4
+partial kmer: TACTCT with lb: 4 (Current best: 0)
+Pruning branch with kmer: TACTC
+Exploring current nucleotide G at position 4
+partial kmer: TACTGT with lb: 3 (Current best: 0)
+Pruning branch with kmer: TACTG
+Exploring current nucleotide T at position 4
+partial kmer: TACTTT with lb: 3 (Current best: 0)
+Pruning branch with kmer: TACTT
+Exploring current nucleotide G at position 2
+partial kmer: TAGT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 3
+partial kmer: TAGAT with lb: 3 (Current best: 0)
+Pruning branch with kmer: TAGA
+Exploring current nucleotide C at position 3
+partial kmer: TAGCT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 4
+partial kmer: TAGCAT with lb: 5 (Current best: 0)
+Pruning branch with kmer: TAGCA
+Exploring current nucleotide C at position 4
+partial kmer: TAGCCT with lb: 2 (Current best: 0)
+Pruning branch with kmer: TAGCC
+Exploring current nucleotide G at position 4
+partial kmer: TAGCGT with lb: 6 (Current best: 0)
+Pruning branch with kmer: TAGCG
+Exploring current nucleotide T at position 4
+partial kmer: TAGCTT with lb: 5 (Current best: 0)
+Pruning branch with kmer: TAGCT
+Exploring current nucleotide G at position 3
+partial kmer: TAGGT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 4
+partial kmer: TAGGAT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 5
+partial kmer: TAGGAAT with lb: 7 (Current best: 0)
+Pruning branch with kmer: TAGGAA
+Exploring current nucleotide C at position 5
+partial kmer: TAGGACT with lb: 8 (Current best: 0)
+Pruning branch with kmer: TAGGAC
+Exploring current nucleotide G at position 5
+partial kmer: TAGGAGT with lb: 8 (Current best: 0)
+Pruning branch with kmer: TAGGAG
+Exploring current nucleotide T at position 5
+partial kmer: TAGGATT with lb: 3 (Current best: 0)
+Pruning branch with kmer: TAGGAT
+Exploring current nucleotide C at position 4
+partial kmer: TAGGCT with lb: 3 (Current best: 0)
+Pruning branch with kmer: TAGGC
+Exploring current nucleotide G at position 4
+partial kmer: TAGGGT with lb: 4 (Current best: 0)
+Pruning branch with kmer: TAGGG
+Exploring current nucleotide T at position 4
+partial kmer: TAGGTT with lb: 6 (Current best: 0)
+Pruning branch with kmer: TAGGT
+Exploring current nucleotide T at position 3
+partial kmer: TAGTT with lb: 1 (Current best: 0)
+Pruning branch with kmer: TAGT
+Exploring current nucleotide T at position 2
+partial kmer: TATT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 3
+partial kmer: TATAT with lb: 2 (Current best: 0)
+Pruning branch with kmer: TATA
+Exploring current nucleotide C at position 3
+partial kmer: TATCT with lb: 2 (Current best: 0)
+Pruning branch with kmer: TATC
+Exploring current nucleotide G at position 3
+partial kmer: TATGT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 4
+partial kmer: TATGAT with lb: 4 (Current best: 0)
+Pruning branch with kmer: TATGA
+Exploring current nucleotide C at position 4
+partial kmer: TATGCT with lb: 3 (Current best: 0)
+Pruning branch with kmer: TATGC
+Exploring current nucleotide G at position 4
+partial kmer: TATGGT with lb: 4 (Current best: 0)
+Pruning branch with kmer: TATGG
+Exploring current nucleotide T at position 4
+partial kmer: TATGTT with lb: 4 (Current best: 0)
+Pruning branch with kmer: TATGT
+Exploring current nucleotide T at position 3
+partial kmer: TATTT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 4
+partial kmer: TATTAT with lb: 5 (Current best: 0)
+Pruning branch with kmer: TATTA
+Exploring current nucleotide C at position 4
+partial kmer: TATTCT with lb: 3 (Current best: 0)
+Pruning branch with kmer: TATTC
+Exploring current nucleotide G at position 4
+partial kmer: TATTGT with lb: 4 (Current best: 0)
+Pruning branch with kmer: TATTG
+Exploring current nucleotide T at position 4
+partial kmer: TATTTT with lb: 2 (Current best: 0)
+Pruning branch with kmer: TATTT
+Exploring current nucleotide C at position 1
+partial kmer: TCT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 2
+partial kmer: TCAT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 3
+partial kmer: TCAAT with lb: 1 (Current best: 0)
+Pruning branch with kmer: TCAA
+Exploring current nucleotide C at position 3
+partial kmer: TCACT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 4
+partial kmer: TCACAT with lb: 3 (Current best: 0)
+Pruning branch with kmer: TCACA
+Exploring current nucleotide C at position 4
+partial kmer: TCACCT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 5
+partial kmer: TCACCAT with lb: 4 (Current best: 0)
+Pruning branch with kmer: TCACCA
+Exploring current nucleotide C at position 5
+partial kmer: TCACCCT with lb: 5 (Current best: 0)
+Pruning branch with kmer: TCACCC
+Exploring current nucleotide G at position 5
+partial kmer: TCACCGT with lb: 5 (Current best: 0)
+Pruning branch with kmer: TCACCG
+Exploring current nucleotide T at position 5
+partial kmer: TCACCTT with lb: 4 (Current best: 0)
+Pruning branch with kmer: TCACCT
+Exploring current nucleotide G at position 4
+partial kmer: TCACGT with lb: 4 (Current best: 0)
+Pruning branch with kmer: TCACG
+Exploring current nucleotide T at position 4
+partial kmer: TCACTT with lb: 2 (Current best: 0)
+Pruning branch with kmer: TCACT
+Exploring current nucleotide G at position 3
+partial kmer: TCAGT with lb: 1 (Current best: 0)
+Pruning branch with kmer: TCAG
+Exploring current nucleotide T at position 3
+partial kmer: TCATT with lb: 1 (Current best: 0)
+Pruning branch with kmer: TCAT
+Exploring current nucleotide C at position 2
+partial kmer: TCCT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 3
+partial kmer: TCCAT with lb: 1 (Current best: 0)
+Pruning branch with kmer: TCCA
+Exploring current nucleotide C at position 3
+partial kmer: TCCCT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 4
+partial kmer: TCCCAT with lb: 2 (Current best: 0)
+Pruning branch with kmer: TCCCA
+Exploring current nucleotide C at position 4
+partial kmer: TCCCCT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 5
+partial kmer: TCCCCAT with lb: 2 (Current best: 0)
+Pruning branch with kmer: TCCCCA
+Exploring current nucleotide C at position 5
+partial kmer: TCCCCCT with lb: 4 (Current best: 0)
+Pruning branch with kmer: TCCCCC
+Exploring current nucleotide G at position 5
+partial kmer: TCCCCGT with lb: 5 (Current best: 0)
+Pruning branch with kmer: TCCCCG
+Exploring current nucleotide T at position 5
+partial kmer: TCCCCTT with lb: 3 (Current best: 0)
+Pruning branch with kmer: TCCCCT
+Exploring current nucleotide G at position 4
+partial kmer: TCCCGT with lb: 2 (Current best: 0)
+Pruning branch with kmer: TCCCG
+Exploring current nucleotide T at position 4
+partial kmer: TCCCTT with lb: 2 (Current best: 0)
+Pruning branch with kmer: TCCCT
+Exploring current nucleotide G at position 3
+partial kmer: TCCGT with lb: 1 (Current best: 0)
+Pruning branch with kmer: TCCG
+Exploring current nucleotide T at position 3
+partial kmer: TCCTT with lb: 1 (Current best: 0)
+Pruning branch with kmer: TCCT
+Exploring current nucleotide G at position 2
+partial kmer: TCGT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 3
+partial kmer: TCGAT with lb: 1 (Current best: 0)
+Pruning branch with kmer: TCGA
+Exploring current nucleotide C at position 3
+partial kmer: TCGCT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 4
+partial kmer: TCGCAT with lb: 4 (Current best: 0)
+Pruning branch with kmer: TCGCA
+Exploring current nucleotide C at position 4
+partial kmer: TCGCCT with lb: 5 (Current best: 0)
+Pruning branch with kmer: TCGCC
+Exploring current nucleotide G at position 4
+partial kmer: TCGCGT with lb: 6 (Current best: 0)
+Pruning branch with kmer: TCGCG
+Exploring current nucleotide T at position 4
+partial kmer: TCGCTT with lb: 1 (Current best: 0)
+Pruning branch with kmer: TCGCT
+Exploring current nucleotide G at position 3
+partial kmer: TCGGT with lb: 1 (Current best: 0)
+Pruning branch with kmer: TCGG
+Exploring current nucleotide T at position 3
+partial kmer: TCGTT with lb: 2 (Current best: 0)
+Pruning branch with kmer: TCGT
+Exploring current nucleotide T at position 2
+partial kmer: TCTT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 3
+partial kmer: TCTAT with lb: 2 (Current best: 0)
+Pruning branch with kmer: TCTA
+Exploring current nucleotide C at position 3
+partial kmer: TCTCT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 4
+partial kmer: TCTCAT with lb: 3 (Current best: 0)
+Pruning branch with kmer: TCTCA
+Exploring current nucleotide C at position 4
+partial kmer: TCTCCT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 5
+partial kmer: TCTCCAT with lb: 3 (Current best: 0)
+Pruning branch with kmer: TCTCCA
+Exploring current nucleotide C at position 5
+partial kmer: TCTCCCT with lb: 2 (Current best: 0)
+Pruning branch with kmer: TCTCCC
+Exploring current nucleotide G at position 5
+partial kmer: TCTCCGT with lb: 6 (Current best: 0)
+Pruning branch with kmer: TCTCCG
+Exploring current nucleotide T at position 5
+partial kmer: TCTCCTT with lb: 4 (Current best: 0)
+Pruning branch with kmer: TCTCCT
+Exploring current nucleotide G at position 4
+partial kmer: TCTCGT with lb: 3 (Current best: 0)
+Pruning branch with kmer: TCTCG
+Exploring current nucleotide T at position 4
+partial kmer: TCTCTT with lb: 1 (Current best: 0)
+Pruning branch with kmer: TCTCT
+Exploring current nucleotide G at position 3
+partial kmer: TCTGT with lb: 1 (Current best: 0)
+Pruning branch with kmer: TCTG
+Exploring current nucleotide T at position 3
+partial kmer: TCTTT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 4
+partial kmer: TCTTAT with lb: 4 (Current best: 0)
+Pruning branch with kmer: TCTTA
+Exploring current nucleotide C at position 4
+partial kmer: TCTTCT with lb: 2 (Current best: 0)
+Pruning branch with kmer: TCTTC
+Exploring current nucleotide G at position 4
+partial kmer: TCTTGT with lb: 2 (Current best: 0)
+Pruning branch with kmer: TCTTG
+Exploring current nucleotide T at position 4
+partial kmer: TCTTTT with lb: 1 (Current best: 0)
+Pruning branch with kmer: TCTTT
+Exploring current nucleotide G at position 1
+partial kmer: TGT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 2
+partial kmer: TGAT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 3
+partial kmer: TGAAT with lb: 1 (Current best: 0)
+Pruning branch with kmer: TGAA
+Exploring current nucleotide C at position 3
+partial kmer: TGACT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 4
+partial kmer: TGACAT with lb: 1 (Current best: 0)
+Pruning branch with kmer: TGACA
+Exploring current nucleotide C at position 4
+partial kmer: TGACCT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 5
+partial kmer: TGACCAT with lb: 3 (Current best: 0)
+Pruning branch with kmer: TGACCA
+Exploring current nucleotide C at position 5
+partial kmer: TGACCCT with lb: 3 (Current best: 0)
+Pruning branch with kmer: TGACCC
+Exploring current nucleotide G at position 5
+partial kmer: TGACCGT with lb: 6 (Current best: 0)
+Pruning branch with kmer: TGACCG
+Exploring current nucleotide T at position 5
+partial kmer: TGACCTT with lb: 4 (Current best: 0)
+Pruning branch with kmer: TGACCT
+Exploring current nucleotide G at position 4
+partial kmer: TGACGT with lb: 4 (Current best: 0)
+Pruning branch with kmer: TGACG
+Exploring current nucleotide T at position 4
+partial kmer: TGACTT with lb: 1 (Current best: 0)
+Pruning branch with kmer: TGACT
+Exploring current nucleotide G at position 3
+partial kmer: TGAGT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 4
+partial kmer: TGAGAT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 5
+partial kmer: TGAGAAT with lb: 2 (Current best: 0)
+Pruning branch with kmer: TGAGAA
+Exploring current nucleotide C at position 5
+partial kmer: TGAGACT with lb: 2 (Current best: 0)
+Pruning branch with kmer: TGAGAC
+Exploring current nucleotide G at position 5
+partial kmer: TGAGAGT with lb: 4 (Current best: 0)
+Pruning branch with kmer: TGAGAG
+Exploring current nucleotide T at position 5
+partial kmer: TGAGATT with lb: 5 (Current best: 0)
+Pruning branch with kmer: TGAGAT
+Exploring current nucleotide C at position 4
+partial kmer: TGAGCT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 5
+partial kmer: TGAGCAT with lb: 6 (Current best: 0)
+Pruning branch with kmer: TGAGCA
+Exploring current nucleotide C at position 5
+partial kmer: TGAGCCT with lb: 4 (Current best: 0)
+Pruning branch with kmer: TGAGCC
+Exploring current nucleotide G at position 5
+partial kmer: TGAGCGT with lb: 6 (Current best: 0)
+Pruning branch with kmer: TGAGCG
+Exploring current nucleotide T at position 5
+partial kmer: TGAGCTT with lb: 6 (Current best: 0)
+Pruning branch with kmer: TGAGCT
+Exploring current nucleotide G at position 4
+partial kmer: TGAGGT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 5
+partial kmer: TGAGGAT with lb: 4 (Current best: 0)
+Pruning branch with kmer: TGAGGA
+Exploring current nucleotide C at position 5
+partial kmer: TGAGGCT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 6
+partial kmer: TGAGGCA with lb: 1 (Current best: 0)
+Pruning branch with kmer: TGAGGCA
+Exploring current nucleotide C at position 6
+partial kmer: TGAGGCC with lb: 4 (Current best: 0)
+Pruning branch with kmer: TGAGGCC
+Exploring current nucleotide G at position 6
+partial kmer: TGAGGCG with lb: 5 (Current best: 0)
+Pruning branch with kmer: TGAGGCG
+Exploring current nucleotide T at position 6
+partial kmer: TGAGGCT with lb: 0 (Current best: 0)
+evaluating kmer: TGAGGCT with distance: 0
+Exploring current nucleotide G at position 5
+partial kmer: TGAGGGT with lb: 2 (Current best: 0)
+Pruning branch with kmer: TGAGGG
+Exploring current nucleotide T at position 5
+partial kmer: TGAGGTT with lb: 4 (Current best: 0)
+Pruning branch with kmer: TGAGGT
+Exploring current nucleotide T at position 4
+partial kmer: TGAGTT with lb: 2 (Current best: 0)
+Pruning branch with kmer: TGAGT
+Exploring current nucleotide T at position 3
+partial kmer: TGATT with lb: 1 (Current best: 0)
+Pruning branch with kmer: TGAT
+Exploring current nucleotide C at position 2
+partial kmer: TGCT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 3
+partial kmer: TGCAT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 4
+partial kmer: TGCAAT with lb: 2 (Current best: 0)
+Pruning branch with kmer: TGCAA
+Exploring current nucleotide C at position 4
+partial kmer: TGCACT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 5
+partial kmer: TGCACAT with lb: 4 (Current best: 0)
+Pruning branch with kmer: TGCACA
+Exploring current nucleotide C at position 5
+partial kmer: TGCACCT with lb: 2 (Current best: 0)
+Pruning branch with kmer: TGCACC
+Exploring current nucleotide G at position 5
+partial kmer: TGCACGT with lb: 4 (Current best: 0)
+Pruning branch with kmer: TGCACG
+Exploring current nucleotide T at position 5
+partial kmer: TGCACTT with lb: 4 (Current best: 0)
+Pruning branch with kmer: TGCACT
+Exploring current nucleotide G at position 4
+partial kmer: TGCAGT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 5
+partial kmer: TGCAGAT with lb: 4 (Current best: 0)
+Pruning branch with kmer: TGCAGA
+Exploring current nucleotide C at position 5
+partial kmer: TGCAGCT with lb: 2 (Current best: 0)
+Pruning branch with kmer: TGCAGC
+Exploring current nucleotide G at position 5
+partial kmer: TGCAGGT with lb: 2 (Current best: 0)
+Pruning branch with kmer: TGCAGG
+Exploring current nucleotide T at position 5
+partial kmer: TGCAGTT with lb: 4 (Current best: 0)
+Pruning branch with kmer: TGCAGT
+Exploring current nucleotide T at position 4
+partial kmer: TGCATT with lb: 2 (Current best: 0)
+Pruning branch with kmer: TGCAT
+Exploring current nucleotide C at position 3
+partial kmer: TGCCT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 4
+partial kmer: TGCCAT with lb: 1 (Current best: 0)
+Pruning branch with kmer: TGCCA
+Exploring current nucleotide C at position 4
+partial kmer: TGCCCT with lb: 1 (Current best: 0)
+Pruning branch with kmer: TGCCC
+Exploring current nucleotide G at position 4
+partial kmer: TGCCGT with lb: 3 (Current best: 0)
+Pruning branch with kmer: TGCCG
+Exploring current nucleotide T at position 4
+partial kmer: TGCCTT with lb: 1 (Current best: 0)
+Pruning branch with kmer: TGCCT
+Exploring current nucleotide G at position 3
+partial kmer: TGCGT with lb: 1 (Current best: 0)
+Pruning branch with kmer: TGCG
+Exploring current nucleotide T at position 3
+partial kmer: TGCTT with lb: 1 (Current best: 0)
+Pruning branch with kmer: TGCT
+Exploring current nucleotide G at position 2
+partial kmer: TGGT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 3
+partial kmer: TGGAT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 4
+partial kmer: TGGAAT with lb: 1 (Current best: 0)
+Pruning branch with kmer: TGGAA
+Exploring current nucleotide C at position 4
+partial kmer: TGGACT with lb: 2 (Current best: 0)
+Pruning branch with kmer: TGGAC
+Exploring current nucleotide G at position 4
+partial kmer: TGGAGT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 5
+partial kmer: TGGAGAT with lb: 5 (Current best: 0)
+Pruning branch with kmer: TGGAGA
+Exploring current nucleotide C at position 5
+partial kmer: TGGAGCT with lb: 2 (Current best: 0)
+Pruning branch with kmer: TGGAGC
+Exploring current nucleotide G at position 5
+partial kmer: TGGAGGT with lb: 3 (Current best: 0)
+Pruning branch with kmer: TGGAGG
+Exploring current nucleotide T at position 5
+partial kmer: TGGAGTT with lb: 3 (Current best: 0)
+Pruning branch with kmer: TGGAGT
+Exploring current nucleotide T at position 4
+partial kmer: TGGATT with lb: 1 (Current best: 0)
+Pruning branch with kmer: TGGAT
+Exploring current nucleotide C at position 3
+partial kmer: TGGCT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 4
+partial kmer: TGGCAT with lb: 2 (Current best: 0)
+Pruning branch with kmer: TGGCA
+Exploring current nucleotide C at position 4
+partial kmer: TGGCCT with lb: 1 (Current best: 0)
+Pruning branch with kmer: TGGCC
+Exploring current nucleotide G at position 4
+partial kmer: TGGCGT with lb: 2 (Current best: 0)
+Pruning branch with kmer: TGGCG
+Exploring current nucleotide T at position 4
+partial kmer: TGGCTT with lb: 1 (Current best: 0)
+Pruning branch with kmer: TGGCT
+Exploring current nucleotide G at position 3
+partial kmer: TGGGT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 4
+partial kmer: TGGGAT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 5
+partial kmer: TGGGAAT with lb: 3 (Current best: 0)
+Pruning branch with kmer: TGGGAA
+Exploring current nucleotide C at position 5
+partial kmer: TGGGACT with lb: 2 (Current best: 0)
+Pruning branch with kmer: TGGGAC
+Exploring current nucleotide G at position 5
+partial kmer: TGGGAGT with lb: 2 (Current best: 0)
+Pruning branch with kmer: TGGGAG
+Exploring current nucleotide T at position 5
+partial kmer: TGGGATT with lb: 1 (Current best: 0)
+Pruning branch with kmer: TGGGAT
+Exploring current nucleotide C at position 4
+partial kmer: TGGGCT with lb: 1 (Current best: 0)
+Pruning branch with kmer: TGGGC
+Exploring current nucleotide G at position 4
+partial kmer: TGGGGT with lb: 1 (Current best: 0)
+Pruning branch with kmer: TGGGG
+Exploring current nucleotide T at position 4
+partial kmer: TGGGTT with lb: 2 (Current best: 0)
+Pruning branch with kmer: TGGGT
+Exploring current nucleotide T at position 3
+partial kmer: TGGTT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 4
+partial kmer: TGGTAT with lb: 3 (Current best: 0)
+Pruning branch with kmer: TGGTA
+Exploring current nucleotide C at position 4
+partial kmer: TGGTCT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 5
+partial kmer: TGGTCAT with lb: 5 (Current best: 0)
+Pruning branch with kmer: TGGTCA
+Exploring current nucleotide C at position 5
+partial kmer: TGGTCCT with lb: 6 (Current best: 0)
+Pruning branch with kmer: TGGTCC
+Exploring current nucleotide G at position 5
+partial kmer: TGGTCGT with lb: 4 (Current best: 0)
+Pruning branch with kmer: TGGTCG
+Exploring current nucleotide T at position 5
+partial kmer: TGGTCTT with lb: 3 (Current best: 0)
+Pruning branch with kmer: TGGTCT
+Exploring current nucleotide G at position 4
+partial kmer: TGGTGT with lb: 1 (Current best: 0)
+Pruning branch with kmer: TGGTG
+Exploring current nucleotide T at position 4
+partial kmer: TGGTTT with lb: 2 (Current best: 0)
+Pruning branch with kmer: TGGTT
+Exploring current nucleotide T at position 2
+partial kmer: TGTT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 3
+partial kmer: TGTAT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 4
+partial kmer: TGTAAT with lb: 1 (Current best: 0)
+Pruning branch with kmer: TGTAA
+Exploring current nucleotide C at position 4
+partial kmer: TGTACT with lb: 2 (Current best: 0)
+Pruning branch with kmer: TGTAC
+Exploring current nucleotide G at position 4
+partial kmer: TGTAGT with lb: 3 (Current best: 0)
+Pruning branch with kmer: TGTAG
+Exploring current nucleotide T at position 4
+partial kmer: TGTATT with lb: 1 (Current best: 0)
+Pruning branch with kmer: TGTAT
+Exploring current nucleotide C at position 3
+partial kmer: TGTCT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 4
+partial kmer: TGTCAT with lb: 1 (Current best: 0)
+Pruning branch with kmer: TGTCA
+Exploring current nucleotide C at position 4
+partial kmer: TGTCCT with lb: 1 (Current best: 0)
+Pruning branch with kmer: TGTCC
+Exploring current nucleotide G at position 4
+partial kmer: TGTCGT with lb: 5 (Current best: 0)
+Pruning branch with kmer: TGTCG
+Exploring current nucleotide T at position 4
+partial kmer: TGTCTT with lb: 1 (Current best: 0)
+Pruning branch with kmer: TGTCT
+Exploring current nucleotide G at position 3
+partial kmer: TGTGT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 4
+partial kmer: TGTGAT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 5
+partial kmer: TGTGAAT with lb: 6 (Current best: 0)
+Pruning branch with kmer: TGTGAA
+Exploring current nucleotide C at position 5
+partial kmer: TGTGACT with lb: 4 (Current best: 0)
+Pruning branch with kmer: TGTGAC
+Exploring current nucleotide G at position 5
+partial kmer: TGTGAGT with lb: 2 (Current best: 0)
+Pruning branch with kmer: TGTGAG
+Exploring current nucleotide T at position 5
+partial kmer: TGTGATT with lb: 3 (Current best: 0)
+Pruning branch with kmer: TGTGAT
+Exploring current nucleotide C at position 4
+partial kmer: TGTGCT with lb: 1 (Current best: 0)
+Pruning branch with kmer: TGTGC
+Exploring current nucleotide G at position 4
+partial kmer: TGTGGT with lb: 1 (Current best: 0)
+Pruning branch with kmer: TGTGG
+Exploring current nucleotide T at position 4
+partial kmer: TGTGTT with lb: 2 (Current best: 0)
+Pruning branch with kmer: TGTGT
+Exploring current nucleotide T at position 3
+partial kmer: TGTTT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 4
+partial kmer: TGTTAT with lb: 3 (Current best: 0)
+Pruning branch with kmer: TGTTA
+Exploring current nucleotide C at position 4
+partial kmer: TGTTCT with lb: 1 (Current best: 0)
+Pruning branch with kmer: TGTTC
+Exploring current nucleotide G at position 4
+partial kmer: TGTTGT with lb: 1 (Current best: 0)
+Pruning branch with kmer: TGTTG
+Exploring current nucleotide T at position 4
+partial kmer: TGTTTT with lb: 1 (Current best: 0)
+Pruning branch with kmer: TGTTT
+Exploring current nucleotide T at position 1
+partial kmer: TTT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 2
+partial kmer: TTAT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 3
+partial kmer: TTAAT with lb: 2 (Current best: 0)
+Pruning branch with kmer: TTAA
+Exploring current nucleotide C at position 3
+partial kmer: TTACT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 4
+partial kmer: TTACAT with lb: 4 (Current best: 0)
+Pruning branch with kmer: TTACA
+Exploring current nucleotide C at position 4
+partial kmer: TTACCT with lb: 4 (Current best: 0)
+Pruning branch with kmer: TTACC
+Exploring current nucleotide G at position 4
+partial kmer: TTACGT with lb: 6 (Current best: 0)
+Pruning branch with kmer: TTACG
+Exploring current nucleotide T at position 4
+partial kmer: TTACTT with lb: 2 (Current best: 0)
+Pruning branch with kmer: TTACT
+Exploring current nucleotide G at position 3
+partial kmer: TTAGT with lb: 1 (Current best: 0)
+Pruning branch with kmer: TTAG
+Exploring current nucleotide T at position 3
+partial kmer: TTATT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 4
+partial kmer: TTATAT with lb: 5 (Current best: 0)
+Pruning branch with kmer: TTATA
+Exploring current nucleotide C at position 4
+partial kmer: TTATCT with lb: 5 (Current best: 0)
+Pruning branch with kmer: TTATC
+Exploring current nucleotide G at position 4
+partial kmer: TTATGT with lb: 5 (Current best: 0)
+Pruning branch with kmer: TTATG
+Exploring current nucleotide T at position 4
+partial kmer: TTATTT with lb: 3 (Current best: 0)
+Pruning branch with kmer: TTATT
+Exploring current nucleotide C at position 2
+partial kmer: TTCT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 3
+partial kmer: TTCAT with lb: 2 (Current best: 0)
+Pruning branch with kmer: TTCA
+Exploring current nucleotide C at position 3
+partial kmer: TTCCT with lb: 1 (Current best: 0)
+Pruning branch with kmer: TTCC
+Exploring current nucleotide G at position 3
+partial kmer: TTCGT with lb: 3 (Current best: 0)
+Pruning branch with kmer: TTCG
+Exploring current nucleotide T at position 3
+partial kmer: TTCTT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 4
+partial kmer: TTCTAT with lb: 2 (Current best: 0)
+Pruning branch with kmer: TTCTA
+Exploring current nucleotide C at position 4
+partial kmer: TTCTCT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 5
+partial kmer: TTCTCAT with lb: 5 (Current best: 0)
+Pruning branch with kmer: TTCTCA
+Exploring current nucleotide C at position 5
+partial kmer: TTCTCCT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 6
+partial kmer: TTCTCCA with lb: 3 (Current best: 0)
+Pruning branch with kmer: TTCTCCA
+Exploring current nucleotide C at position 6
+partial kmer: TTCTCCC with lb: 3 (Current best: 0)
+Pruning branch with kmer: TTCTCCC
+Exploring current nucleotide G at position 6
+partial kmer: TTCTCCG with lb: 5 (Current best: 0)
+Pruning branch with kmer: TTCTCCG
+Exploring current nucleotide T at position 6
+partial kmer: TTCTCCT with lb: 0 (Current best: 0)
+evaluating kmer: TTCTCCT with distance: 0
+Exploring current nucleotide G at position 5
+partial kmer: TTCTCGT with lb: 8 (Current best: 0)
+Pruning branch with kmer: TTCTCG
+Exploring current nucleotide T at position 5
+partial kmer: TTCTCTT with lb: 2 (Current best: 0)
+Pruning branch with kmer: TTCTCT
+Exploring current nucleotide G at position 4
+partial kmer: TTCTGT with lb: 2 (Current best: 0)
+Pruning branch with kmer: TTCTG
+Exploring current nucleotide T at position 4
+partial kmer: TTCTTT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 5
+partial kmer: TTCTTAT with lb: 6 (Current best: 0)
+Pruning branch with kmer: TTCTTA
+Exploring current nucleotide C at position 5
+partial kmer: TTCTTCT with lb: 5 (Current best: 0)
+Pruning branch with kmer: TTCTTC
+Exploring current nucleotide G at position 5
+partial kmer: TTCTTGT with lb: 6 (Current best: 0)
+Pruning branch with kmer: TTCTTG
+Exploring current nucleotide T at position 5
+partial kmer: TTCTTTT with lb: 2 (Current best: 0)
+Pruning branch with kmer: TTCTTT
+Exploring current nucleotide G at position 2
+partial kmer: TTGT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 3
+partial kmer: TTGAT with lb: 1 (Current best: 0)
+Pruning branch with kmer: TTGA
+Exploring current nucleotide C at position 3
+partial kmer: TTGCT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 4
+partial kmer: TTGCAT with lb: 3 (Current best: 0)
+Pruning branch with kmer: TTGCA
+Exploring current nucleotide C at position 4
+partial kmer: TTGCCT with lb: 1 (Current best: 0)
+Pruning branch with kmer: TTGCC
+Exploring current nucleotide G at position 4
+partial kmer: TTGCGT with lb: 7 (Current best: 0)
+Pruning branch with kmer: TTGCG
+Exploring current nucleotide T at position 4
+partial kmer: TTGCTT with lb: 3 (Current best: 0)
+Pruning branch with kmer: TTGCT
+Exploring current nucleotide G at position 3
+partial kmer: TTGGT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 4
+partial kmer: TTGGAT with lb: 2 (Current best: 0)
+Pruning branch with kmer: TTGGA
+Exploring current nucleotide C at position 4
+partial kmer: TTGGCT with lb: 2 (Current best: 0)
+Pruning branch with kmer: TTGGC
+Exploring current nucleotide G at position 4
+partial kmer: TTGGGT with lb: 1 (Current best: 0)
+Pruning branch with kmer: TTGGG
+Exploring current nucleotide T at position 4
+partial kmer: TTGGTT with lb: 1 (Current best: 0)
+Pruning branch with kmer: TTGGT
+Exploring current nucleotide T at position 3
+partial kmer: TTGTT with lb: 1 (Current best: 0)
+Pruning branch with kmer: TTGT
+Exploring current nucleotide T at position 2
+partial kmer: TTTT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 3
+partial kmer: TTTAT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 4
+partial kmer: TTTAAT with lb: 3 (Current best: 0)
+Pruning branch with kmer: TTTAA
+Exploring current nucleotide C at position 4
+partial kmer: TTTACT with lb: 4 (Current best: 0)
+Pruning branch with kmer: TTTAC
+Exploring current nucleotide G at position 4
+partial kmer: TTTAGT with lb: 2 (Current best: 0)
+Pruning branch with kmer: TTTAG
+Exploring current nucleotide T at position 4
+partial kmer: TTTATT with lb: 1 (Current best: 0)
+Pruning branch with kmer: TTTAT
+Exploring current nucleotide C at position 3
+partial kmer: TTTCT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 4
+partial kmer: TTTCAT with lb: 3 (Current best: 0)
+Pruning branch with kmer: TTTCA
+Exploring current nucleotide C at position 4
+partial kmer: TTTCCT with lb: 1 (Current best: 0)
+Pruning branch with kmer: TTTCC
+Exploring current nucleotide G at position 4
+partial kmer: TTTCGT with lb: 4 (Current best: 0)
+Pruning branch with kmer: TTTCG
+Exploring current nucleotide T at position 4
+partial kmer: TTTCTT with lb: 1 (Current best: 0)
+Pruning branch with kmer: TTTCT
+Exploring current nucleotide G at position 3
+partial kmer: TTTGT with lb: 1 (Current best: 0)
+Pruning branch with kmer: TTTG
+Exploring current nucleotide T at position 3
+partial kmer: TTTTT with lb: 0 (Current best: 0)
+Exploring current nucleotide A at position 4
+partial kmer: TTTTAT with lb: 2 (Current best: 0)
+Pruning branch with kmer: TTTTA
+Exploring current nucleotide C at position 4
+partial kmer: TTTTCT with lb: 2 (Current best: 0)
+Pruning branch with kmer: TTTTC
+Exploring current nucleotide G at position 4
+partial kmer: TTTTGT with lb: 1 (Current best: 0)
+Pruning branch with kmer: TTTTG
+Exploring current nucleotide T at position 4
+partial kmer: TTTTTT with lb: 2 (Current best: 0)
+Pruning branch with kmer: TTTTT
+best string: ACAGGGG
+distance: 0
+verify final dist: 0
