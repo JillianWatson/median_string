@@ -69,28 +69,28 @@ include CMakeFiles/main.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/main.dir/flags.make
 
-CMakeFiles/main.dir/main.cpp.o: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/main.cpp.o: main.cpp
-CMakeFiles/main.dir/main.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jillwatson/cpp_projects/median_string/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/main.dir/main.cpp.o"
-	/home/jillwatson/miniconda3/envs/cpp_bioinfo/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/main.cpp.o -MF CMakeFiles/main.dir/main.cpp.o.d -o CMakeFiles/main.dir/main.cpp.o -c /home/jillwatson/cpp_projects/median_string/main.cpp
+CMakeFiles/main.dir/src/main.cpp.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/src/main.cpp.o: src/main.cpp
+CMakeFiles/main.dir/src/main.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jillwatson/cpp_projects/median_string/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/main.dir/src/main.cpp.o"
+	/home/jillwatson/miniconda3/envs/cpp_bioinfo/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/main.cpp.o -MF CMakeFiles/main.dir/src/main.cpp.o.d -o CMakeFiles/main.dir/src/main.cpp.o -c /home/jillwatson/cpp_projects/median_string/src/main.cpp
 
-CMakeFiles/main.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/main.cpp.i"
-	/home/jillwatson/miniconda3/envs/cpp_bioinfo/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jillwatson/cpp_projects/median_string/main.cpp > CMakeFiles/main.dir/main.cpp.i
+CMakeFiles/main.dir/src/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/src/main.cpp.i"
+	/home/jillwatson/miniconda3/envs/cpp_bioinfo/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jillwatson/cpp_projects/median_string/src/main.cpp > CMakeFiles/main.dir/src/main.cpp.i
 
-CMakeFiles/main.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/main.cpp.s"
-	/home/jillwatson/miniconda3/envs/cpp_bioinfo/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jillwatson/cpp_projects/median_string/main.cpp -o CMakeFiles/main.dir/main.cpp.s
+CMakeFiles/main.dir/src/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/main.cpp.s"
+	/home/jillwatson/miniconda3/envs/cpp_bioinfo/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jillwatson/cpp_projects/median_string/src/main.cpp -o CMakeFiles/main.dir/src/main.cpp.s
 
 # Object files for target main
 main_OBJECTS = \
-"CMakeFiles/main.dir/main.cpp.o"
+"CMakeFiles/main.dir/src/main.cpp.o"
 
 # External object files for target main
 main_EXTERNAL_OBJECTS =
 
-main: CMakeFiles/main.dir/main.cpp.o
+main: CMakeFiles/main.dir/src/main.cpp.o
 main: CMakeFiles/main.dir/build.make
 main: CMakeFiles/main.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/jillwatson/cpp_projects/median_string/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable main"
